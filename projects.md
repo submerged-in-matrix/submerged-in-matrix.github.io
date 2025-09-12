@@ -1,9 +1,7 @@
-
----  
-layout: default  
-title: About  
 ---
-
+layout: default
+title: About
+---
 # Projects
 
 
