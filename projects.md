@@ -7,7 +7,7 @@ title: Projects
 # Projects
 
 
-<p class="lead">Pick a project tab to see a concise, recruiter‑ready summary with a link to the full GitHub implementation.</p>
+<p class="lead">PPick a project to see **What/Why/How/Results** in under 30 seconds — with a GitHub link for depth.</p>
 
 
 <div class="tabs">
