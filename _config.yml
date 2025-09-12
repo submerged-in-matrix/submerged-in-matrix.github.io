@@ -1,0 +1,35 @@
+# Site settings
+title: "Md. Saidul Islam — Computational Materials Engineer"
+description: "Portfolio: materials science, ML for Materials'property prediction, simulation (FEM/COMSOL), and reproducible research."
+url: "https://submerged-in-matrix.github.io"
+
+
+# Theme (built-in, zero setup)
+theme: jekyll-theme-minimal
+
+
+# Navigation links
+nav:
+- name: About
+link: /
+- name: Projects
+link: /projects
+- name: Publications/Conference Poster
+link: /publications
+- name: Resume
+link: /assets/resume/Resume_MD_Saidul_Islam.pdf
+- name: Contact
+link: /contact
+
+
+# Socials
+github_username: submerged-in-matrix
+linkedin: "https://www.linkedin.com/in/shahriar-sayeed/" 
+email: "sayeed.shahriar@gmail.com"
+Xing: "https://www.xing.com/profile/Mdsaidul_Islam020597/web_profiles"
+
+
+# Markdown options
+markdown: kramdown
+kramdown:
+input: GFM
