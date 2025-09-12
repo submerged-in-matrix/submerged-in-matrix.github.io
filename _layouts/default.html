@@ -7,7 +7,6 @@
 
     <!-- Theme (optional) + your CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
 
     <!-- Critical fallback so it stays colorful even if styles.css fails -->
     <style>
@@ -45,6 +44,10 @@
       .muted{color:var(--muted)}
       @media (max-width: 960px){.shell{grid-template-columns:1fr}.nav{grid-template-columns:repeat(3,1fr)}}
     </style>
+    
+    <!-- My CSS MUST BE LAST (with cache-bust) -->
+    <link rel="stylesheet" href="{{ '/assets/styles.css?v=' | append: site.github.build_revision | relative_url }}">
+    
   </head>
   <body>
     <div class="shell">
