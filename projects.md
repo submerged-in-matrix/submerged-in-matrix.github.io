@@ -1,26 +1,22 @@
 ---
 layout: default
-title: About
+title: Projects
 ---
+
+
 # Projects
 
 
-## Band gap prediction with SHAP-guided features
-- **What:** Random Forest / XGBoost / LightGBM pipelines with SHAP-based feature selection; Bayesian tuning; R² ≈ 0.66 with pruned features.
-- **Why it matters:** Reduced features without losing performance improves generalization and interpretability.
-- **Tech:** Python, scikit-learn, XGBoost, LightGBM, SHAP, Optuna/Skopt.
-- **Code:** https://github.com/submerged-in-matrix/materials-ml-projects-
+<p class="lead">Pick a project tab to see a concise, recruiter‑ready summary with a link to the full GitHub implementation.</p>
 
 
-## Oxidation state assignment (reproduction study)
-- **What:** End‑to‑end reproduction targeting ~99.7% accuracy as reported; hyperparameter search to match paper results; SHAP interpretation.
-- **Tech:** scikit-learn, data curation, evaluation parity checks, SHAP plots.
-- **Code:** (add the repo link when ready)
-
-
-## Patterns Matter (Flask/SQLite)
-- **What:** Deployed app on Fly.io with persistent storage; CRUD, uploads, and templating.
-- **Tech:** Flask, SQLite, Jinja, WSGI, Fly.io.
-- **App / Code:** (add app URL) · https://github.com/submerged-in-matrix/ (add repo)
+<div class="tabs">
+<a class="tab" href="/projects/band-gap">Band Gap Prediction</a>
+<a class="tab" href="/projects/melting-point">Melting Point Prediction (Stacking)</a>
+<a class="tab" href="/projects/oxidation-states">Oxidation‑State Assignment</a>
+<a class="tab" href="/projects/semantic-models">Semantic Models for MSE (LLM + KG)</a>
+<a class="tab" href="/projects/patterns-matter">Materials Database App</a>
+<a class="tab" href="/projects/formation-energy">Formation Energy Prediction</a>
+</div>
 
 
