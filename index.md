@@ -16,7 +16,7 @@ title: About
 <div class="section">
 <h2>What I bring </h2>
 <div class="grid grid-3">
-<div class="card impact tilt">
+<div class="card impact tilt-0">
 <h3>Impact</h3>
 <ul>
 <li>Built a research **materials database app** with auto ETL and Fly.io deploy.</li>
@@ -25,7 +25,7 @@ title: About
 <li>Prototyped **semantic knowledge graph** for band‑gap data driven by local LLM (Ollama).</li>
 </ul>
 </div>
-<div class="card tilt">
+<div class="card tilt-1">
   <h3>Toolbox</h3>
   <p class="chips">
     <span class="badge">Python</span><span class="badge alt">scikit-learn</span>
@@ -37,7 +37,7 @@ title: About
   </p>
 </div>
 
-<div class="card tilt">
+<div class="card tilt-2">
 <h3>Focus areas</h3>
 <ul>
 <li>Materials informatics (Matminer, Pymatgen) & high‑throughput workflows</li>
