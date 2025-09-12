@@ -23,10 +23,17 @@ title: About
 </ul>
 </div>
 <div class="card">
-<h3>Toolbox</h3>
-<p><span class="badge">Python</span><span class="badge alt">scikit‑learn</span><span class="badge">LightGBM</span><span class="badge alt">XGBoost</span><span class="badge">SHAP</span><span class="badge alt">Optuna / PyCaret</span><span class="badge">Flask</span><span class="badge alt">SQLite</span><span class="badge">Docker</span></p>
-<p><span class="badge">COMSOL</span><span class="badge alt">MATLAB</span><span class="badge">Abaqus</span></p>
+  <h3>Toolbox</h3>
+  <p class="chips">
+    <span class="badge">Python</span><span class="badge alt">scikit-learn</span>
+    <span class="badge">LightGBM</span><span class="badge alt">XGBoost</span>
+    <span class="badge">SHAP</span><span class="badge alt">Optuna / PyCaret</span>
+    <span class="badge">Flask</span><span class="badge alt">SQLite</span>
+    <span class="badge">Docker</span><span class="badge alt">COMSOL</span>
+    <span class="badge">MATLAB</span><span class="badge alt">Abaqus</span>
+  </p>
 </div>
+
 <div class="card">
 <h3>Focus areas</h3>
 <ul>
