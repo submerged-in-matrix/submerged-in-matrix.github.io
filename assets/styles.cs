@@ -61,3 +61,14 @@ code, pre{background:#0b1220;border:1px solid rgba(148,163,184,.25);border-radiu
 
 /* Footer */
 .site-footer{border-top:1px solid rgba(148,163,184,.2);margin-top:40px;padding:20px 0;color:var(--muted)}
+
+/* Chips/badges */
+.chips { display:flex; flex-wrap:wrap; gap:8px; }
+.chips .badge { margin:0; }   /* cancel the old margin-right */
+
+/* Tighter hero */
+h1 + .lead { margin-top:6px; }
+
+/* Use this only where you want exactly 3 cards */
+.grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+@media (max-width:960px){ .grid-3 { grid-template-columns:1fr; } }
