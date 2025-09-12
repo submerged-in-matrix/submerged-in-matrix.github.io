@@ -1,10 +1,10 @@
-# --- site basics ---
+# --- site basics ----
 title: "Md. Saidul Islam — Materials ML & Simulation"
 description: "Materials scientist & simulation engineer for High-Throughput Materials Development and AI-assisted simulation."
 url: "https://submerged-in-matrix.github.io"
 
 
-# Use a simple built-in theme (our CSS overrides it)
+# Use a simple built-in theme (CSS overrides it)
 theme: jekyll-theme-minimal
 
 
