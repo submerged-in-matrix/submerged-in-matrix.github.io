@@ -15,7 +15,7 @@ title: About
 
 <div class="section">
 <h2>What I bring </h2>
-<div class="grid">
+<div class="grid grid-3">
 <div class="card">
 <h3>Impact</h3>
 <ul>
