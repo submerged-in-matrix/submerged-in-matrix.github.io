@@ -160,3 +160,17 @@ h1 + .lead{ margin-top:6px; }
 /* tidy bullets in cards */
 .card ul{ margin:8px 0 0 18px; }
 .card li{ margin:2px 0; }
+
+/* Impact fills content naturally (no fixed height) */
+.impact{ grid-column:span 2; align-self:start; }
+
+/* Different tilt + slope for the other two cards */
+.tilt-0{ transform:none; }
+.tilt-1{ transform:rotate(-1.5deg) translateY(8px); transition:transform .2s ease, box-shadow .2s ease; }
+.tilt-2{ transform:rotate(-3deg) translateY(16px); transition:transform .2s ease, box-shadow .2s ease; }
+.tilt-1:hover, .tilt-2:hover{ transform:rotate(-0.5deg) translateY(-2px); }
+
+/* Keep bullets tidy inside taller Impact */
+.card ul{ margin:8px 0 0 18px; }
+.card li{ margin:2px 0; }
+
