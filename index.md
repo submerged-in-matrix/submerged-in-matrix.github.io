@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-<img src="/assets/img/copy.jpg" alt="Md. Saidul Islam" style="width:120px;height:120px;border-radius:50%;border:2px solid rgba(255,255,255,.25);margin:4px 0 8px 0;" />
+<img src="/assets/img/copy.jpg" alt="Md. Saidul Islam" class="profile" />
 
 
 
