@@ -1,7 +1,6 @@
----
-layout: default
-title: Projects
----
+
+layout: default  
+title: Projects  
 
 
 # Projects
@@ -26,4 +25,3 @@ title: Projects
 - **App / Code:** (add app URL) · https://github.com/submerged-in-matrix/ (add repo)
 
 
-*Tip: Add figures/GIFs under `/assets/img/` and embed them above each bullet list.*
