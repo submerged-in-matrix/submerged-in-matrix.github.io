@@ -188,27 +188,30 @@ h1 + .lead{ margin-top:6px; }
 .toolbox{ grid-column:1 / 4; }
 .focus{   grid-column:4 / 7; }
 
-/* Leaning effect like a phone against a wall */
+/* Leaning effect like a phone against a wall — stronger */
 .lean-left{
   transform-origin: bottom center;
-  transform: perspective(800px) rotateY(-6deg) rotateZ(-2deg) translateY(6px);
-  box-shadow: 0 18px 30px rgba(0,0,0,.35);
+  transform: perspective(900px) rotateY(-12deg) rotateZ(-5deg) translateY(10px);
+  box-shadow: 0 22px 40px rgba(0,0,0,.45);
 }
 .lean-right{
   transform-origin: bottom center;
-  transform: perspective(800px) rotateY(6deg) rotateZ(2deg) translateY(6px);
-  box-shadow: 0 18px 30px rgba(0,0,0,.35);
+  transform: perspective(900px) rotateY(12deg) rotateZ(5deg) translateY(10px);
+  box-shadow: 0 22px 40px rgba(0,0,0,.45);
 }
-.lean-left:hover,
+.lean-left:hover{
+  transform: perspective(900px) rotateY(-9deg) rotateZ(-3deg) translateY(4px);
+}
 .lean-right:hover{
-  transform: perspective(800px) rotateY(0) rotateZ(0) translateY(-2px);
-  box-shadow: 0 14px 24px rgba(0,0,0,.28);
+  transform: perspective(900px) rotateY(9deg) rotateZ(3deg) translateY(4px);
 }
 
-/* Mobile: stack all cleanly */
+/* Mobile stays flat */
 @media (max-width: 960px){
   .about-grid{ grid-template-columns:1fr; }
   .toolbox, .focus{ grid-column:auto; }
   .lean-left, .lean-right{ transform:none; box-shadow:none; }
 }
+
+
 
