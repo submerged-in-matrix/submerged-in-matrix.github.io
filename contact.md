@@ -1,10 +1,13 @@
-
+---
 layout: default  
 title: Contact  
+---
 
 
 # Contact
-- Email: sayeed.shahriar@gmail.com
-- GitHub: https://github.com/submerged-in-matrix
-- LinkedIn: https://www.linkedin.com/in/shahriar-sayeed/
-- Xing: https://www.xing.com/profile/Mdsaidul_Islam020597/web_profiles
+
+
+- **Email:** sayeed.shahriar@gmail.com
+- **Phone:** +49 1768 5632502
+- **Location:** Kiel, Germany
+- **Open to:** roles blending materials science (both experimental and theoretical), simulation (FEM), AI and other data driven aprroaches to uphold materials research!
