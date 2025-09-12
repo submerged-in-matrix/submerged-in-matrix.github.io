@@ -101,3 +101,35 @@ a:hover{ text-decoration:underline; }
 
 /* Project/section titles inside cards */
 .card h3{ color:#fff; }
+
+/* === STEP 2: Color system for readable, ordered emphasis === */
+
+/* Headings */
+h1{
+  /* brand gradient title */
+  background: linear-gradient(90deg, var(--brandA), var(--brandB));
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;             /* overrides previous white */
+  letter-spacing:.2px;
+}
+h2{ color: var(--brandA); }        /* section headers = primary accent */
+h3{ color: var(--accent); }        /* card/section subheads = accent */
+
+/* Body & meta (keep high contrast) */
+p, li{ color: var(--text); }
+.lead{ color: var(--text); opacity: 1; }
+.muted, small, .meta{ color: var(--muted); opacity: 1; }
+
+/* Labels & table headers (Contact, Email, Location, etc.) */
+label, dt, th, strong{ color:#f8fafc; font-weight:600; }
+
+/* Links */
+a{ color: var(--brandC); text-decoration:none; }
+a:hover{ text-decoration:underline; }
+
+/* Card headings inside cards */
+.card h3{ color: var(--accent); }
+
+/* Nav readability */
+.nav-link{ color:#e5e7eb; }
+.nav-link.active{ color:#0b1220; }
