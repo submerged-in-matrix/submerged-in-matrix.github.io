@@ -72,3 +72,24 @@ h1 + .lead { margin-top:6px; }
 /* Use this only where you want exactly 3 cards */
 .grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
 @media (max-width:960px){ .grid-3 { grid-template-columns:1fr; } }
+
+/* === STEP 1: Readability / Contrast pass === */
+:root{
+  --text:#e8edf3;           /* brighter body text */
+  --muted:#cbd5e1;          /* brighter muted text */
+}
+h1,h2,h3{ color:#fff; letter-spacing:.2px; }
+p,li{ color:var(--text); }
+.lead{ opacity:1; }          /* was .92 */
+.muted, small, em, .meta{ color:var(--muted); opacity:1; }
+
+label, strong, b, th, dt{ color:#f8fafc; font-weight:600; }
+a{ color:#7dd3fc; text-decoration:none; }
+a:hover{ text-decoration:underline; }
+
+/* Nav buttons */
+.nav-link{ color:#e5e7eb; }
+.nav-link.active{ color:#0b1220; }
+
+/* Project/section titles inside cards */
+.card h3{ color:#fff; }
