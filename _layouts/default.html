@@ -1,30 +1,38 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ page.title }} — {{ site.title }}</title>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ page.title }} — {{ site.title }}</title>
 
-    <!-- Theme stylesheet from jekyll-theme-minimal -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <!-- Your overrides -->
-    <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
-  </head>
-  <body>
-    <header>
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <nav>
-        {% for item in site.nav %}
-          <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
-        {% endfor %}
-      </nav>
-    </header>
-    <main>
-      {{ content }}
-    </main>
-    <footer>
-      <p>&copy; {{ site.time | date: '%Y' }} · <a href="https://github.com/{{ site.github_username }}">GitHub</a></p>
-    </footer>
-  </body>
+<!-- Base theme CSS (optional) -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<!-- Your colorful overrides -->
+<link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+<nav class="nav">
+{% for item in site.nav %}
+<a class="nav-link{% if page.url == item.link %} active{% endif %}" href="{{ item.link | relative_url }}">{{ item.name }}</a>
+{% endfor %}
+</nav>
+</div>
+</header>
+
+
+<main class="wrap">
+{{ content }}
+</main>
+
+
+<footer class="site-footer">
+<div class="wrap">
+<p>© {{ site.time | date: '%Y' }} · <a href="https://github.com/{{ site.github_username }}">GitHub</a></p>
+</div>
+</footer>
+</body>
 </html>
