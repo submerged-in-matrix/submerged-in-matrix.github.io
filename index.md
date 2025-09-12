@@ -1,6 +1,7 @@
+---
 layout: default  
 title: About  
-
+---
 
 # Md. Saidul Islam
 **Materials Scientist & Simulation Engineer** blending **FEM (COMSOL/MATLAB)** with **ML for materials** (band gap prediction, SHAP, Bayesian optimization). MSc Materials Science & Engineering (CAU Kiel); BSc (BUET).
