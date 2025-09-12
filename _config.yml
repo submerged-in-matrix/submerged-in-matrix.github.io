@@ -1,28 +1,37 @@
-title: "Md. Saidul Islam - Computational Materials Engineer"  
+# --- site basics ---
+title: "Md. Saidul Islam — Materials ML & Simulation"
+description: "Materials scientist & simulation engineer for High-Throughput Materials Development and AI-assisted simulation."
+url: "https://submerged-in-matrix.github.io"
+
+
+# Use a simple built-in theme (our CSS overrides it)
 theme: jekyll-theme-minimal
 
-description: "High-throughput materials development pipeline and Materials Informatics. Experience in ML pipelines, FEM, Semantic modelling, and databases and familiar with wide-range of Materials characterisation Tools (e.g., SEM, XRD). Goal: Contributing in data-driven methods for materials discovery, process optimization in industrial, R&D environments."
-url: "https://submerged-in-matrix.github.io"
+
+# Navigation (order matters)
+nav:
+- name: About
+link: /
+- name: Masters Thesis
+link: /masters-thesis
+- name: Bachelor Thesis
+link: /bachelor-thesis
+- name: Projects
+link: /projects
+- name: E-Learning
+link: /e-learning
+- name: Profiles
+link: /profiles
+- name: Contact
+link: /contact
+
+
+# Socials / meta
 github_username: submerged-in-matrix
 email: "sayeed.shahriar@gmail.com"
 linkedin: "https://www.linkedin.com/in/shahriar-sayeed/"
 
-nav:
-  - name: About
-    link: /
-  - name: Masters Thesis
-    link: /masters-thesis
-  - name: Bachelor Thesis
-    link: /bachelor-thesis
-  - name: Projects
-    link: /projects
-  - name: E-Learning
-    link: /e-learning
-  - name: Profiles
-    link: /profiles
-  - name: Contact
-    link: /contact
 
-    markdown: kramdown
+markdown: kramdown
 kramdown:
-  input: GFM
+input: GFM
