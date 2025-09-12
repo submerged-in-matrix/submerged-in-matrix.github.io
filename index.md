@@ -11,7 +11,7 @@ title: About
 
 
 <div class="section">
-<h2>What I bring (recruiter snapshot)</h2>
+<h2>What I bring </h2>
 <div class="grid">
 <div class="card">
 <h3>Impact</h3>
