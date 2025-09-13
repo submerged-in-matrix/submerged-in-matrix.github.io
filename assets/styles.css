@@ -301,4 +301,23 @@ h1 + .lead{ margin-top:6px; }
 .chip{ font-size:12.5px; padding:6px 11px; }
 .tool-group .group-title{ margin:2px 0 6px; }
 
+/* More spacious Toolbox (still 2 columns) */
+.toolbox.card{ padding:24px 22px; }
+
+.toolbox-grid{
+  grid-template-columns: repeat(2, minmax(260px,1fr)); /* wider columns */
+  column-gap: 28px;  /* more space between the two columns */
+  row-gap: 18px;     /* more space between groups */
+}
+
+.tool-group{ margin-bottom: 12px; }
+.tool-group .group-title{ margin: 0 0 10px; padding-left:12px; }
+
+.chiplist{ gap: 12px; }              /* bigger gaps between chips */
+.chip{ padding: 7px 13px; }           /* roomier chips */
+
+/* Keep mobile tidy */
+@media (max-width: 960px){
+  .toolbox-grid{ grid-template-columns: 1fr; column-gap: 0; }
+}
 
