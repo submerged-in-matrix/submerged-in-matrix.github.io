@@ -339,3 +339,21 @@ h1 + .lead{ margin-top:6px; }
 }
 .focus .focus-list li{ margin: 6px 0; }
 
+/* Wider Toolbox, narrower Focus (under Impact) */
+@media (min-width:1200px){
+  .about-grid{ grid-template-columns: repeat(12, minmax(0,1fr)) !important; }
+  .toolbox{ grid-column: 1 / 9 !important; }   /* ≈ 66% */
+  .focus{   grid-column: 9 / 13 !important; }  /* ≈ 34% */
+}
+/* (If you prefer 70/30: .toolbox{1/10} and .focus{10/13}) */
+
+/* High-contrast Focus text + accent bullets */
+.focus .focus-list{
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 17px; line-height: 1.6;
+  color: #f8fafc;                /* bright text */
+}
+.focus .focus-list li{ margin: 6px 0; }
+.focus .focus-list li::marker{ color: var(--brandA); font-size: 1.1em; }  /* vivid bullets */
+
+
