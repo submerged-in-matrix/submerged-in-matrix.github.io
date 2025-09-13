@@ -585,5 +585,16 @@ h1 + .lead{ margin-top:6px; }
   .lead{ max-width: 86ch; margin-right: 220px; }
 }
 
+/* Sidebar titles: same look as box headings (yellow, display font) */
+.sb-title{
+  color:#fbbf24;                 /* yellow like card h3 */
+  font-family:var(--title-font);
+  letter-spacing:.06em;
+}
+
+/* More gap between the two sections + tidy spacing */
+.sb-section{ padding:6px 0; }
+.sb-section + .sb-section{ margin-top:24px; }  /* increase if you want even more */
+.sb-list{ margin-top:6px; }
 
 
