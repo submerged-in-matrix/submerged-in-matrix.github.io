@@ -391,3 +391,27 @@ h1 + .lead{ margin-top:6px; }
 .focus .focus-list li:nth-child(3){ color:#22d3ee; }  /* cyan */
 .focus .focus-list li:nth-child(4){ color:#f59e0b; }  /* amber */
 .focus .focus-list li:nth-child(5){ color:#34d399; }  /* emerald */
+
+/* Mirror the Toolbox tilt + drop Focus slightly lower */
+.card.toolbox.lean-left{
+  transform: perspective(900px) rotateY(-9deg) rotateZ(-4deg) translateY(16px);
+}
+
+.card.focus.lean-right{
+  transform: perspective(900px) rotateY(9deg) rotateZ(4deg) translateY(32px); /* ← adjust 24–40px to taste */
+  z-index: 1;  /* keeps it above the background */
+}
+.card.focus.lean-right:hover{
+  transform: perspective(900px) rotateY(8deg) rotateZ(3.5deg) translateY(30px);
+}
+
+/* Keep good spacing between rows/buttons */
+.about-grid{ row-gap: 28px; }
+.focus{ margin-bottom: 24px; }
+
+/* Mobile stays flat */
+@media (max-width:960px){
+  .card.focus.lean-right,
+  .card.toolbox.lean-left{ transform: none; }
+}
+
