@@ -398,7 +398,7 @@ h1 + .lead{ margin-top:6px; }
 }
 
 .card.focus.lean-right{
-  transform: perspective(900px) rotateY(9deg) rotateZ(4deg) translateY(28px); /* ← adjust 24–40px to taste */
+  transform: perspective(900px) rotateY(9deg) rotateZ(4deg) translateY(40px); /* ← adjust 24–40px to taste */
   z-index: 1;  /* keeps it above the background */
 }
 .card.focus.lean-right:hover{
