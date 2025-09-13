@@ -356,4 +356,38 @@ h1 + .lead{ margin-top:6px; }
 .focus .focus-list li{ margin: 6px 0; }
 .focus .focus-list li::marker{ color: var(--brandA); font-size: 1.1em; }  /* vivid bullets */
 
+/* More breathing room around the tilted Toolbox */
+.about-grid{ row-gap: 26px; }                    /* space between Impact and the row below */
+.toolbox{ margin-bottom: 30px; }                 /* space above the CTA buttons */
 
+/* Nudge the tilted card a bit lower so it never kisses Impact */
+.card.toolbox.lean-left{
+  transform: perspective(900px) rotateY(-9deg) rotateZ(-4deg) translateY(16px);
+}
+
+/* Trim empty vertical space INSIDE the Toolbox so overall height is smaller */
+.toolbox.card{ padding: 22px 20px 26px; }        /* reduced bottom padding (was larger) */
+.toolbox-grid{ row-gap: 14px; }                  /* tighter group spacing */
+.tool-group{ margin-bottom: 8px; }
+.chiplist{ gap: 10px; }
+
+/* Focus card: smaller + colorful, high-contrast text */
+.focus.card{ padding:14px 16px 16px; }                 /* tighter box so it feels smaller */
+.card.focus.lean-right{
+  transform:perspective(900px) rotateY(8deg) rotateZ(3deg) translateY(8px);
+}
+
+.focus .focus-list{
+  font-family: Georgia, Cambria, "Times New Roman", serif;  /* contrast vs Toolbox */
+  font-size:15.5px; line-height:1.55; margin:6px 0 0;
+}
+
+/* Color each line (text + bullet) — bright but readable on dark */
+.focus .focus-list li{ margin:6px 0; }
+.focus .focus-list li::marker{ color: currentColor; font-size:1.1em; }
+
+.focus .focus-list li:nth-child(1){ color:#7dd3fc; }  /* sky */
+.focus .focus-list li:nth-child(2){ color:#a78bfa; }  /* violet */
+.focus .focus-list li:nth-child(3){ color:#22d3ee; }  /* cyan */
+.focus .focus-list li:nth-child(4){ color:#f59e0b; }  /* amber */
+.focus .focus-list li:nth-child(5){ color:#34d399; }  /* emerald */
