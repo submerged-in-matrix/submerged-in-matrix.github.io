@@ -26,50 +26,67 @@ title: About
 </div>
 
 <div class="card toolbox lean-left">
-  <h3>Toolbox</h3>
+<h3>Toolbox</h3>
 
-  <p class="muted">Programming & Data</p>
-  <p class="chips">
-    <span class="badge">Python</span><span class="badge">MATLAB</span>
-    <span class="badge">SQL</span><span class="badge alt">HTML</span>
-    <span class="badge alt">CSS</span><span class="badge alt">RegEx</span>
-    <span class="badge alt">C++</span><span class="badge alt">Fortran</span>
-  </p>
+<div class="toolbox-grid">
 
-  <p class="muted">AI / ML</p>
-  <p class="chips">
-    <span class="badge">Ensembles</span><span class="badge">PINN</span>
-    <span class="badge">SINDy</span><span class="badge alt">AutoML (PyCaret)</span>
-    <span class="badge">SHAP</span><span class="badge alt">Generative AI</span>
-    <span class="badge">RDF/SPARQL</span>
-  </p>
-
-  <p class="muted">Materials Informatics</p>
-  <p class="chips">
-    <span class="badge">Matminer</span><span class="badge">Pymatgen</span>
-    <span class="badge alt">RDKit</span><span class="badge">OQMD</span>
-    <span class="badge">Materials Project</span><span class="badge alt">Semantic Web</span>
-  </p>
-
-  <p class="muted">Simulation & FEM</p>
-  <p class="chips">
-    <span class="badge">COMSOL</span><span class="badge">Abaqus</span>
-    <span class="badge alt">SimScale</span>
-  </p>
-
-  <p class="muted">Characterization</p>
-  <p class="chips">
-    <span class="badge">AFM</span><span class="badge">TEM</span>
-    <span class="badge">SEM</span><span class="badge">XRD</span>
-    <span class="badge alt">VSM</span><span class="badge alt">DSC/TGA</span>
-  </p>
-
-  <p class="muted">Web & Databases</p>
-  <p class="chips">
-    <span class="badge">Flask</span><span class="badge">Jinja</span>
-    <span class="badge">Docker</span><span class="badge">SQLite</span>
-  </p>
+<div class="tool-group">
+<div class="group-title">Programming & Data</div>
+<div class="chiplist">
+<span class="chip">Python</span><span class="chip">MATLAB</span>
+<span class="chip">SQL</span><span class="chip alt">HTML</span>
+<span class="chip alt">CSS</span><span class="chip alt">RegEx</span>
+<span class="chip alt">C++</span><span class="chip alt">Fortran</span>
 </div>
+</div>
+
+<div class="tool-group">
+<div class="group-title">AI / ML</div>
+<div class="chiplist">
+<span class="chip">Ensembles</span><span class="chip">PINN</span>
+<span class="chip">SINDy</span><span class="chip alt">AutoML (PyCaret)</span>
+<span class="chip">SHAP</span><span class="chip alt">Generative AI</span>
+<span class="chip">RDF/SPARQL</span>
+</div>
+</div>
+
+<div class="tool-group">
+<div class="group-title">Materials Informatics</div>
+<div class="chiplist">
+<span class="chip">Matminer</span><span class="chip">Pymatgen</span>
+<span class="chip alt">RDKit</span><span class="chip">OQMD</span>
+<span class="chip">Materials Project</span><span class="chip alt">Semantic Web</span>
+</div>
+</div>
+
+<div class="tool-group">
+<div class="group-title">Simulation & FEM</div>
+<div class="chiplist">
+<span class="chip">COMSOL</span><span class="chip">Abaqus</span>
+<span class="chip alt">SimScale</span>
+</div>
+</div>
+
+<div class="tool-group">
+<div class="group-title">Characterization</div>
+<div class="chiplist">
+<span class="chip">AFM</span><span class="chip">TEM</span>
+<span class="chip">SEM</span><span class="chip">XRD</span>
+<span class="chip alt">VSM</span><span class="chip alt">DSC/TGA</span>
+</div>
+</div>
+
+<div class="tool-group">
+<div class="group-title">Web & Databases</div>
+<div class="chiplist">
+<span class="chip">Flask</span><span class="chip">Jinja</span>
+<span class="chip">Docker</span><span class="chip">SQLite</span>
+</div>
+</div>
+
+</div>
+</div>
+
 
 
 <div class="card focus lean-right">
