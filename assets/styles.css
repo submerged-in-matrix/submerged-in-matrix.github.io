@@ -514,3 +514,19 @@ h1 + .lead{ margin-top:6px; }
   font-size:1.15em;
 }
 
+/* Impact: yellow title (same as other cards) + AI+FEM violet bullets */
+.card.impact h3{
+  color: #fbbf24 !important;              /* same yellow as other headings */
+}
+
+.card.impact li{
+  color: var(--cat-ai-fem) !important;    /* violet used for AI+FEM in Focus */
+  font-family: Cambria, Georgia, "Times New Roman", serif; /* keep distinct feel */
+  font-weight: 600;
+}
+.card.impact li::marker{
+  color: var(--cat-ai-fem) !important;    /* one consistent bullet color */
+  font-size: 1.15em;
+}
+
+
