@@ -26,16 +26,51 @@ title: About
 </div>
 
 <div class="card toolbox lean-left">
-<h3>Toolbox</h3>
-<p class="chips">
-<span class="badge">Python</span><span class="badge alt">scikit-learn</span>
-<span class="badge">LightGBM</span><span class="badge alt">XGBoost</span>
-<span class="badge">SHAP</span><span class="badge alt">Optuna / PyCaret</span>
-<span class="badge">Flask</span><span class="badge alt">SQLite</span>
-<span class="badge">Docker</span><span class="badge alt">COMSOL</span>
-<span class="badge">MATLAB</span><span class="badge alt">Abaqus</span>
-</p>
+  <h3>Toolbox</h3>
+
+  <p class="muted">Programming & Data</p>
+  <p class="chips">
+    <span class="badge">Python</span><span class="badge">MATLAB</span>
+    <span class="badge">SQL</span><span class="badge alt">HTML</span>
+    <span class="badge alt">CSS</span><span class="badge alt">RegEx</span>
+    <span class="badge alt">C++</span><span class="badge alt">Fortran</span>
+  </p>
+
+  <p class="muted">AI / ML</p>
+  <p class="chips">
+    <span class="badge">Ensembles</span><span class="badge">PINN</span>
+    <span class="badge">SINDy</span><span class="badge alt">AutoML (PyCaret)</span>
+    <span class="badge">SHAP</span><span class="badge alt">Generative AI</span>
+    <span class="badge">RDF/SPARQL</span>
+  </p>
+
+  <p class="muted">Materials Informatics</p>
+  <p class="chips">
+    <span class="badge">Matminer</span><span class="badge">Pymatgen</span>
+    <span class="badge alt">RDKit</span><span class="badge">OQMD</span>
+    <span class="badge">Materials Project</span><span class="badge alt">Semantic Web</span>
+  </p>
+
+  <p class="muted">Simulation & FEM</p>
+  <p class="chips">
+    <span class="badge">COMSOL</span><span class="badge">Abaqus</span>
+    <span class="badge alt">SimScale</span>
+  </p>
+
+  <p class="muted">Characterization</p>
+  <p class="chips">
+    <span class="badge">AFM</span><span class="badge">TEM</span>
+    <span class="badge">SEM</span><span class="badge">XRD</span>
+    <span class="badge alt">VSM</span><span class="badge alt">DSC/TGA</span>
+  </p>
+
+  <p class="muted">Web & Databases</p>
+  <p class="chips">
+    <span class="badge">Flask</span><span class="badge">Jinja</span>
+    <span class="badge">Docker</span><span class="badge">SQLite</span>
+  </p>
 </div>
+
 
 <div class="card focus lean-right">
 <h3>Focus areas</h3>
