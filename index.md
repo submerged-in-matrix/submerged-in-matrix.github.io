@@ -91,14 +91,17 @@ title: About
 
 
 <div class="card focus lean-right">
+  
 <h3>Focus areas</h3>
+  
 <ul class="focus-list">
   <li>High-Throughput Materials Development workflows</li>
-  <li>AI in Materials Science (interpretable models & GenAI)</li>
   <li>Smart / Functional Materials</li>
   <li>Heat/Corrosion-resistant high-strength alloy systems</li>
+  <li>AI in Materials Science (interpretable models & GenAI)</li>
   <li>FEM for design & validation</li>
 </ul>
+
 </div>
 </div>
 </div>
