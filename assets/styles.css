@@ -415,3 +415,29 @@ h1 + .lead{ margin-top:6px; }
   .card.toolbox.lean-left{ transform: none; }
 }
 
+/* ---- Category palette ---- */
+:root{
+  --cat-core:#7dd3fc;     /* Toolbox: all non-characterization groups */
+  --cat-char:#fbbf24;     /* Toolbox: Characterization */
+  --cat-ht:#22d3ee;       /* Focus: High-Throughput */
+  --cat-ai-fem:#a78bfa;   /* Focus: AI + FEM */
+  --cat-rest:#34d399;     /* Focus: Smart/Functional + Heat/Corrosion */
+}
+
+/* TOOLBOX — default (core) groups use sky */
+.tool-group .group-title{ border-left-color: var(--cat-core); color: var(--cat-core); }
+.tool-group .chip{ background: rgba(125,211,252,.18); border-color: rgba(125,211,252,.35); color:#eaf6ff; }
+
+/* TOOLBOX — Characterization = amber */
+.tool-group.char .group-title{ border-left-color: var(--cat-char); color: var(--cat-char); }
+.tool-group.char .chip{ background: rgba(251,191,36,.20); border-color: rgba(251,191,36,.40); color:#0b1220; }
+
+/* FOCUS — 3 category colors (no HTML change) */
+.focus .focus-list li{ margin:6px 0; font-weight:600; }
+.focus .focus-list li::marker{ color: currentColor; }
+.focus .focus-list li:nth-child(1){ color: var(--cat-ht); }          /* High-Throughput */
+.focus .focus-list li:nth-child(2),
+.focus .focus-list li:nth-child(5){ color: var(--cat-ai-fem); }      /* AI + FEM */
+.focus .focus-list li:nth-child(3),
+.focus .focus-list li:nth-child(4){ color: var(--cat-rest); }        /* Smart/Functional + Heat/Corrosion */
+
