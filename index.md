@@ -6,6 +6,9 @@ title: About
 
 # Md. Saidul Islam
 
+<p class="muted">Auch auf Deutsch: <a href="/assets/resume/Lebenslauf_MD_Saidul_Islam.pdf">Lebenslauf (PDF)</a></p>
+
+
 <p class="lead">Materials scientist & simulation engineer focused on <strong>High-Throughput Materials Development</strong> and <strong>AI-assisted simulation</strong>. I build reproducible ML pipelines, FEM models, and research apps that move from notebooks to usable tools.</p>
 
 <div class="section">
