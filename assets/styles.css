@@ -284,5 +284,21 @@ h1 + .lead{ margin-top:6px; }
 .chip.alt{ background:rgba(167,139,250,.20); border-color:rgba(167,139,250,.35); }
 @media (max-width:960px){ .toolbox-grid{ grid-template-columns:1fr; } }
 
+/* 1) Give the main content more room (from 900px → 1100px) */
+.page{ max-width:1100px; }
+
+/* 2) Widen the row under Impact: from 6 cols → 8 cols, so each gets 4 */
+@media (min-width:1100px){
+  .about-grid{ grid-template-columns: repeat(8, minmax(0,1fr)); }
+  .toolbox{ grid-column: 1 / 5; }  /* 4 columns */
+  .focus{   grid-column: 5 / 9; }  /* 4 columns */
+}
+
+/* 3) Make the two-column layout inside Toolbox breathe a bit */
+.toolbox-grid{ grid-template-columns: repeat(2, minmax(180px,1fr)); gap:16px 20px; }
+
+/* 4) Slightly larger chips + tighter vertical spacing */
+.chip{ font-size:12.5px; padding:6px 11px; }
+.tool-group .group-title{ margin:2px 0 6px; }
 
 
