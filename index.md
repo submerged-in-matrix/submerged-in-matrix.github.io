@@ -49,4 +49,6 @@ title: About
 <a class="btn primary" href="/projects">Explore Projects</a>
 <a class="btn" href="/masters-thesis">Masters Thesis</a>
 <a class="btn" href="/bachelor-thesis">Bachelor Thesis</a>
+<a class="btn" href="/poster-publication">Poster/Publication</a>
+
 </div>
