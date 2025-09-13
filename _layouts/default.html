@@ -5,19 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }} — {{ site.title }}</title>
 
-    <!-- Theme (optional) + your CSS -->
+    <!-- Theme (optional) -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Display fonts (alternatives to Imprint MT Shadow & Algerian) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
 
     <!-- Critical fallback so it stays colorful even if styles.css fails -->
     <style>
-      :root{--bg:#0b1220;--text:#e5e7eb;--muted:#94a3b8;--brandA:#38bdf8;--brandB:#a78bfa;--brandC:#22d3ee;--border:#1f2937}
-      html,body{height:100%}body{margin:0;background:
+      :root{
+        --bg:#0b1220;--text:#e5e7eb;--muted:#94a3b8;
+        --brandA:#38bdf8;--brandB:#a78bfa;--brandC:#22d3ee;--border:#1f2937;
+        --hero-font:"IM Fell English", Georgia, Cambria, "Times New Roman", serif;
+        --title-font:"Cinzel", Georgia, Cambria, serif;
+      }
+      html,body{height:100%}
+      body{
+        margin:0;background:
         radial-gradient(1200px 600px at 10% -10%, #1e293b 0%, transparent 60%),
         radial-gradient(1200px 600px at 110% 10%, #0ea5e9 0%, transparent 35%),
-        #0b1220;color:var(--text);font:16px/1.75 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+        #0b1220;color:var(--text);
+        font:16px/1.75 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif
+      }
       .shell{display:grid;grid-template-columns:280px 1fr;gap:24px;max-width:1280px;margin:0 auto;padding:32px 24px}
-      .sidebar{background:linear-gradient(180deg, rgba(56,189,248,.18), rgba(167,139,250,.18));
-        border:1px solid rgba(148,163,184,.25);border-radius:12px;padding:18px}
+      .sidebar{
+        background:linear-gradient(180deg, rgba(56,189,248,.18), rgba(167,139,250,.18));
+        border:1px solid rgba(148,163,184,.25);border-radius:12px;padding:18px;
+        display:flex;flex-direction:column;
+      }
       .brand{display:block;font-weight:800;margin-bottom:10px;text-decoration:none;color:#fff}
       .nav{display:grid;grid-template-columns:1fr 1fr;gap:14px}
       .nav-link{display:inline-block;text-decoration:none;color:var(--text);
@@ -27,10 +44,18 @@
       .page{max-width:900px}
       h1{font-size:clamp(28px,4vw,42px);line-height:1.2;margin:8px 0 18px}
       h2{font-size:clamp(22px,3vw,28px);margin:26px 0 12px}
-      .lead{font-size:18px;color:var(--text);opacity:.92;max-width:70ch}
+      /* Apply display fonts */
+      .lead{
+        font-family:var(--hero-font);font-size:18px;color:var(--text);opacity:.92;max-width:70ch;
+        text-shadow:0 1px 0 rgba(0,0,0,.25), 0 2px 10px rgba(0,0,0,.18);
+      }
+      .card h3{font-family:var(--title-font);letter-spacing:.3px}
+
       .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-      .card{background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
-        border:1px solid rgba(148,163,184,.18);border-radius:16px;padding:16px}
+      .card{
+        background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+        border:1px solid rgba(148,163,184,.18);border-radius:16px;padding:16px
+      }
       .chips{display:flex;flex-wrap:wrap;gap:8px}
       .badge{display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;color:#0b1220;background:var(--brandC)}
       .badge.alt{background:var(--brandB)}
@@ -42,12 +67,16 @@
         border:1px solid rgba(56,189,248,.3);text-decoration:none;color:var(--text)}
       .tab:hover{background:rgba(56,189,248,.2)}
       .muted{color:var(--muted)}
+      /* Sidebar bottom sections */
+      .sidebar-bottom{margin-top:auto;padding-top:12px;border-top:1px solid rgba(148,163,184,.25)}
+      .sb-title{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#cbd5e1;margin:10px 0 6px}
+      .sb-list{list-style:disc inside;margin:0 0 8px 4px;padding:0}
+      .sb-list li{font-size:13px;color:#e5e7eb;opacity:.95;margin:2px 0}
       @media (max-width: 960px){.shell{grid-template-columns:1fr}.nav{grid-template-columns:repeat(3,1fr)}}
     </style>
-    
+
     <!-- My CSS MUST BE LAST (with cache-bust) -->
     <link rel="stylesheet" href="{{ '/assets/styles.css?v=' | append: site.github.build_revision | relative_url }}">
-    
   </head>
   <body>
     <div class="shell">
@@ -59,6 +88,27 @@
             <a class="nav-link{% if is_active %} active{% endif %}" href="{{ item.link | relative_url }}">{{ item.name }}</a>
           {% endfor %}
         </nav>
+
+        <!-- Sidebar footer content -->
+        <div class="sidebar-bottom">
+          <div class="sb-section">
+            <div class="sb-title">I speak</div>
+            <ul class="sb-list">
+              <li>English — Fluent</li>
+              <li>Deutsch — B2</li>
+            </ul>
+          </div>
+
+          <div class="sb-section">
+            <div class="sb-title">Currently focused on</div>
+            <ul class="sb-list">
+              <li>Upscaling Deep Learning for Materials Discovery</li>
+              <li>Density Functional Theory — online</li>
+              <li>Nanomaterials Specialization — online</li>
+              <li>Deutsch B2</li>
+            </ul>
+          </div>
+        </div>
       </aside>
 
       <main class="page">
