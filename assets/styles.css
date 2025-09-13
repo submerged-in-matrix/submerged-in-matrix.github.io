@@ -441,3 +441,20 @@ h1 + .lead{ margin-top:6px; }
 .focus .focus-list li:nth-child(3),
 .focus .focus-list li:nth-child(4){ color: var(--cat-rest); }        /* Smart/Functional + Heat/Corrosion */
 
+/* Use the High-Throughput cyan for Characterization */
+:root{ --cat-char: var(--cat-ht); }
+
+.tool-group.char .group-title{ border-left-color: var(--cat-char); color: var(--cat-char); }
+.tool-group.char .chip{
+  background: rgba(34,211,238,.20);  /* cyan */
+  border-color: rgba(34,211,238,.40);
+  color:#0b1220;
+}
+
+/* Map by position after reordering:
+   1 = HT (cyan), 2–3 = Materials themes (green), 4–5 = AI+FEM (violet) */
+.focus .focus-list li:nth-child(1){ color: var(--cat-ht); }
+.focus .focus-list li:nth-child(2),
+.focus .focus-list li:nth-child(3){ color: var(--cat-rest); }
+.focus .focus-list li:nth-child(4),
+.focus .focus-list li:nth-child(5){ color: var(--cat-ai-fem); }
