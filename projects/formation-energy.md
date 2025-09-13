@@ -2,16 +2,14 @@
 layout: default
 title: Formation Energy Prediction
 ---
-
-
-# Formation Energy Prediction — solid baselines
-
-
-**Approach:** Feature sets from composition/structure; Gradient Boosting/LightGBM; SHAP analysis.
-
-
-**Status:** Baselines established; metrics to be finalized after latest run.
-
-
-**Repository:**
-- GitHub: (add link when ready)
+# Formation Energy Prediction
+<div class="media">
+  <img src="/assets/img/projects/formation-energy/hero.png" alt="">
+</div>
+<div class="metrics">
+  <span class="metric">LLM-assisted selection</span>
+  <span class="metric alt">GBM baseline</span>
+  <span class="metric good">SHAP analysis</span>
+</div>
+**Why this property:** harder than band gap for AutoML, better signal for design.  
+**Links:** <a class="btn" href="REPO_URL" target="_blank">GitHub</a>
