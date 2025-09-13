@@ -213,5 +213,12 @@ h1 + .lead{ margin-top:6px; }
   .lean-left, .lean-right{ transform:none; box-shadow:none; }
 }
 
+/* Center a single card nicely */
+.grid.center{
+  display:grid;
+  grid-template-columns:minmax(280px, 720px);
+  justify-content:center;
+}
+
 
 
