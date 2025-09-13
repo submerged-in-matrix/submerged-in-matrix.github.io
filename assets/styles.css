@@ -485,4 +485,32 @@ h1 + .lead{ margin-top:6px; }
 }
 .impact.card li::marker{ color:#7dd3fc; }          /* one consistent accent */
 
+/* === IMPACT: distinct callout (color, font, bullets) === */
+.card.impact{
+  /* tinted, glassy background */
+  background:
+    radial-gradient(800px 360px at 8% -20%, rgba(56,189,248,.25), transparent 65%),
+    linear-gradient(180deg, rgba(8,145,178,.16), rgba(2,6,23,0)) !important;
+  border: 1px solid rgba(125,211,252,.55) !important;
+  box-shadow: 0 14px 34px rgba(2,6,23,.48), inset 0 1px 0 rgba(255,255,255,.08) !important;
+}
+
+.card.impact h3{
+  color:#7dd3fc;                 /* title accent */
+  letter-spacing:.3px;
+  font-weight:800;
+}
+
+.card.impact ul{ margin:10px 0 0 18px; }
+.card.impact li{
+  /* single color for all bullets + a different text feel */
+  color:#e0f2fe;                 /* light-cyan, not white */
+  font-family: Cambria, Georgia, "Times New Roman", serif;  /* stylistic contrast */
+  font-weight:600;
+  line-height:1.65;
+}
+.card.impact li::marker{
+  color:#22d3ee;                 /* one consistent bullet color */
+  font-size:1.15em;
+}
 
