@@ -67,8 +67,9 @@ title: About
 </div>
 </div>
 
-<div class="tool-group">
+<div class="tool-group char">
 <div class="group-title">Characterization</div>
+
 <div class="chiplist">
 <span class="chip">AFM</span><span class="chip">TEM</span>
 <span class="chip">SEM</span><span class="chip">XRD</span>
