@@ -1,17 +1,15 @@
 ---
 layout: default
-title: Semantic Models for MSE (LLM + KG)
+title: Semantic Model for Bandgap (LLM + KG)
 ---
-
-
-# Semantic Models for MSE — Ollama‑coupled knowledge graph
-
-
-**What:** Semantic knowledge graph (RDF/SPARQL) wired to a local LLM (**Ollama**) for querying **custom‑featurized band‑gap** data.
-
-
-**Why:** Make materials datasets easier to navigate, explain, and reuse; unify schema and ML features.
-
-
-**Repository:**
-- GitHub: https://github.com/submerged-in-matrix/Semantic_models_for-MSE
+# Semantic Model for Bandgap (LLM + KG)
+<div class="media">
+  <img src="/assets/img/projects/bandgap-kg/hero.png" alt="Knowledge graph"/>
+</div>
+<div class="metrics">
+  <span class="metric">Ollama</span>
+  <span class="metric alt">RDF/SPARQL</span>
+  <span class="metric good">Explorable schema</span>
+</div>
+**What:** A knowledge graph wired to a local LLM for bandgap queries.  
+**Links:** <a class="btn" href="REPO_URL" target="_blank">GitHub</a>
