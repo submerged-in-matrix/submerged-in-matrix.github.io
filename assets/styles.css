@@ -332,3 +332,10 @@ h1 + .lead{ margin-top:6px; }
 .chiplist{ gap: 12px; }
 .chip{ padding: 7px 13px; white-space: nowrap; }  /* keep each chip on one line */
 
+/* Distinct look for research focus (system serif = broad support) */
+.focus .focus-list{
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 17px; line-height: 1.6; color: var(--text);
+}
+.focus .focus-list li{ margin: 6px 0; }
+
