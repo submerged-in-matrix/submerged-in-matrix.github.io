@@ -320,4 +320,15 @@ h1 + .lead{ margin-top:6px; }
 @media (max-width: 960px){
   .toolbox-grid{ grid-template-columns: 1fr; column-gap: 0; }
 }
+/* More space + prevent chips slipping outside the tilted card */
+.toolbox.card{
+  padding: 26px 22px 56px;   /* bigger bottom padding */
+  overflow: hidden;          /* clip anything crossing rounded edges */
+}
+.toolbox-grid{
+  grid-template-columns: repeat(2, minmax(260px,1fr));
+  column-gap: 28px; row-gap: 18px;
+}
+.chiplist{ gap: 12px; }
+.chip{ padding: 7px 13px; white-space: nowrap; }  /* keep each chip on one line */
 
