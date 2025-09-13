@@ -597,4 +597,24 @@ h1 + .lead{ margin-top:6px; }
 .sb-section + .sb-section{ margin-top:24px; }  /* increase if you want even more */
 .sb-list{ margin-top:6px; }
 
+/* 3D name treatment */
+.name-3d{
+  font-family: var(--title-font);
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 1.05;
+  letter-spacing: .5px;
+  background: linear-gradient(90deg, var(--brandA), var(--brandB));
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+  /* layered shadows = subtle 3D extrusion */
+  text-shadow:
+    0 1px 0 rgba(255,255,255,.18),
+    0 2px 0 #091425,
+    0 3px 0 #091425,
+    0 4px 0 #091425,
+    0 6px 10px rgba(0,0,0,.45);
+  margin-bottom: 8px;
+}
+.name-3d:hover{ transform: translateY(-1px); transition: transform .15s ease; }
+
 
