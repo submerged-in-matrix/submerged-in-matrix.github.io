@@ -6,10 +6,8 @@ title: About
 
 # Md. Saidul Islam
 
-<p class="muted">Auch auf Deutsch: <a href="/assets/resume/Lebenslauf_MD_Saidul_Islam.pdf">Lebenslauf (PDF)</a></p>
 
-
-<p class="lead">Materials scientist & simulation engineer focused on <strong>High-Throughput Materials Development</strong> and <strong>AI-assisted simulation</strong>. I build reproducible ML pipelines, FEM models, and research apps that move from notebooks to usable tools.</p>
+<p class="lead">Materials Science professional focused on <strong> data-driven methodologies <strong>. I build or reproduce (from existing research) ML pipelines, FEM models, and research apps that move from notebooks to usable tools. Proven & recognized <strong> Rapid familiarization skill <strong> to a new topic, enabling effective cross-disciplinary collaboration and innovation.</p>
 
 <div class="section">
 <h2>What I bring</h2>
@@ -18,11 +16,12 @@ title: About
 <div class="card impact">
 <h3>Impact</h3>
 <ul>
-<li>Built a research <strong>materials database app</strong> with auto ETL and Fly.io deploy.</li>
-<li>Delivered <strong>melting-point prediction</strong> via 2-level stacking (RF/XGB/LGBM/MLP) with R² ≈ 0.83 on 20k records.</li>
-<li>Implemented <strong>oxidation-state assignment</strong> with a soft-voting ensemble on ~7k OQMD samples (R² ≈ 0.91 proxy metric).</li>
-<li>Prototyped <strong>semantic knowledge graph</strong> for band-gap data driven by local LLM (Ollama).</li>
+  <li><strong>Shipped a materials database app</strong> with auto ETL and Fly.io deploy, enabling end-to-end tracking from raw data to model results.</li>
+  <li><strong>Melting-point prediction:</strong> 2-level custom-stacking (RF/XGB/LGBM/MLP) achieved <strong>R² ≈ 0.83</strong> on ~20k records.</li>
+  <li><strong><li><strong>Oxidation-state assignment:</strong> soft-voting ensemble on ~7k OQMD samples reached <strong>R² ≈ 0.91</strong> (proxy metric), delivering <strong>competitive quality on ~15× less data</strong> than typical literature sets.</li>
+  <li><strong>Semantic band-gap knowledge graph:</strong> RDF/SPARQL schema queried via a local LLM (Ollama) for explainable lookups.</li>
 </ul>
+
 </div>
 
 <div class="card toolbox lean-left">
