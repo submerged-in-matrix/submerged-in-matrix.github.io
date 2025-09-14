@@ -14,9 +14,9 @@ title: Masters Thesis
   <span class="metric good">Magnetoelectric sensors</span>
 </div>
 
-**What:** Designed the excitation & acquisition pipeline to probe sensor dynamics (MATLAB + audio interface).  
-**Why:** Needed a compact, explainable model for nonlinear source behavior in EM sensors.  
-**How:** Discovered governing equations with SINDy and used a small neural residual to capture remaining nonlinearity.  
+**What:** Designed the excitation & acquisition pipeline (MATLAB + audio interface) **and** built ML-pipelines (SINDy,  ANN: MLP & LSTM ) to learn nonlinear EM-sensor dynamics  
+**Why:** Prototype toward an implantable magnetoelectric sensor; set excitation frequency and boundary conditions to respect brain's magnetic-field constraints and safety. 
+**How:** Discovered governing differential equations via tuning the developed SINDy model which best portrays the dynamics of the system.
 **Results:** Validated via energy consistency, stiffness (oscillator-type), and damping (phase portraits); delivered an **interpretable model** that predicts the signal and its **derivatives**.
 
 <p>
