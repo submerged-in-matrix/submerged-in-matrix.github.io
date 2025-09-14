@@ -806,4 +806,16 @@ h1 + .lead{ margin-top:6px; }
   .poster-hero{ height:auto; }
 }
 
+/* E-Learning: one big box with tidy inner cards */
+.el-box{ padding:18px 16px; }
+.el-box .card{
+  background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  border:1px dashed rgba(148,163,184,.28);
+  border-radius:12px;
+  padding:14px;
+  margin:0 0 12px 0;
+}
+.el-box .card:last-child{ margin-bottom:0; }
+.el-box .card h3{ margin-top:0; }
+
 
