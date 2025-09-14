@@ -818,4 +818,8 @@ h1 + .lead{ margin-top:6px; }
 .el-box .card:last-child{ margin-bottom:0; }
 .el-box .card h3{ margin-top:0; }
 
+/* E-Learning labels: high contrast vs headings */
+.el-box .card ul li:first-child .label{ color:#22d3ee; font-weight:800; } /* Takeaway = cyan */
+.el-box .card ul li:last-child  .label{ color:#a78bfa; font-weight:800; } /* Applied in = violet */
+
 
