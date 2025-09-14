@@ -1,34 +1,23 @@
 ---
 layout: default
-title: Poster/Publication
+title: Poster / Publication
 ---
 # Poster / Publication
 
-<p class="lead">AIMSE '2023 poster. Figures/results live on the Masters Thesis page.</p>
-
-<div class="grid center">
-<div class="card">
-<h3>AIMSE '2023 Poster — SINDy + ANN for Magnetoelectric Sensors</h3>
-
-<!-- Poster image with CSS lightbox -->
-<div class="media">
-  <a href="#poster1"><img src="/assets/pubs/masters-poster.png" alt="AIMSE '2023 poster"></a>
-</div>
-<div id="poster1" class="lb">
-  <a class="x" href="#">×</a>
-  <img src="/assets/pubs/masters-poster.png" alt="Poster (large)">
+<div class="poster-hero">
+  <img src="/assets/pubs/masters-poster.png" alt="AIMSE 2023 poster" />
 </div>
 
 <div class="metrics">
-  <span class="metric">AIMSE '2023</span>
+  <span class="metric">AIMSE 2023</span>
   <span class="metric alt">SINDy + ANN</span>
+  <span class="metric good">Magnetoelectric sensors</span>
 </div>
 
-<p>
-  <a class="btn" href="/assets/pubs/masters-poster.pdf" target="_blank" rel="noopener">View poster (PDF)</a>
+<p class="poster-note"><span class="label">About:</span> Conference organized by <a href="https://www.dgm.de" target="_blank" rel="noopener">DGM</a>, focused on the application of AI across sub-domains of Materials Science &amp; Engineering.</p>
+
+<div class="doc-actions">
   <a class="btn" href="/assets/pubs/masters-abstract.pdf" target="_blank" rel="noopener">Read abstract (PDF)</a>
-  <a class="btn" href="/assets/pubs/masters-slides.pdf" target="_blank" rel="noopener">View slides (PDF)</a>
+  <a class="btn" href="/assets/pubs/aimse-2023-certificate.pdf" target="_blank" rel="noopener">Conference credential</a>
   <a class="btn" href="/masters-thesis">See thesis results</a>
-</p>
-</div>
 </div>
