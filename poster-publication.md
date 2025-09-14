@@ -19,5 +19,5 @@ title: Poster / Publication
 <div class="doc-actions">
   <a class="btn" href="/assets/pubs/masters-abstract.pdf" target="_blank" rel="noopener">Read abstract (PDF)</a>
   <a class="btn" href="/assets/pubs/aimse-2023-certificate.pdf" target="_blank" rel="noopener">Conference credential</a>
-  <a class="btn" href="/masters-thesis">See thesis results</a>
+  
 </div>
