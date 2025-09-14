@@ -702,5 +702,36 @@ h1 + .lead{ margin-top:6px; }
   .figure.tilt{ transform:none; }
 }
 
+/* Stack gallery: one figure per row with generous gaps */
+.gallery.stack{ display:block; }
+.gallery.stack .figure{ margin:0 0 48px 0; }
+.gallery.stack .figure:last-child{ margin-bottom:0; }
+
+/* Center images and make them large */
+.figure img{ width:100%; display:block; margin:0 auto; border-radius:14px; }
+
+/* Full-bleed first figure (spans entire viewport width) */
+.figure.fullbleed{ transform:none !important; }           /* no tilt on full-bleed */
+.figure.fullbleed img{
+  width:100vw; max-width:100vw; border-radius:0;
+  margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw);
+  box-shadow:none;
+}
+
+/* Keep second figure tilted and big */
+.figure.tilt{
+  transform:perspective(900px) rotateY(7deg) rotateZ(2.5deg);
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+.figure.tilt:hover{
+  transform:perspective(900px) rotateY(5.5deg) rotateZ(2deg) translateY(-4px);
+}
+
+/* Mobile: disable full-bleed for readability */
+@media (max-width: 960px){
+  .figure.fullbleed img{
+    width:100%; max-width:100%; margin-left:0; margin-right:0; border-radius:14px;
+  }
+}
 
 
