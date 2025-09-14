@@ -17,14 +17,19 @@ nav:
     link: /bachelor-thesis
   - name: Projects
     link: /projects
-  - name: Poster/Publication
-    link: /poster-publication
   - name: E-Learning
     link: /e-learning
+  - name: Poster/Publication
+    link: /poster-publication
+  - name: Resume
+    link: /assets/resume/Resume_MD_Saidul_Islam.pdf
+  - name: Documents
+    link: /documents
   - name: Profiles
     link: /profiles
   - name: Contact
     link: /contact
+
 
 # Socials / meta
 github_username: submerged-in-matrix
