@@ -21,8 +21,8 @@ title: Masters Thesis
 
 <p>
   <!-- Add your repo when ready -->
-  <!-- <a class="btn" href="YOUR_GITHUB_URL" target="_blank" rel="noopener">GitHub</a> -->
-  <a class="btn" href="/poster-publication">Poster/Publication</a>
+  <a class="btn" href="https://github.com/submerged-in-matrix/Masterarbeit" target="_blank" rel="noopener">GitHub</a> 
+  
 </p>
 
 <div class="gallery">
