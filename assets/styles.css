@@ -617,4 +617,19 @@ h1 + .lead{ margin-top:6px; }
 }
 .name-3d:hover{ transform: translateY(-1px); transition: transform .15s ease; }
 
+/* Active/hovered nav = gradient text like your name */
+.nav-link{ background: transparent; border-color: rgba(148,163,184,.25); }
+.nav-link.active,
+.nav-link:hover{
+  background: rgba(56,189,248,.08);
+  border-color: rgba(56,189,248,.35);
+  font-weight: 800;
+  color: transparent;
+  background-image: linear-gradient(90deg, var(--brandA), var(--brandB));
+  -webkit-background-clip: text; background-clip: text;
+}
+
+/* Focus items not bold; keep your color coding */
+.focus .focus-list li{ font-weight: 400; }
+
 
