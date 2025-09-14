@@ -5,7 +5,7 @@ title: Poster / Publication
 # Poster / Publication
 
 <div class="poster-hero">
-  <img src="/assets/pubs/masters-poster.png" alt="AIMSE 2023 poster" />
+  <img src="/assets/pubs/masters-poster.PNG" alt="AIMSE 2023 poster" />
 </div>
 
 <div class="metrics">
