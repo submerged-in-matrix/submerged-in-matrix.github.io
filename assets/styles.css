@@ -632,4 +632,44 @@ h1 + .lead{ margin-top:6px; }
 /* Focus items not bold; keep your color coding */
 .focus .focus-list li{ font-weight: 400; }
 
+/* ---------- Card hover animations (consistent everywhere) ---------- */
+.card{
+  transition: transform 220ms cubic-bezier(.2,.8,.2,1),
+              box-shadow 220ms ease,
+              border-color 220ms ease;
+  will-change: transform;
+}
+
+/* Default (non-lean) cards lift slightly */
+.card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 18px 36px rgba(2,6,23,.45), inset 0 1px 0 rgba(255,255,255,.08);
+  border-color: rgba(148,163,184,.45);
+}
+
+/* Leaned cards: soften the tilt + lift a bit */
+.card.lean-left:hover{
+  transform: perspective(900px) rotateY(-7deg) rotateZ(-3deg) translateY(2px);
+}
+.card.lean-right:hover{
+  transform: perspective(900px) rotateY(7deg)  rotateZ(3deg)  translateY(2px);
+}
+
+/* Impact gets a slightly stronger glow */
+.card.impact:hover{
+  box-shadow: 0 22px 44px rgba(2,6,23,.55), inset 0 0 0 1px rgba(125,211,252,.40);
+}
+
+/* Ensure Focus uses the same hover feel */
+.card.focus.lean-right:hover{
+  transform: perspective(900px) rotateY(7deg) rotateZ(3deg) translateY(28px);
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .card{ transition:none; }
+  .card:hover{ transform:none; box-shadow:none; }
+}
+
+
 
