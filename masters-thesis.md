@@ -30,8 +30,8 @@ title: Masters Thesis
   
 </p>
 
-<div class="gallery">
-  <figure class="figure tilt">
+<div class="gallery stack">
+  <figure class="figure fullbleed">
     <a href="#mfig1"><img src="/assets/img/masters/fig1.png" alt="Stiffness force"></a>
     <figcaption><strong>SINDy</strong> capturing the EM-sensor’s stiffness force (oscillator-type).</figcaption>
   </figure>
@@ -43,4 +43,5 @@ title: Masters Thesis
   </figure>
   <div id="mfig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/masters/fig2.png" alt=""></div>
 </div>
+
 
