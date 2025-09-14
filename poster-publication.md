@@ -14,7 +14,7 @@ title: Poster / Publication
   <span class="metric good">Magnetoelectric sensors</span>
 </div>
 
-<p class="poster-note"><span class="label">About:</span> Conference organized by <a href="https://www.dgm.de" target="_blank" rel="noopener">DGM</a>, focused on the application of AI across sub-domains of Materials Science &amp; Engineering.</p>
+<p class="poster-note"><span class="label">About:</span> <strong> AIMSE, 2023 : <strong> (22-23 November, Saarbrücken, Germany): A two-yearly Conference organized by <a href="https://www.dgm.de" target="_blank" rel="noopener">DGM</a>, focused on the application of AI across sub-domains of Materials Science &amp; Engineering.</p>
 
 <div class="doc-actions">
   <a class="btn" href="/assets/pubs/masters-abstract.pdf" target="_blank" rel="noopener">Read abstract (PDF)</a>
