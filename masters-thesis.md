@@ -5,19 +5,24 @@ title: Masters Thesis
 # SINDy + ANN for Magnetoelectric Sensors
 
 <div class="media">
-  <video src="/assets/video/masters/hero.wmv" autoplay muted loop playsinline></video>
+  <video src="/assets/video/masters/hero.mp4" autoplay muted loop playsinline></video>
 </div>
 
 <div class="metrics">
   <span class="metric">Thesis</span>
   <span class="metric alt">SINDy + ANN</span>
   <span class="metric good">Magnetoelectric sensors</span>
+  <span class="metric">R² SINDy: 0.986 (deriv)</span>
+  <span class="metric">R² SINDy: 0.991 (signal)</span>
+  <span class="metric good">DNNS: 99.85–100%</span>
 </div>
 
-**What:** Designed the excitation & acquisition pipeline (MATLAB + audio interface) **and** built ML-pipelines (SINDy,  ANN: MLP & LSTM ) to learn nonlinear EM-sensor dynamics  
-**Why:** Prototype toward an implantable magnetoelectric sensor; set excitation frequency and boundary conditions to respect brain's magnetic-field constraints and safety. 
-**How:** Discovered governing differential equations via tuning the developed SINDy model which best portrays the dynamics of the system.
-**Results:** Validated via energy consistency, stiffness (oscillator-type), and damping (phase portraits); delivered an **interpretable model** that predicts the signal and its **derivatives**.
+
+<p><span class="label">What:</span> Designed the excitation & acquisition pipeline (MATLAB + audio interface) **and** built an ML stack (SINDy + small ANN residual) to learn nonlinear EM-sensor dynamics.</p>
+<p><span class="label">Why:</span> Prototype toward an implantable magnetoelectric sensor; set excitation frequency and boundary conditions to respect brain-field constraints and safety.</p>
+<p><span class="label">How:</span> Discovered governing equations with SINDy; ANN residual captured leftover nonlinearity.</p>
+<p><span class="label">Results:</span> Validated via energy consistency, stiffness (oscillator-type), and damping (phase portraits); interpretable model predicts the signal **and its derivatives**.</p>
+
 
 <p>
   <!-- Add your repo when ready -->
@@ -26,15 +31,15 @@ title: Masters Thesis
 </p>
 
 <div class="gallery">
-  <figure class="figure">
+  <figure class="figure tilt">
     <a href="#mfig1"><img src="/assets/img/masters/fig1.png" alt="Stiffness force"></a>
-    <figcaption>capturing the EM-sensor’s <strong>damping behavior</strong> (phase portraits).</figcaption>
+    <figcaption><strong>SINDy</strong> capturing the EM-sensor’s stiffness force (oscillator-type).</figcaption>
   </figure>
   <div id="mfig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/masters/fig1.png" alt=""></div>
 
-  <figure class="figure">
+  <figure class="figure tilt">
     <a href="#mfig2"><img src="/assets/img/masters/fig2.png" alt="Damping force"></a>
-    <figcaption>SINDy capturing the EM-sensor’s <strong>stiffness force</strong> (oscillator-type).</figcaption>
+    <figcaption><strong>SINDy</strong> capturing the EM-sensor’s damping behavior (phase portraits).</figcaption>
   </figure>
   <div id="mfig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/masters/fig2.png" alt=""></div>
 </div>
