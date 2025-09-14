@@ -5,7 +5,7 @@ title: Masters Thesis
 # SINDy + ANN for Magnetoelectric Sensors
 
 <div class="media">
-  <video src="/assets/video/masters/hero.mp4" autoplay muted loop playsinline></video>
+  <video src="/assets/video/masters/hero.wmv" autoplay muted loop playsinline></video>
 </div>
 
 <div class="metrics">
@@ -28,13 +28,13 @@ title: Masters Thesis
 <div class="gallery">
   <figure class="figure">
     <a href="#mfig1"><img src="/assets/img/masters/fig1.png" alt="Stiffness force"></a>
-    <figcaption>SINDy capturing the EM-sensor’s <strong>stiffness force</strong> (oscillator-type).</figcaption>
+    <figcaption>capturing the EM-sensor’s <strong>damping behavior</strong> (phase portraits).</figcaption>
   </figure>
   <div id="mfig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/masters/fig1.png" alt=""></div>
 
   <figure class="figure">
     <a href="#mfig2"><img src="/assets/img/masters/fig2.png" alt="Damping force"></a>
-    <figcaption>SINDy capturing the EM-sensor’s <strong>damping behavior</strong> (phase portraits).</figcaption>
+    <figcaption>SINDy capturing the EM-sensor’s <strong>stiffness force</strong> (oscillator-type).</figcaption>
   </figure>
   <div id="mfig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/masters/fig2.png" alt=""></div>
 </div>
