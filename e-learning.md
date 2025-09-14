@@ -33,7 +33,7 @@ title: E-Learning
 </div>
 
 <div class="card">
-  <h3>Generative AI for Data Scientists · Specialization · Dec 2024 · completed</h3>
+  <h3>Generative AI for Data Scientists Specialization  · IBM · Dec 2024 · completed</h3>
   <ul>
     <li><span class="label">Takeaway:</span> Prompt engineering and hands-on GenAI for data augmentation, feature ideas, and model refinement.</li>
     <li><span class="label">Applied in:</span> Semantic band-gap knowledge graph & LLM-assisted retrieval (see <a href="/projects">Projects</a>).</li>
@@ -41,7 +41,7 @@ title: E-Learning
 </div>
 
 <div class="card">
-  <h3>FEM — Linear, Nonlinear Analysis & Post-Processing · Coursera Project · May 2025 · completed</h3>
+  <h3>FEM — Linear, Nonlinear Analysis & Post-Processing · Coursera Project Network · May 2025 · completed</h3>
   <ul>
     <li><span class="label">Takeaway:</span> Set up linear/nonlinear static analyses, cloud simulation, and post-processing for validation.</li>
     <li><span class="label">Applied in:</span> Sensor modeling (Masters) and 2D elasticity work; complements COMSOL/Abaqus skills.</li>
