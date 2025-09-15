@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Melting-Point Prediction (2-Level Decorrelated Ensemble)
+permalink: /projects/mp-ensemble/
 ---
 # Melting-Point Prediction (Multi-level ML)
 
