@@ -3,25 +3,35 @@ layout: default
 title: 2D Linear Elasticity via PINN
 ---
 # 2D Linear Elasticity via PINN
+
 <div class="media">
-  <img src="/assets/img/projects/pinn-elasticity/hero.png" alt="PINN elasticity demo"/>
+  <img src="/assets/img/projects/pinn-elasticity/hero.png" alt="Obeyance of Hooke's law by the PINN model for the collocation points" />
 </div>
+
 <div class="metrics">
-  <span class="metric">PINN</span>
-  <span class="metric alt">BCs: Dirichlet/Neumann</span>
-  <span class="metric good">Matches FEM baseline</span>
+  <span class="metric">PINN, TensorFlow</span>
+  <span class="metric alt">Hypercube Sampling, 2D linear-elasticity</span>
+  <span class="metric good">Lowest loss: 2.22 (6 layers, 15 neurons each)</span>
 </div>
-**What:** Solve plane-stress elasticity with a physics-informed NN.  
-**Why:** Continuous fields, fewer meshing headaches; differentiable BCs.  
-**How:** PDE loss + BC penalty; cosine annealing; Xavier init.  
-**Results:** Strain/stress fields match FEM within ±ε; smooth gradients.
 
-**Links:** <a class="btn" href="YOUR_REPO_URL" target="_blank" rel="noopener">GitHub</a>
+<p><span class="label">What:</span> Physics-informed NN for 2D linear elasticity predicting <strong>Ux, Uy, σxx, σyy, σxy</strong>.</p>
+<p><span class="label">Why:</span> Reduce reliance on dense FEM labels and deliver <strong>fast, physics-consistent</strong> field predictions for design sweeps.</p>
+<p><span class="label">How:</span> TensorFlow PINN with <strong>Navier–Cauchy + Hooke</strong> residuals; Latin-hypercube collocation; Dirichlet/Neumann BCs; <strong>27-config</strong> hyperparameter sweep with validation tracking.</p>
+<p><span class="label">Results:</span> Best topology <strong>6×15</strong>, dropout 0.3 (Glorot) reached <strong>val loss 2.22</strong>, producing smooth, physically coherent fields and a clear path to add <strong>R²</strong> vs FEM ground truth.</p>
 
-<div class="gallery">
-  <figure class="figure"><a href="#pe1"><img src="/assets/img/projects/pinn-elasticity/fig1.png" alt=""></a><figcaption>Domain & BCs.</figcaption></figure>
-  <div id="pe1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/pinn-elasticity/fig1.png" alt=""></div>
 
-  <figure class="figure"><a href="#pe2"><img src="/assets/img/projects/pinn-elasticity/fig2.png" alt=""></a><figcaption>PINN vs FEM parity.</figcaption></figure>
-  <div id="pe2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/pinn-elasticity/fig2.png" alt=""></div>
+<p><a class="btn" href="https://github.com/submerged-in-matrix/materials-ml-projects-/tree/main/Projects/P_3_PINN_Linear_Elasticity" target="_blank" rel="noopener">GitHub</a></p>
+
+<div class="gallery stack">
+  <figure class="figure tilt">
+    <a href="#pinn-fig1"><img src="/assets/img/projects/pinn-elasticity/fig1.png" alt=""></a>
+    <figcaption><em>Residuals for the shear-stress components (point-wise) predicted by the PINN.</em></figcaption>
+  </figure>
+  <div id="pinn-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/pinn-elasticity/fig1.png" alt=""></div>
+
+  <figure class="figure tilt">
+    <a href="#pinn-fig2"><img src="/assets/img/projects/pinn-elasticity/fig2.png" alt=""></a>
+    <figcaption><em>Residuals for the Neumann-BCs (point-wise) predicted by the PINN </em></figcaption>
+  </figure>
+  <div id="pinn-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/pinn-elasticity/fig2.png" alt=""></div>
 </div>
