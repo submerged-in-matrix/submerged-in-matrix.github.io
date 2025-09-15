@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Oxidation-State Assignment
+permalink: /projects/oxidation-states/
 ---
 # Oxidation-State Assignment
 
