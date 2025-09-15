@@ -6,7 +6,7 @@ permalink: /projects/patterns-matter/
 # Materials Database App
 
 <div class="media">
-  <img src="/assets/img/db-app/projects/hero.png" alt="Results with provenance & one-click View/Download" />
+  <img src="/assets/img/projects/db-app/hero.png" alt="Results with provenance & one-click View/Download" />
 </div>
 
 <div class="metrics">
