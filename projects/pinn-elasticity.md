@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 2D Linear Elasticity via PINN
+permalink: /projects/pinn-elasticity/
 ---
 # 2D Linear Elasticity via PINN
 
