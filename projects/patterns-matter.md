@@ -27,13 +27,13 @@ permalink: /projects/patterns-matter/
 <div class="gallery stack">
   <figure class="figure tilt">
     <a href="#db-fig1"><img src="/assets/img/projects/db-app/fig1.png" alt=""></a>
-    <figcaption><em>[Caption for fig1]</em></figcaption>
+    <figcaption><em>Normalized schema for datasets → features → results.</em></figcaption>
   </figure>
   <div id="db-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
     <a href="#db-fig2"><img src="/assets/img/projects/db-app/fig2.png" alt=""></a>
-    <figcaption><em>[Caption for fig2]</em></figcaption>
+    <figcaption><em>Idempotent ETL with type validation & Drive-backed delivery</em></figcaption>
   </figure>
   <div id="db-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig2.png" alt=""></div>
 </div>
