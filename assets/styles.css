@@ -852,3 +852,10 @@ h1 + .lead{ margin-top:6px; }
 .proj-card p{ margin:0 0 8px; color:var(--muted); }
 .proj-card .chips{ gap:8px; }
 
+.proj-card h3 a.proj-link{ text-decoration:none; color:inherit; }
+.proj-card h3 a.proj-link:hover{
+  background-image: linear-gradient(90deg, var(--brandA), var(--brandB));
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+}
+
+
