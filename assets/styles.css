@@ -822,4 +822,33 @@ h1 + .lead{ margin-top:6px; }
 .el-box .card ul li:first-child .label{ color:#22d3ee; font-weight:800; } /* Takeaway = cyan */
 .el-box .card ul li:last-child  .label{ color:#a78bfa; font-weight:800; } /* Applied in = violet */
 
+/* Compact project cards: no images */
+.proj-card.compact{
+  padding:14px;
+  min-height:auto;
+}
+.proj-card.compact h3{ margin:0 0 6px; }
+.proj-card.compact p{ margin:0 0 8px; }
+
+/* Project cards */
+.proj-grid{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+@media (max-width:960px){ .proj-grid{ grid-template-columns:1fr; } }
+
+.proj-card{
+  display:block; text-decoration:none; color:inherit;
+  background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+  border:1px solid rgba(148,163,184,.18); border-radius:16px; padding:12px;
+  transition:transform .22s cubic-bezier(.2,.8,.2,1), box-shadow .22s ease;
+}
+.proj-card:hover{ transform:translateY(-6px); box-shadow:0 18px 36px rgba(2,6,23,.45); }
+
+.proj-card img{
+  width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:12px;
+  border:2px solid transparent;
+  background:linear-gradient(#0b1220,#0b1220) padding-box,
+             linear-gradient(90deg, var(--brandA), var(--brandB)) border-box;
+}
+.proj-card h3{ font-family:var(--title-font); margin:8px 0 4px; }
+.proj-card p{ margin:0 0 8px; color:var(--muted); }
+.proj-card .chips{ gap:8px; }
 
