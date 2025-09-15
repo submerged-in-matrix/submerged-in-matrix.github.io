@@ -3,51 +3,62 @@ layout: default
 title: Selected Projects
 ---
 # Selected Projects
-<p class="muted">Quick jump to the work that best represents me. Each opens a concise page with What · Why · How · Results + GitHub..</p>
+<p class="muted">Six quick cards—click to see the full page with What · Why · How · Results.</p>
 
 <div class="proj-grid">
 
-  <a class="proj-card" href="/pinn-elasticity">
-    <img src="/assets/img/projects/pinn-elasticity/hero.png" alt="PINN Elasticity">
+  <a class="proj-card compact" href="/pinn-elasticity">
     <h3>2D Linear Elasticity via PINN</h3>
-    <p>Physics-informed NN reproducing FE strain/stress; fast BC sweeps.</p>
-    <p class="chips"><span class="badge">PINN</span><span class="badge alt">avg. validation Loss: 2.22</span><span class="badge alt">Hypercube sampling</span></p>
+    <p>Physics-informed NN for fast, physics-consistent field predictions.</p>
+    <p class="chips">
+      <span class="badge">PINN</span><span class="badge alt">FEM</span>
+      <span class="badge alt">val loss 2.22</span>
+    </p>
   </a>
 
-  <a class="proj-card" href="/mp-ensemble">
-    <img src="/assets/img/projects/mp-ensemble/hero.png" alt="Melting Point Ensemble">
+  <a class="proj-card compact" href="/mp-ensemble">
     <h3>Melting-Point Prediction (2-Level Ensemble)</h3>
-    <p>Optimized custom stacking order (10 models); R² ≈ 0.83 (~20k, Citrination); Custom 2nd layer.</p>
-    <p class="chips"><span class="badge">Decorrelated 2-level Ensemble</span><span class="badge alt">RDKit</span><span class="badge alt">Bayesian Optimization</p>
+    <p>Stacked RF/XGB/LGBM/MLP with SHAP-guided features.</p>
+    <p class="chips">
+      <span class="badge">R² ≈ 0.83</span><span class="badge alt">~20k samples</span>
+      <span class="badge alt">Ensemble</span>
+    </p>
   </a>
 
-  <a class="proj-card" href="/oxidation-states">
-    <img src="/assets/img/projects/oxidation-states/hero.png" alt="Oxidation States">
+  <a class="proj-card compact" href="/oxidation-states">
     <h3>Oxidation-State Assignment</h3>
-    <p>Soft-voting ensemble on ~7k OQMD; proxy R² ≈ 0.91 with lean data.</p>
-    <p class="chips"><span class="badge">Ensembles</span><span class="badge alt">OQMD</span></p>
+    <p>Soft-voting ensemble on lean OQMD/ICSD data.</p>
+    <p class="chips">
+      <span class="badge">Proxy R² ≈ 0.91</span><span class="badge alt">~7k OQMD</span>
+      <span class="badge alt">Weighted voting</span>
+    </p>
   </a>
 
-  <a class="proj-card" href="/bandgap-kg">
-    <img src="/assets/img/projects/bandgap-kg/hero.png" alt="Bandgap KG">
+  <a class="proj-card compact" href="/bandgap-kg">
     <h3>Semantic Band-Gap (LLM + KG)</h3>
-    <p>RDF/SPARQL schema with LLM-assisted retrieval for explainable lookups.</p>
-    <p class="chips"><span class="badge">LLM(Ollama local)</span><span class="badge alt">Knowledge Graph</span><span class="badge alt">Semiconductor (0-3.5 ev)</span></p>
+    <p>RDF/SPARQL schema with LLM-assisted, explainable queries.</p>
+    <p class="chips">
+      <span class="badge">RDF/SPARQL</span><span class="badge alt">LLM</span>
+      <span class="badge alt">Explainable</span>
+    </p>
   </a>
 
-  <a class="proj-card" href="/db-app">
-    <img src="/assets/img/projects/db-app/hero.png" alt="Materials DB App">
+  <a class="proj-card compact" href="/db-app">
     <h3>Materials Database App</h3>
-    <p>Auto-ETL + Flask UI; track datasets → features → results.</p>
-    <p class="chips"><span class="badge">Flask</span><span class="badge alt">SQLite</span><span class="badge alt">CRUD</span></p>
+    <p>Auto-ETL + Flask UI to track datasets → features → results.</p>
+    <p class="chips">
+      <span class="badge">Auto-ETL</span><span class="badge alt">Flask + SQLite</span>
+      <span class="badge alt">CRUD</span>
+    </p>
   </a>
 
-  <a class="proj-card" href="/formation-energy">
-    <img src="/assets/img/projects/formation-energy/hero.png" alt="Formation Energy">
+  <a class="proj-card compact" href="/formation-energy">
     <h3>Formation-Energy Prediction</h3>
-    <p>Practical targets & features; R2: 0.971-0.998.</p>
-    <p class="chips"><span class="badge">Matminer</span><span class="badge alt">Pycaret</span></p>
+    <p>AutoML baseline with Matminer features and MAE-first selection.</p>
+    <p class="chips">
+      <span class="badge">R² 0.971–0.998</span><span class="badge alt">Matminer</span>
+      <span class="badge alt">PyCaret</span>
+    </p>
   </a>
 
 </div>
-
