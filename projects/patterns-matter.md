@@ -1,15 +1,39 @@
 ---
 layout: default
 title: Materials Database App
+permalink: /projects/patterns-matter/
 ---
-# Materials Database App — ETL + Flask/SQLite
+# Materials Database App
+
 <div class="media">
-  <video src="/assets/video/db-app-demo.mp4" autoplay muted loop playsinline></video>
+  <img src="/assets/img/db-app/projects/hero.png" alt="Results with provenance & one-click View/Download" />
 </div>
+
 <div class="metrics">
-  <span class="metric">SQLite schema</span>
-  <span class="metric alt">ETL pipeline</span>
-  <span class="metric good">Dockerized</span>
+  <span class="metric">Auto-ETL</span>
+  <span class="metric alt">Flask + SQLite</span>
+  <span class="metric good">Pipelines → Results</span>
 </div>
-**Links:** <a class="btn" href="REPO_URL" target="_blank">GitHub</a> <a class="btn" href="DEMO_URL" target="_blank">Live Demo</a>
-<figure class="figure"><img src="/assets/img/projects/db-app/schema.png" alt=""><figcaption>ERD: tables & keys.</figcaption></figure>
+
+<p><span class="label">What:</span> Built a <strong>Flask/Jinja</strong> app with <strong>SQLite</strong> backend for admin CRUD, role-based access, secure file delivery, metadata tracking, and keyword search.</p>
+<p><span class="label">Why:</span> Provide <strong>governed, reproducible</strong> management of research files and tabular datasets for collaborative work.</p>
+<p><span class="label">How:</span> Automated ETL (CSV/NPY → pandas → SQL), type validation, normalized schemas, <strong>idempotent imports</strong>, and Google Drive API integration for ingestion, preview, and download.</p>
+<p><span class="label">Results:</span> <strong>Provenance & timestamps</strong> on every dataset, cleaner imports, and faster find-and-reuse—creating a dependable data hub for the team.</p>
+
+
+
+<p><a class="btn" href="https://github.com/submerged-in-matrix/Patterns-Matter" target="_blank" rel="noopener">GitHub</a></p>
+
+<div class="gallery stack">
+  <figure class="figure tilt">
+    <a href="#db-fig1"><img src="/assets/img/projects/db-app/fig1.png" alt=""></a>
+    <figcaption><em>[Caption for fig1]</em></figcaption>
+  </figure>
+  <div id="db-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig1.png" alt=""></div>
+
+  <figure class="figure tilt">
+    <a href="#db-fig2"><img src="/assets/img/projects/db-app/fig2.png" alt=""></a>
+    <figcaption><em>[Caption for fig2]</em></figcaption>
+  </figure>
+  <div id="db-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig2.png" alt=""></div>
+</div>
