@@ -6,7 +6,7 @@ permalink: /projects/oxidation-states/
 # Oxidation-State Assignment
 
 <div class="media">
-  <img src="/assets/img/projects/oxidation-states/hero.png" alt="Choosing optimized weights for the base models" />
+  <img src="/assets/img/projects/oxi-ensemble/hero.png" alt="Choosing optimized weights for the base models" />
 </div>
 
 <div class="metrics">
@@ -24,14 +24,14 @@ permalink: /projects/oxidation-states/
 
 <div class="gallery stack">
   <figure class="figure tilt">
-    <a href="#ox-fig1"><img src="/assets/img/projects/oxidation-states/fig1.png" alt=""></a>
+    <a href="#ox-fig1"><img src="/assets/img/projects/oxi-ensemble/fig1.png" alt=""></a>
     <figcaption><em>Choosing optimum feature-matrix size from SHAP-ranked features (all).</em></figcaption>
   </figure>
-  <div id="ox-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxidation-states/fig1.png" alt=""></div>
+  <div id="ox-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxi-ensemble/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
-    <a href="#ox-fig2"><img src="/assets/img/projects/oxidation-states/fig2.png" alt=""></a>
+    <a href="#ox-fig2"><img src="/assets/img/projects/oxi-ensemble/fig2.png" alt=""></a>
     <figcaption><em>Deciding on Iteration No. for tuning the hyperparameters of the base learners using Hyperopt.</em></figcaption>
   </figure>
-  <div id="ox-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxidation-states/fig2.png" alt=""></div>
+  <div id="ox-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxi-ensemble/fig2.png" alt=""></div>
 </div>
