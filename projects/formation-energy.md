@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Formation-Energy Prediction
+permalink: /projects/formation-energy/
 ---
 # Formation-Energy Prediction
 
