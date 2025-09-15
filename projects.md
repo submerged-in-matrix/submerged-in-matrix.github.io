@@ -21,7 +21,7 @@ title: Selected Projects
     <p>Stacked RF/XGB/LGBM/MLP with SHAP-guided features.</p>
     <p class="chips">
       <span class="badge">R² ≈ 0.83</span><span class="badge alt">~20k samples</span>
-      <span class="badge alt">Ensemble</span>
+      <span class="badge alt">2 level Ensemble</span>
     </p>
   </a>
 
@@ -30,7 +30,7 @@ title: Selected Projects
     <p>Soft-voting ensemble on lean OQMD/ICSD data.</p>
     <p class="chips">
       <span class="badge">Proxy R² ≈ 0.91</span><span class="badge alt">~7k OQMD</span>
-      <span class="badge alt">Weighted voting</span>
+      <span class="badge alt">Weighted soft voting</span>
     </p>
   </a>
 
