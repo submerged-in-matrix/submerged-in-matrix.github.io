@@ -28,11 +28,12 @@ title: Formation-Energy Prediction
     <a href="#fe-fig1"><img src="/assets/img/projects/formation-energy/fig1.png" alt=""></a>
     <figcaption><em>Predicion vs. ground truth of the best models (for both metrics)</em></figcaption>
   </figure>
-  <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/formation-energy/projects/fig1.png" alt=""></div>
+  <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/formation-energy/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
     <a href="#fe-fig2"><img src="/assets/img/projects/formation-energy/fig2.png" alt=""></a>
     <figcaption><em>Learning curve for ExtraTrees Regressor (MAE sorted)</em></figcaption>
   </figure>
-  <div id="fe-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/formation-energy/projects/fig2.png" alt=""></div>
+  <div id="fe-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/formation-energy/fig2.png" alt=""></div>
 </div>
+
