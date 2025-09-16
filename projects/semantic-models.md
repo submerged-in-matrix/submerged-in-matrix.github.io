@@ -6,7 +6,7 @@ permalink: /projects/semantic-models/
 # Semantic Band-Gap (LLM + KG)
 
 <div class="media">
-  <img src="/assets/img/bandgap-kg/projects/hero.png" alt="[Hero caption here]" />
+  <img src="/assets/img/projects/semantic-models/hero.png" alt="[Hero caption here]" />
 </div>
 
 <div class="metrics">
@@ -24,14 +24,14 @@ permalink: /projects/semantic-models/
 
 <div class="gallery stack">
   <figure class="figure tilt">
-    <a href="#kg-fig1"><img src="/assets/img/bandgap-kg/projects/fig1.png" alt=""></a>
+    <a href="#kg-fig1"><img src="/assets/img/projects/semantic-models/fig1.png" alt=""></a>
     <figcaption><em>Ontology used in the mini MSE KG—Material with five literal properties.]</em></figcaption>
   </figure>
-  <div id="kg-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/bandgap-kg/projects/fig1.png" alt=""></div>
+  <div id="kg-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/semantic-models/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
-    <a href="#kg-fig2"><img src="/assets/img/bandgap-kg/projects/fig2.png" alt=""></a>
+    <a href="#kg-fig2"><img src="/assets/img/projects/semantic-models/fig2.png" alt=""></a>
     <figcaption><em>[Caption for fig2]</em></figcaption>
   </figure>
-  <div id="kg-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/bandgap-kg/projects/fig2.png" alt=""></div>
+  <div id="kg-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/semantic-models/fig2.png" alt=""></div>
 </div>
