@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Semantic Band-Gap (LLM + KG)
+permalink: /projects/semantic-models/
 ---
 # Semantic Band-Gap (LLM + KG)
 
@@ -24,7 +25,7 @@ title: Semantic Band-Gap (LLM + KG)
 <div class="gallery stack">
   <figure class="figure tilt">
     <a href="#kg-fig1"><img src="/assets/img/bandgap-kg/projects/fig1.png" alt=""></a>
-    <figcaption><em>[Caption for fig1]</em></figcaption>
+    <figcaption><em>Ontology used in the mini MSE KG—Material with five literal properties.]</em></figcaption>
   </figure>
   <div id="kg-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/bandgap-kg/projects/fig1.png" alt=""></div>
 
