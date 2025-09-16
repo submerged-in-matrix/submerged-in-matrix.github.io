@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-<img src="/assets/img/copy.jpg" alt="Md. Saidul Islam" class="profile" />
+<img src="/assets/img/copy.png" alt="Md. Saidul Islam" class="profile" />
 
 <h1 class="name-3d">Md. Saidul Islam</h1>
 
