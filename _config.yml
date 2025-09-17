@@ -13,8 +13,6 @@ nav:
     link: /
   - name: Masters Thesis
     link: /masters-thesis
-  - name: Bachelor Thesis
-    link: /bachelor-thesis
   - name: Projects
     link: /projects
   - name: E-Learning
@@ -29,6 +27,8 @@ nav:
     link: /profiles
   - name: Contact
     link: /contact
+  - name: Recommendation
+    link: /recommendation
 
 
 # Socials / meta
