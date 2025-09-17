@@ -5,7 +5,7 @@ permalink: /projects/mp-ensemble/
 ---
 # Melting-Point Prediction (Multi-level ML)
 
-<div class="media">
+<div class="media hero">
   <img src="/assets/img/projects/mp-ensemble/hero.png" alt="effect of Stacking order on Ensemble performance" />
 </div>
 
@@ -23,17 +23,25 @@ permalink: /projects/mp-ensemble/
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/materials-ml-projects-/tree/main/Projects/P_4_MP_Pred_2_Lvl_Ensemble" target="_blank" rel="noopener">GitHub</a></p>
 
-<div class="gallery stack">
+<div class="gallery equal">
   <figure class="figure tilt">
-    <a href="#mp-fig1"><img src="/assets/img/projects/mp-ensemble/fig1.png" alt=""></a>
+    <a href="#fe-fig1">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/mp-ensemble/fig1.png" alt="Heat-map">
+      </div>
+    </a>
     <figcaption><em>Heatmap (pair-wise correlations) on prediction accuracy for validation data.</em></figcaption>
   </figure>
-  <div id="mp-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/mp-ensemble/fig1.png" alt=""></div>
+  <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/mp-ensemble/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
-    <a href="#mp-fig2"><img src="/assets/img/projects/mp-ensemble/fig2.png" alt=""></a>
+    <a href="#fe-fig2">
+      <div class="frame">
+        <img class="pixel-safe wide" src="/assets/img/projects/mp-ensemble/fig2.png" alt="Sorting features">
+      </div>
+    </a>
     <figcaption><em>Top 20 SHAP features</em></figcaption>
   </figure>
-  <div id="mp-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/mp-ensemble/fig2.png" alt=""></div>
+  <div id="fe-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/mp-ensemble/fig2.png" alt=""></div>
 </div>
 
