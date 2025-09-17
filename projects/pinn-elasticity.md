@@ -5,9 +5,12 @@ permalink: /projects/pinn-elasticity/
 ---
 # 2D Linear Elasticity via PINN
 
-<div class="media">
-  <img src="/assets/img/projects/pinn-elasticity/hero.png" alt="Obeyance of Hooke's law by the PINN model for the collocation points" />
+<div class="media hero" data-alt="Obeyance of Navier-Cauchy equation by the PINN model for the collocation points">
+  <img src="/assets/img/projects/pinn-elasticity/hero.png"
+       alt="Obeyance of Navier-Cauchy equation by the PINN model for the collocation points">
 </div>
+
+<div class="hero-note">Obeyance of Navier-Cauchy equation by the PINN model for the collocation points</div>
 
 <div class="metrics">
   <span class="metric">PINN, TensorFlow</span>
@@ -20,19 +23,27 @@ permalink: /projects/pinn-elasticity/
 <p><span class="label">How:</span> TensorFlow PINN with <strong>Navier–Cauchy + Hooke</strong> residuals; Latin-hypercube collocation; Dirichlet/Neumann BCs; <strong>27-config</strong> hyperparameter sweep with validation tracking.</p>
 <p><span class="label">Results:</span> Best topology <strong>6×15</strong>, dropout 0.3 (Glorot) reached <strong>val loss 2.22</strong>, producing smooth, physically coherent fields and a clear path to add <strong>R²</strong> vs FEM ground truth.</p>
 
-
 <p><a class="btn" href="https://github.com/submerged-in-matrix/materials-ml-projects-/tree/main/Projects/P_3_PINN_Linear_Elasticity" target="_blank" rel="noopener">GitHub</a></p>
 
-<div class="gallery stack">
+<div class="gallery equal">
   <figure class="figure tilt">
-    <a href="#pinn-fig1"><img src="/assets/img/projects/pinn-elasticity/fig1.png" alt=""></a>
+    <a href="#fe-fig1">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/pinn-elasticity/fig1.png" alt="Residuals">
+      </div>
+    </a>
     <figcaption><em>Residuals for the shear-stress components (point-wise) predicted by the PINN.</em></figcaption>
   </figure>
-  <div id="pinn-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/pinn-elasticity/fig1.png" alt=""></div>
+  <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/pinn-elasticity/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
-    <a href="#pinn-fig2"><img src="/assets/img/projects/pinn-elasticity/fig2.png" alt=""></a>
-    <figcaption><em>Residuals for the Neumann-BCs (point-wise) predicted by the PINN </em></figcaption>
+    <a href="#fe-fig2">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/pinn-elasticity/fig2.png" alt="Neumann-BC">
+      </div>
+    </a>
+    <figcaption><em>Residuals for the Neumann-BCs (point-wise) predicted by the PINN</em></figcaption>
   </figure>
-  <div id="pinn-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/pinn-elasticity/fig2.png" alt=""></div>
+  <div id="fe-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/pinn-elasticity/fig2.png" alt=""></div>
 </div>
+
