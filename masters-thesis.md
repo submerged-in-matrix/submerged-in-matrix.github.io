@@ -4,10 +4,9 @@ title: Masters Thesis
 ---
 # SINDy + ANN for Magnetoelectric Sensors
 
-<figure class="media hero">
-  <video src="/assets/video/masters/hero.mp4" playsinline muted controls></video>
-  <figcaption class="hero-cap">Summary of Sindy for EM sensor </figcaption>
-</figure>
+<div class="media">
+  <video src="/assets/video/masters/hero.mp4" autoplay muted loop playsinline></video>
+</div>
 
 <div class="metrics">
   <span class="metric">Thesis</span>
