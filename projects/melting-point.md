@@ -5,9 +5,10 @@ permalink: /projects/mp-ensemble/
 ---
 # Melting-Point Prediction (Multi-level ML)
 
-<div class="media hero">
-  <img src="/assets/img/projects/mp-ensemble/hero.png" alt="effect of Stacking order on Ensemble performance" />
+<div class="media hero" data-alt="Effect of stacking order on ensemble performance">
+  <img src="/assets/img/projects/mp-ensemble/hero.png" alt="Effect of stacking order on ensemble performance" />
 </div>
+
 
 <div class="metrics">
   <span class="metric">R² ≈ 0.83</span>
