@@ -5,8 +5,8 @@ permalink: /projects/formation-energy/
 ---
 # Formation-Energy Prediction
 
-<div class="media">
-  <img src="/assets/img/projects/formation-energy/hero.png" alt="[Hero caption here]" />
+<div class="media hero">
+  <img src="/assets/img/projects/formation-energy/hero.png" alt="Performance summary of the best models" />
 </div>
 
 <div class="metrics">
@@ -24,17 +24,24 @@ permalink: /projects/formation-energy/
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/materials-ml-projects-/tree/main/Projects/P_2_Formation_Energy_Prediction" target="_blank" rel="noopener">GitHub</a></p>
 
-<div class="gallery stack">
+<div class="gallery equal">
   <figure class="figure tilt">
-    <a href="#fe-fig1"><img src="/assets/img/projects/formation-energy/fig1.png" alt=""></a>
-    <figcaption><em>Predicion vs. ground truth of the best models (for both metrics)</em></figcaption>
+    <a href="#fe-fig1">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/formation-energy/fig1.png" alt="Prediction vs. ground truth">
+      </div>
+    </a>
+    <figcaption><em>Prediction vs. ground truth of the best models (for both metrics)</em></figcaption>
   </figure>
   <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/formation-energy/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
-    <a href="#fe-fig2"><img src="/assets/img/projects/formation-energy/fig2.png" alt=""></a>
+    <a href="#fe-fig2">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/formation-energy/fig2.png" alt="Learning curve (MAE sorted)">
+      </div>
+    </a>
     <figcaption><em>Learning curve for ExtraTrees Regressor (MAE sorted)</em></figcaption>
   </figure>
   <div id="fe-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/formation-energy/fig2.png" alt=""></div>
 </div>
-
