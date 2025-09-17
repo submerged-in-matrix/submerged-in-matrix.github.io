@@ -23,23 +23,7 @@ permalink: /projects/patterns-matter/
 <p><span class="label">How:</span> Automated ETL (CSV/NPY → pandas → SQL), type validation, normalized schemas, <strong>idempotent imports</strong>, and Google Drive API integration for ingestion, preview, and download.</p>
 <p><span class="label">Results:</span> <strong>Provenance & timestamps</strong> on every dataset, cleaner imports, and faster find-and-reuse—creating a dependable data hub for the team.</p>
 
-
-
 <p><a class="btn" href="https://github.com/submerged-in-matrix/Patterns-Matter" target="_blank" rel="noopener">GitHub</a></p>
-
-<div class="gallery stack">
-  <figure class="figure tilt">
-    <a href="#db-fig1"><img src="/assets/img/projects/db-app/fig1.png" alt=""></a>
-    <figcaption><em>Normalized schema for datasets → features → results.</em></figcaption>
-  </figure>
-  <div id="db-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig1.png" alt=""></div>
-
-  <figure class="figure tilt">
-    <a href="#db-fig2"><img src="/assets/img/projects/db-app/fig2.png" alt=""></a>
-    <figcaption><em>Idempotent ETL with type validation & Drive-backed delivery</em></figcaption>
-  </figure>
-  <div id="db-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig2.png" alt=""></div>
-</div>
 
 <div class="gallery equal">
   <figure class="figure tilt">
