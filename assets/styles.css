@@ -949,4 +949,13 @@ h1 + .lead{ margin-top:6px; }
 .metrics{ margin:8px 0 14px; }
 .gallery.equal{ margin-top:26px; }   /* ensures gap after GitHub button */
 
+.doc-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(220px, 1fr));
+  gap:12px;
+  max-width:640px;
+}
+@media (max-width:640px){
+  .doc-grid{ grid-template-columns:1fr; }
+}
 
