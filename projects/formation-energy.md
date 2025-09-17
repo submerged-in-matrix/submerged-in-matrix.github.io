@@ -9,6 +9,8 @@ permalink: /projects/formation-energy/
   <img src="/assets/img/projects/formation-energy/hero.png" alt="Performance summary of the best models" />
 </div>
 
+<div class="hero-note">Performance summary of the best models</div>
+
 <div class="metrics">
   <span class="metric">PyCaret</span>
   <span class="metric alt">Auto features+model selection</span>
