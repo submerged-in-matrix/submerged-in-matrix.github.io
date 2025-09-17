@@ -5,9 +5,6 @@ permalink: /projects/oxidation-states/
 ---
 # Oxidation-State Assignment
 
-<div class="media">
-  <img src="/assets/img/projects/oxi-ensemble/hero.png" alt="Choosing optimized weights for the base models" />
-</div>
 <div class="media hero" data-alt="Choosing optimized weights for the base models">
   <img src="/assets/img/projects/oxi-ensemble/hero.png"
        alt="Choosing optimized weights for the base models">
