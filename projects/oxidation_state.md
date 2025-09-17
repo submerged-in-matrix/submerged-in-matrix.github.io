@@ -8,6 +8,12 @@ permalink: /projects/oxidation-states/
 <div class="media">
   <img src="/assets/img/projects/oxi-ensemble/hero.png" alt="Choosing optimized weights for the base models" />
 </div>
+<div class="media hero" data-alt="Choosing optimized weights for the base models">
+  <img src="/assets/img/projects/oxi-ensemble/hero.png"
+       alt="Choosing optimized weights for the base models">
+</div>
+
+<div class="hero-note">Choosing optimized weights for the base models</div>
 
 <div class="metrics">
   <span class="metric">Proxy R² ≈ 0.91</span>
@@ -22,16 +28,26 @@ permalink: /projects/oxidation-states/
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/materials-ml-projects-/tree/main/Projects/P_5_Oxidation_State_Assignment" target="_blank" rel="noopener">GitHub</a></p>
 
-<div class="gallery stack">
+
+<div class="gallery equal">
   <figure class="figure tilt">
-    <a href="#ox-fig1"><img src="/assets/img/projects/oxi-ensemble/fig1.png" alt=""></a>
-    <figcaption><em>Choosing optimum feature-matrix size from SHAP-ranked features (all).</em></figcaption>
+    <a href="#fe-fig1">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/oxi-ensemble/fig1.png" alt="Choosing optimum feature-matrix size from SHAP-ranked features (all)">
+      </div>
+    </a>
+    <figcaption><em>Choosing optimum feature-matrix size from SHAP-ranked features (all)</em></figcaption>
   </figure>
-  <div id="ox-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxi-ensemble/fig1.png" alt=""></div>
+  <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxi-ensemble/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
-    <a href="#ox-fig2"><img src="/assets/img/projects/oxi-ensemble/fig2.png" alt=""></a>
+    <a href="#fe-fig2">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/oxi-ensemble/fig2.png" alt="Deciding on Iteration No. for tuning the hyperparameters of the base learners using Hyperopt.">
+      </div>
+    </a>
     <figcaption><em>Deciding on Iteration No. for tuning the hyperparameters of the base learners using Hyperopt.</em></figcaption>
   </figure>
-  <div id="ox-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxi-ensemble/fig2.png" alt=""></div>
+  <div id="fe-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxi-ensemble/fig2.png" alt=""></div>
 </div>
+
