@@ -5,9 +5,12 @@ permalink: /projects/patterns-matter/
 ---
 # Materials Database App
 
-<div class="media">
-  <img src="/assets/img/projects/db-app/hero.png" alt="Results with provenance & one-click View/Download" />
+<div class="media hero" data-alt="Results with provenance & one-click View/Download">
+  <img src="/assets/img/projects/db-app/hero.png"
+       alt="Results with provenance & one-click View/Download">
 </div>
+
+<div class="hero-note">Results with provenance & one-click View/Download</div>
 
 <div class="metrics">
   <span class="metric">Auto-ETL</span>
@@ -36,4 +39,26 @@ permalink: /projects/patterns-matter/
     <figcaption><em>Idempotent ETL with type validation & Drive-backed delivery</em></figcaption>
   </figure>
   <div id="db-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig2.png" alt=""></div>
+</div>
+
+<div class="gallery equal">
+  <figure class="figure tilt">
+    <a href="#fe-fig1">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/db-app/fig1.png" alt="Schema">
+      </div>
+    </a>
+    <figcaption><em>Normalized schema for datasets → features → results.</em></figcaption>
+  </figure>
+  <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig1.png" alt=""></div>
+
+  <figure class="figure tilt">
+    <a href="#fe-fig2">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/db-app/fig2.png" alt="ETL">
+      </div>
+    </a>
+    <figcaption><em>Idempotent ETL with type validation & Drive-backed delivery</em></figcaption>
+  </figure>
+  <div id="fe-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/db-app/fig2.png" alt=""></div>
 </div>
