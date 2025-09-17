@@ -28,7 +28,7 @@ permalink: /projects/formation-energy/
   <figure class="figure tilt">
     <a href="#fe-fig1">
       <div class="frame">
-        <img class="pixel-safe" src="/assets/img/projects/formation-energy/fig1.png" alt="Prediction vs. ground truth">
+        <img class="pixel-safe wide" src="/assets/img/projects/formation-energy/fig1.png" alt="Prediction vs. ground truth">
       </div>
     </a>
     <figcaption><em>Prediction vs. ground truth of the best models (for both metrics)</em></figcaption>
