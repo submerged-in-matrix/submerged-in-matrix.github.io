@@ -5,9 +5,12 @@ permalink: /projects/semantic-models/
 ---
 # Semantic Band-Gap (LLM + KG)
 
-<div class="media">
-  <img src="/assets/img/projects/bandgap-kg/hero.png" alt="KG with ontology skeleton" />
+<div class="media hero" data-alt="NL→SPARQL with sanitizer; results rendered via rdflib.">
+  <img src="/assets/img/projects/bandgap-kg/hero.png"
+       alt="NL→SPARQL with sanitizer; results rendered via rdflib.">
 </div>
+
+<div class="hero-note">NL→SPARQL with sanitizer; results rendered via rdflib.</div>
 
 <div class="metrics">
   <span class="metric">RDF/SPARQL</span>
@@ -22,16 +25,25 @@ permalink: /projects/semantic-models/
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/Semantic_models_for-MSE" target="_blank" rel="noopener">GitHub</a></p>
 
-<div class="gallery stack">
+<div class="gallery equal">
   <figure class="figure tilt">
-    <a href="#kg-fig1"><img src="/assets/img/projects/bandgap-kg/fig1.png" alt=""></a>
-    <figcaption><em>Ontology used in the mini MSE KG—Material with five literal properties.]</em></figcaption>
+    <a href="#fe-fig1">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/bandgap-kg/fig1.png" alt="Ontology">
+      </div>
+    </a>
+    <figcaption><em>Ontology used in the mini MSE KG—Material with five literal properties.</em></figcaption>
   </figure>
-  <div id="kg-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/bandgap-kg/fig1.png" alt=""></div>
+  <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/bandgap-kg/fig1.png" alt=""></div>
 
   <figure class="figure tilt">
-    <a href="#kg-fig2"><img src="/assets/img/projects/bandgap-kg/fig2.png" alt=""></a>
+    <a href="#fe-fig2">
+      <div class="frame">
+        <img class="pixel-safe" src="/assets/img/projects/bandgap-kg/fig2.png" alt="Pipeline">
+      </div>
+    </a>
     <figcaption><em>Guardrailed NL→SPARQL + typed row normalization</em></figcaption>
   </figure>
-  <div id="kg-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/bandgap-kg/fig2.png" alt=""></div>
+  <div id="fe-fig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/bandgap-kg/fig2.png" alt=""></div>
 </div>
+
