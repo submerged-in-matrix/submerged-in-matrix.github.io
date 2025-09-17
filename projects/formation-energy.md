@@ -5,8 +5,7 @@ permalink: /projects/formation-energy/
 ---
 # Formation-Energy Prediction  
 
-
-<div class="media hero">
+<div class="media hero" data-alt="Performance summary of the best models">
   <img src="/assets/img/projects/formation-energy/hero.png" alt="Performance summary of the best models" />
 </div>
 
