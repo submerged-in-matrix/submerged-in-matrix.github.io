@@ -922,5 +922,12 @@ h1 + .lead{ margin-top:6px; }
 /* Lightbox safety (if used) */
 .lb img{ max-width: min(95vw, 1400px); max-height: 90vh; object-fit: contain; }
 
-
+.media.hero::after{
+  content: attr(data-alt);
+  position:absolute; left:14px; bottom:12px;
+  background:linear-gradient(90deg, var(--brandA), var(--brandB));
+  color:#0b1220; font-weight:700; font-size:14px;
+  padding:6px 10px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,.25);
+  max-width:85%; line-height:1.35;
+}
 
