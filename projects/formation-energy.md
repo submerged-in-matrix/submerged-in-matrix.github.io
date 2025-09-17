@@ -3,7 +3,8 @@ layout: default
 title: Formation-Energy Prediction
 permalink: /projects/formation-energy/
 ---
-# Formation-Energy Prediction
+# Formation-Energy Prediction  
+
 
 <div class="media hero">
   <img src="/assets/img/projects/formation-energy/hero.png" alt="Performance summary of the best models" />
