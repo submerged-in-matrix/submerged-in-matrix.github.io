@@ -9,6 +9,7 @@ permalink: /projects/mp-ensemble/
   <img src="/assets/img/projects/mp-ensemble/hero.png" alt="Effect of stacking order on ensemble performance" />
 </div>
 
+<div class="hero-note">Effect of stacking order on ensemble performance</div>
 
 <div class="metrics">
   <span class="metric">R² ≈ 0.83</span>
