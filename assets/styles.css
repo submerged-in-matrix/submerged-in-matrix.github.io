@@ -931,3 +931,22 @@ h1 + .lead{ margin-top:6px; }
   max-width:85%; line-height:1.35;
 }
 
+/* Kill the old overlay chip on the hero (if present) */
+.media.hero::after{ content:none !important; }
+
+/* Hero note: chip BELOW the hero frame */
+.hero-note{
+  display:inline-block;
+  margin-top:10px;                 /* gap from hero frame */
+  margin-bottom:10px;              /* gap before metrics */
+  background:linear-gradient(90deg,var(--brandA),var(--brandB));
+  color:#0b1220; font-weight:700; font-size:14px;
+  padding:6px 10px; border-radius:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,.25);
+}
+
+/* Comfortable block spacing */
+.metrics{ margin:8px 0 14px; }
+.gallery.equal{ margin-top:26px; }   /* ensures gap after GitHub button */
+
+
