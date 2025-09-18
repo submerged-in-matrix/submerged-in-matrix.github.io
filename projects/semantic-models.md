@@ -5,12 +5,12 @@ permalink: /projects/semantic-models/
 ---
 # Semantic Band-Gap (LLM + KG)
 
-<div class="media hero" data-alt="NL→KG with normalization; metada for provenance".>
+<div class="media hero" data-alt="NL→KG with normalization; metada for provenance.">
   <img src="/assets/img/projects/bandgap-kg/hero.png"
-       alt="NL→KG with normalization; metada for provenance">
+       alt="NL→KG with normalization; metada for provenance.">
 </div>
 
-<div class="hero-note">NL→KG with normalization; metada for provenance".</div>
+<div class="hero-note">NL→KG with normalization; metada for provenance.</div>
 
 <div class="metrics">
   <span class="metric">RDF/SPARQL</span>
