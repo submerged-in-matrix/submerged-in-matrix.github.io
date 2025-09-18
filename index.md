@@ -19,7 +19,7 @@ title: About
   <li><strong>Shipped a materials database app</strong> with auto ETL and Fly.io deploy, enabling end-to-end tracking from raw data to model results.</li>
   <li><strong>Melting-point prediction:</strong> 2-level custom-stacking (RF/XGB/LGBM/MLP) achieved <strong>R² ≈ 0.83</strong> on ~3.041k records.</li>
   <li><strong>Oxidation-state assignment:</strong> soft-voting ensemble on ~7k OQMD samples reached <strong>R² ≈ 0.91</strong> (proxy metric), delivering <strong>competitive quality on ~15× less data</strong> than typical literature sets.</li>
-  <li><strong>Semantic band-gap knowledge graph:</strong> RDF/SPARQL schema queried via a local LLM (Ollama) for explainable lookups.</li>
+  <li><strong>Semantic band-gap knowledge graph:</strong> RDF/SPARQL schema parsed (primary task)/queried (secondary task) via a local LLM (llama3.2:3b) for explainable lookups.</li>
 </ul>
 </div>
 
