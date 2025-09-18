@@ -13,13 +13,13 @@ permalink: /projects/mp-ensemble/
 
 <div class="metrics">
   <span class="metric">R² ≈ 0.83</span>
-  <span class="metric alt">~20k samples (Citrination)</span>
+  <span class="metric alt">~3.041k samples (Citrination)</span>
   <span class="metric good">Custom decorrelated (1st) & stacking (2nd) layer</span>
 </div>
 
 <p><span class="label">What:</span> Predict melting points of organic compounds with a <strong>two-level stacking ensemble</strong> (RF/XGB/LGBM/MLP).</p>
 <p><span class="label">Why:</span> Reproduced and <strong>extended</strong> a published approach (<a href="https://link.springer.com/article/10.1134/S1995080223010341" target="_blank" rel="noopener">DOI</a>) to validate best practices on a different materials system.</p>
-<p><span class="label">How:</span> Built a ~20k dataset; featurized <strong>SMILES</strong> with RDKit + custom bond-count features; Custom-stacked tuned Ensemble.</p>
+<p><span class="label">How:</span> Parsed a ~3.041k dataset (Citrination); featurized <strong>SMILES</strong> with RDKit + custom bond-count features; Custom-stacked tuned Ensemble.</p>
 <p><span class="label">Results:</span> <strong>R² ≈ 0.83</strong>; custom stacking order improved baseline by ~<strong>4%</strong> out-of-sample.</p>
 
 
