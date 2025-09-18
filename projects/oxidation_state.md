@@ -21,7 +21,7 @@ permalink: /projects/oxidation-states/
 <p><span class="label">What:</span> Assign oxidation states in MOFs with a <strong>soft-voting ensemble</strong> of four diverse base learners.</p>
 <p><span class="label">Why:</span> Reproduced and <strong>extended</strong> a published approach (<a href="https://www.nature.com/articles/s41557-021-00717-y" target="_blank" rel="noopener">DOI</a>) to validate best practices on a custom OQMD/ICSD subset.</p>
 <p><span class="label">How:</span> Curated ~7k ICSD-tagged MOF entries from OQMD; manual target assignment; tuned four base models via mixed strategies (random search, simulated annealing, TPE) and applied <strong>weighted voting</strong>.</p>
-<p><span class="label">Results:</span> <strong>Proxy R² ≈ 0.91</strong> on ~7k samples; custom weighting improved the ensemble by ~<strong>3%</strong> vs. uniform voting.</p>
+<p><span class="label">Results:</span> <strong>Proxy R² ≈ 0.91</strong> on ~7k samples; custom weighting and custom candidate models improved the ensemble by ~<strong>~6%</strong> vs. uniform voting.</p>
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/materials-ml-projects-/tree/main/Projects/P_5_Oxidation_State_Assignment" target="_blank" rel="noopener">GitHub</a></p>
 
