@@ -21,7 +21,7 @@ permalink: /projects/formation-energy/
 
 <p><span class="label">What:</span> Built a strong AutoML baseline for formation energy using <strong>PyCaret</strong> to auto-select algorithms and features.</p>
 <p><span class="label">Why:</span> Stress-tested AutoML on a thermodynamic target with weak direct descriptors (formation energy) to gauge when AutoML is truly viable.</p>
-<p><span class="label">How:</span> Featurized <strong>chemical formulas</strong> and <strong>Pymatgen structures</strong> via Matminer; tuned PyCaret setup; compared model/feature sets by CV <strong>MAE</strong> and <strong>R²</strong>, prioritizing MAE for selection.</p>
+<p><span class="label">How:</span> Featurized <strong>chemical formulas</strong> and <strong>Pymatgen structures</strong> via Matminer; tuned PyCaret setup; compared model/feature sets by CV <strong>MAE</strong> and <strong>R²</strong>, prioritizing MAE for selection. Raw/data (4.5k) source -> Materials Project</p>
 <p><span class="label">Results:</span> <strong>MAE-first selection</strong> beat R²-first on out-of-sample performance, yielding a compact model with lower error and clearer trade-offs.</p>
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/materials-ml-projects-/tree/main/Projects/P_2_Formation_Energy_Prediction" target="_blank" rel="noopener">GitHub</a></p>
