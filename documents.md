@@ -5,7 +5,7 @@ permalink: /documents
 ---
 
 # Documents
-<p class="muted">E-learning Certificates (Coursera) & Credentials (masters, Bachelor, H.S.C) (click to view in a new tab).</p>
+<p class="muted">deutsch-telc B1, E-learning Certificates (Coursera) & Credentials (masters, Bachelor, H.S.C) (click to view in a new tab).</p>
 
 <div class="doc-grid">
   <a class="btn" href="{{ '/assets/documents/deutsch_B1.pdf' | relative_url }}" target="_blank" rel="noopener">TELC Deutsch B1 — Certificate</a>
