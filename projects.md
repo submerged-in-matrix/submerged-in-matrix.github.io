@@ -20,7 +20,7 @@ title: Selected Projects
     <h3><a class="proj-link" href="{{ '/projects/mp-ensemble/' | relative_url }}">Melting-Point Prediction (2-Level Ensemble)</a></h3>
     <p>Stacked RF/XGB/LGBM/MLP with SHAP-guided features.</p>
     <p class="chips">
-      <span class="badge">R² ≈ 0.83</span><span class="badge alt">~20k samples</span>
+      <span class="badge">R² ≈ 0.83</span><span class="badge alt">~3.041k samples</span>
       <span class="badge alt">2 level Ensemble</span>
     </p>
   </div>
