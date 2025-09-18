@@ -20,7 +20,7 @@ permalink: /projects/semantic-models/
 
 <p><span class="label">What:</span> Built a <strong>semantic knowledge graph (KG)</strong> for custom-featurized semiconductor band-gap data using RDF triples.</p>
 <p><span class="label">Why:</span> Enable <strong>structured, explainable retrieval</strong> and easy integration of heterogeneous materials datasets.</p>
-<p><span class="label">How:</span> Designed an RDF schema (materials, composition, features, measurements); ingested sources, provenence metadata to RDF; used <strong>a light-weight local Ollama</strong> model to translate natural language into executable <strong>SPARQL</strong> queries (secondary purpose) or into deduped + sanitized ingestible triples to KG (support zrl, pdf, raw fabricated text).</p>
+<p><span class="label">How:</span> Designed an RDF schema (materials, composition, structure-features, measurements); ingested sources, provenence metadata to RDF; used <strong>a light-weight local Ollama</strong> model to translate natural language: into executable <strong>SPARQL</strong> queries (secondary purpose) or into deduped + sanitized ingestible triples to the KG , supporting url, pdf, raw/fabricated texts [<strong>PRIMARY TASK</strong> ].</p>
 <p><span class="label">Results:</span> A <strong>queryable single source of truth</strong> that improves accessibility, automation, and reproducibility for band-gap analysis.</p>
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/Semantic_models_for-MSE" target="_blank" rel="noopener">GitHub</a></p>
