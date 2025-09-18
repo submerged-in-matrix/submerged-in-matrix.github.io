@@ -5,17 +5,17 @@ permalink: /projects/semantic-models/
 ---
 # Semantic Band-Gap (LLM + KG)
 
-<div class="media hero" data-alt="NL→SPARQL with sanitizer; results rendered via rdflib.">
+<div class="media hero" data-alt="NL→KG with normalization; metada for provenance".">
   <img src="/assets/img/projects/bandgap-kg/hero.png"
-       alt="NL→SPARQL with sanitizer; results rendered via rdflib.">
+       alt="NL→KG with normalization; metada for provenance">
 </div>
 
-<div class="hero-note">NL→SPARQL with sanitizer; results rendered via rdflib.</div>
+<div class="hero-note">NL→KG with normalization; metada for provenance".</div>
 
 <div class="metrics">
   <span class="metric">RDF/SPARQL</span>
-  <span class="metric alt">LLM-assisted retrieval</span>
-  <span class="metric good">Explainable queries</span>
+  <span class="metric alt">LLM-assisted retrieval/query</span>
+  <span class="metric good">llama3.2:3b local</span>
 </div>
 
 <p><span class="label">What:</span> Built a <strong>semantic knowledge graph</strong> for custom-featurized semiconductor band-gap data using RDF triples.</p>
