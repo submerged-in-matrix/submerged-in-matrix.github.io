@@ -959,3 +959,24 @@ h1 + .lead{ margin-top:6px; }
   .doc-grid{ grid-template-columns:1fr; }
 }
 
+/* Bigger, high-contrast captions for all figures */
+.figure figcaption{
+  text-align:center;
+  font-size:clamp(16px, 1.15vw, 19px);  /* a bit larger */
+  color:#cfe9ff;                        /* readable on your dark bg */
+  margin-top:10px;
+  letter-spacing:.2px;
+  text-shadow:0 1px 0 rgba(11,18,32,.35); /* subtle lift */
+}
+
+/* Make emphasized parts colorful (you already use <em> in captions) */
+.figure figcaption em{
+  font-style:normal;
+  background:linear-gradient(90deg, var(--brandA), var(--brandB));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;   /* gradient text */
+  font-weight:800;
+}
+
+
+
