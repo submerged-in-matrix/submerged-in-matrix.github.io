@@ -9,6 +9,6 @@ permalink: /documents
 
 <div class="doc-grid">
   <a class="btn" href="{{ '/assets/documents/deutsch_B1.pdf' | relative_url }}" target="_blank" rel="noopener">TELC Deutsch B1 — Certificate</a>
-  <a class="btn" href="{{ '/assets/documents/credentials.pdf' | relative_url }}" target="_blank" rel="noopener">Academic certificates</a>
-  <a class="btn" href="{{ '/assets/documents/certificates.pdf' | relative_url }}" target="_blank" rel="noopener">E-Learning & Experience</a>
+  <a class="btn" href="{{ '/assets/documents/credentials.pdf' | relative_url }}" target="_blank" rel="noopener">Academic + Professional Experience</a>
+  <a class="btn" href="{{ '/assets/documents/certificates.pdf' | relative_url }}" target="_blank" rel="noopener">E-Learning (Coursera)</a>
 </div>
