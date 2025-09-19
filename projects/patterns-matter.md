@@ -15,10 +15,11 @@ permalink: /projects/patterns-matter/
 <div class="metrics">
   <span class="metric">Auto-ETL</span>
   <span class="metric alt">Flask + SQLite</span>
-  <span class="metric good">Pipelines → Results</span>
+  <span class="metric alt">Google-drive API-integration</span>
+  <span class="metric good">Pipeline: Raw data → Featurization → Results</span>
 </div>
 
-<p><span class="label">What:</span> Built a <strong>Flask/Jinja</strong> app with <strong>SQLite</strong> backend for admin CRUD, role-based access, secure file delivery, metadata tracking, and keyword search.</p>
+<p><span class="label">What:</span> Built a <strong>Flask/Jinja</strong> app with <strong>SQLite</strong> backend for admin CRUD, role-based access, secure file delivery (via drive API), metadata tracking, and keyword search.</p>
 <p><span class="label">Why:</span> Provide <strong>governed, reproducible</strong> management of research files and tabular datasets for collaborative work.</p>
 <p><span class="label">How:</span> Automated ETL (CSV/NPY → pandas → SQL), type validation, normalized schemas, <strong>idempotent imports</strong>, and Google Drive API integration for ingestion, preview, and download.</p>
 <p><span class="label">Results:</span> <strong>Provenance & timestamps</strong> on every dataset, cleaner imports, and faster find-and-reuse—creating a dependable data hub for the team.</p>
