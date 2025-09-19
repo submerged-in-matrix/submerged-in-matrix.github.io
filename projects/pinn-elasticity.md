@@ -18,7 +18,7 @@ permalink: /projects/pinn-elasticity/
   <span class="metric good">Lowest loss: 2.22 (6 layers, 15 neurons each)</span>
 </div>
 
-<p><span class="label">What:</span> Physics-informed NN for 2D linear elasticity of a 1 unit sq. steel plate predicting <strong>Ux, Uy, σxx, σyy, σxy</strong>.</p>
+<p><span class="label">What:</span> Physics-informed NN for predicting the 2D linear elasticity parameters <strong>(Displacement, Shear-stress, BCs, laws)</strong> of an 1 sq. meter steel plate fixed at bottom under 4 Newton uniform vertical load.</p>
 <p><span class="label">Why:</span> Reduce reliance on dense FEM labels and deliver <strong>fast, physics-consistent</strong> field predictions for design sweeps.</p>
 <p><span class="label">How:</span> TensorFlow PINN with <strong>Navier–Cauchy + Hooke</strong> residuals; Latin-hypercube sampling of collocation (1k inside, 50 each boundary) points; Dirichlet/Neumann BCs; <strong>27-config</strong> hyperparameter sweep with validation tracking.</p>
 <p><span class="label">Results:</span> Best topology <strong>6×15</strong>, dropout 0.3 (Glorot) reached <strong>val loss 2.22</strong>, producing smooth, physically coherent fields and a clear path to add <strong>R²</strong> vs FEM ground truth.</p>
