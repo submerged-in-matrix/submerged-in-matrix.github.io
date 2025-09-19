@@ -33,7 +33,7 @@ permalink: /projects/oxidation-states/
         <img class="pixel-safe" src="/assets/img/projects/oxi-ensemble/fig1.png" alt="Choosing optimum feature-matrix size from SHAP-ranked features (all)">
       </div>
     </a>
-    <figcaption><em>Choosing optimum feature-matrix size from SHAP-ranked features (all)</em></figcaption>
+    <figcaption><em>Choosing optimum feature-matrix size (top 47 features from 130+ features) from SHAP-ranked features (all)</em></figcaption>
   </figure>
   <div id="fe-fig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/projects/oxi-ensemble/fig1.png" alt=""></div>
 
