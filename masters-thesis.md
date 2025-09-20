@@ -39,7 +39,7 @@ title: Masters Thesis
 
   <figure class="figure tilt">
     <a href="#mfig2"><img src="/assets/img/masters/fig2.png" alt="Damping force"></a>
-    <figcaption><strong>SINDy</strong> capturing the EM-sensor’s damping behavior (phase portraits).</figcaption>
+    <figcaption><strong>SINDy</strong> capturing the EM-sensor’s damping behavior (phase portraits, i.e., non-dimensional deflection (y1, U) vs. its derivative (y2, Udot)).</figcaption>
   </figure>
   <div id="mfig2" class="lb"><a class="x" href="#">×</a><img src="/assets/img/masters/fig2.png" alt=""></div>
 </div>
