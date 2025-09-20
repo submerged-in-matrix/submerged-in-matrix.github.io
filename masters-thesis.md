@@ -11,7 +11,7 @@ title: Masters Thesis
 <div class="metrics">
   <span class="metric">Thesis</span>
   <span class="metric alt">SINDy + ANN</span>
-  <span class="metric good">Magnetoelectric sensors</span>
+  <span class="metric good">Magnetoelectric sensors (Duffing Oscillator)</span>
   <span class="metric">R² SINDy: 0.986 (deriv)</span>
   <span class="metric">R² SINDy: 0.991 (signal)</span>
   <span class="metric good">DNNS: 99.85–100%</span>
@@ -33,7 +33,7 @@ title: Masters Thesis
 <div class="gallery stack">
   <figure class="figure tilt">
     <a href="#mfig1"><img src="/assets/img/masters/fig1.png" alt="Stiffness force"></a>
-    <figcaption><strong>SINDy</strong> capturing the EM-sensor’s stiffness force (oscillator-type).</figcaption>
+    <figcaption><strong>SINDy</strong> capturing the EM-sensor’s stiffness force via non-dimensional force-deflection characteristics.</figcaption>
   </figure>
   <div id="mfig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/masters/fig1.png" alt=""></div>
 
