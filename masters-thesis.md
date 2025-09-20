@@ -33,7 +33,7 @@ title: Masters Thesis
 <div class="gallery stack">
   <figure class="figure tilt">
     <a href="#mfig1"><img src="/assets/img/masters/fig1.png" alt="Stiffness force"></a>
-    <figcaption><strong>SINDy</strong> capturing the EM-sensor’s stiffness force via non-dimensional force-deflection characteristics.</figcaption>
+    <figcaption><strong>SINDy</strong> capturing the EM-sensor’s stiffness force, i.e., non-dimensional force-deflection characteristics.</figcaption>
   </figure>
   <div id="mfig1" class="lb"><a class="x" href="#">×</a><img src="/assets/img/masters/fig1.png" alt=""></div>
 
