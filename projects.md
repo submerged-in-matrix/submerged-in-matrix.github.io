@@ -3,7 +3,7 @@ layout: default
 title: Selected Projects
 ---
 # Selected Projects
-<p class="muted">Six quick cards—click a title to see the full page with What · Why · How · Results.</p>
+<p class="muted">Six quick cards—click a title to see the full page with What · Why · How · Results . Github (Implementation details)</p>
 
 <div class="proj-grid">
 
