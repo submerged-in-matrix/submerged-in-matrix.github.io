@@ -22,7 +22,7 @@ permalink: /projects/patterns-matter/
 <p><span class="label">What:</span> Built a proof-of-concept <strong>Flask/Jinja</strong> app with <strong>SQLite+Google-drive</strong> backend; admin CRUD, role-based access, secure file delivery (via drive API), metadata tracking, and keyword search.</p>
 <p><span class="label">Why:</span> Provide <strong>governed, reproducible</strong> management of research files and tabular datasets for collaborative work & a practice-project of RDBMS</p>
 <p><span class="label">How:</span> Automated ETL (CSV/NPY → pandas → SQL), type validation, normalized schemas, <strong>idempotent imports</strong>, and Google Drive API integration for ingestion, preview, and download.</p>
-<p><span class="label">Results:</span> <strong>Provenance & timestamps</strong> on every dataset, cleaner imports, and faster find-and-reuse—creating a dependable data hub for the team.</p>
+<p><span class="label">Results:</span> <strong>Provenance & timestamps</strong> on every dataset, facilitating FAIR principle on the data and potential dependable data hub for the team. -->> <a href="https://patterns-matter.fly.dev/" target="_blank" rel="noopener">Demo</a></p>
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/Patterns-Matter" target="_blank" rel="noopener">GitHub</a></p>
 
