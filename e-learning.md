@@ -28,7 +28,7 @@ title: E-Learning
   <h3>Density Functional Theory · École Polytechnique · Oct 2025 · completed</h3>
   <ul>
     <li><span class="label">Takeaway:</span> Foundation (mathematical and historical) of DFT, approximation strategies, Quality and accuracy of different approximations, practical procedure to solve the equations, Ready to be operative and use DFT.</li>
-    <li><span class="label">Applied in:</span> To understand, to evaluate the quality and to use DFT datasets (e.g., Materials Project, OQMD etc.).</li>
+    <li><span class="label">Applied in:</span> To understand, to evaluate the quality and to use DFT datasets (e.g., Materials Project, OQMD etc.), to verify randomly generated materials' property in a current project</li>
   </ul>
 </div>
 
