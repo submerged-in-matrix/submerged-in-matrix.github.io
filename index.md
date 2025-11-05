@@ -60,8 +60,8 @@ title: About
 <div class="tool-group">
 <div class="group-title">Simulation &amp; FEM</div>
 <div class="chiplist">
-<span class="chip">COMSOL</span><span class="chip">Abaqus</span>
-<span class="chip alt">SimScale</span>
+<span class="chip">COMSOL</span><span class="chip">Abaqus</span><span class="chip">ASE</span>
+<span class="chip alt">SimScale</span><span class="chip">LAMMPS</span><span class="chip">OVITO</span>
 </div>
 </div>
 
