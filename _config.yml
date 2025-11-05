@@ -26,9 +26,7 @@ nav:
     link: /profiles
   - name: Contact
     link: /contact
-  - name: Recommendation
-    link: /recommendation
-
+  
 
 # Socials / meta
 github_username: submerged-in-matrix
