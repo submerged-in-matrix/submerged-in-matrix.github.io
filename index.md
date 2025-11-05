@@ -6,20 +6,20 @@ title: About
 
 <h1 class="name-3d">Md. Saidul Islam</h1>
 
-<p class="lead">Materials Science professional focused on <strong>data-driven methodologies & materials analytics</strong>. I build or reproduce (from existing research) ML pipelines, FEM models, and research apps that move from notebooks to usable tools. Proven &amp; recognized <strong>Rapid familiarization skill</strong> to a new topic, enabling effective cross-disciplinary collaboration and innovation.</p>
+<p class="lead">M.Sc in Materials Science & Engineering focusing on <strong>data-driven methodologies & materials analytics</strong>. Able to build or reproduce (from existing research) ML pipelines, FEM models, and research apps that move from notebooks to usable tools. Proven &amp; recognized <strong>Rapid familiarization skill</strong> to a new topic, enabling effective cross-disciplinary collaboration and innovation. Here, I demonstrate some of my works at the interface of materials science and AI.</p>
 
 <div class="section">
-<h2>What I bring</h2>
+<h2>Selected Works</h2>
 
 <div class="about-grid">
 
 <div class="card impact">
-<h3>Impact</h3>
+<h3>Themes</h3>
 <ul>
-  <li><strong>Shipped a materials database app</strong> with auto ETL and Fly.io deploy, enabling end-to-end tracking from raw data to model results.</li>
   <li><strong>Melting-point prediction:</strong> 2-level custom-stacking (RF/XGB/LGBM/MLP) achieved <strong>R² ≈ 0.83</strong> on ~3.041k records.</li>
   <li><strong>Oxidation-state assignment:</strong> soft-voting ensemble on ~7k OQMD samples reached <strong>R² ≈ 0.91</strong> (proxy metric), delivering <strong>competitive quality on ~15× less data</strong> than typical literature sets.</li>
   <li><strong>Semantic band-gap knowledge graph:</strong> RDF/SPARQL schema parsed (primary task)/queried (secondary task) via a local LLM (llama3.2:3b) for explainable lookups.</li>
+  <li><strong>Developed a proof-of-concept materials database app</strong> with auto ETL and Fly.io deploy, enabling end-to-end tracking from raw data to model results.</li>
 </ul>
 </div>
 
