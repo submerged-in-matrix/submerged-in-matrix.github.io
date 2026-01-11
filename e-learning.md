@@ -4,9 +4,16 @@ title: E-Learning
 ---
 # E-Learning
 
-<p class="muted">Certificates live in <a href="/documents">Documents</a>. Below are the skills I actively use.</p>  
+<p class="muted">Certificates (complete list, along with the mentioned ones here) live in <a href="/documents">Documents</a>. Below are the skills I actively use.</p>  
 
 <div class="card el-box">
+<div class="card">
+  <h3>Nanomaterials & Nanosensors Specialization · Technion · Dec 2025 · completed</h3>
+  <ul>
+    <li><span class="label">Takeaway:</span> Latest developments in Nanosensors and nanotecnology.</li>
+    <li><span class="label">Focus:</span> Characterization, Fabrication, Application and Further research direction to improve nano - 1D, 2D, or 3D sensors.</li>
+  </ul>
+</div>
 
 <div class="card">
   <h3>Introduction to High-Throughput Materials Development · Georgia Tech · Nov 2024 · completed</h3>
@@ -28,7 +35,7 @@ title: E-Learning
   <h3>Density Functional Theory · École Polytechnique · Oct 2025 · completed</h3>
   <ul>
     <li><span class="label">Takeaway:</span> Foundation (mathematical and historical) of DFT, approximation strategies, Quality and accuracy of different approximations, practical procedure to solve the equations, Ready to be operative and use DFT.</li>
-    <li><span class="label">Applied in:</span> To understand, to evaluate the quality and to use DFT datasets (e.g., Materials Project, OQMD etc.), to verify randomly generated materials' property in a current project</li>
+    <li><span class="label">Applied in:</span> To utilize Quantum Espresso in performing DFT calculations, to rationalize applied approximations in available DFT databases (e.g., OQMD )</li>
   </ul>
 </div>
 
@@ -48,13 +55,6 @@ title: E-Learning
   </ul>
 </div>
 
-<div class="card">
-  <h3>FEM — Linear, Nonlinear Analysis & Post-Processing · Coursera Project Network · May 2025 · completed</h3>
-  <ul>
-    <li><span class="label">Takeaway:</span> Set up linear/nonlinear static analyses, cloud simulation, and post-processing for validation.</li>
-    <li><span class="label">Applied in:</span> Sensor modeling (Masters) and 2D elasticity work; complements COMSOL/Abaqus skills.</li>
-  </ul>
-</div>
 </div>
 
 
