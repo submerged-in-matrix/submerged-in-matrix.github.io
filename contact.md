@@ -11,3 +11,8 @@ title: Contact
 - **Phone:** (+49) 176 85632502
 - **Location:** Kiel, Germany
 - **Open to:** roles blending materials science (both experimental and theoretical), simulation (FEM), AI and other data driven aprroaches to uphold materials research!
+
+# Profiles
+- GitHub (primary): https://github.com/submerged-in-matrix
+- LinkedIn: https://www.linkedin.com/in/shahriar-sayeed/
+- Xing: https://www.xing.com/profile/Mdsaidul_Islam020597/web_profiles
