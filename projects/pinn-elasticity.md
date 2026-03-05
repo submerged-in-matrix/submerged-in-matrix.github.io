@@ -20,7 +20,7 @@ permalink: /projects/pinn-elasticity/
 
 <p>Physics-informed NN for predicting the 2D linear elasticity parameters <strong>(Displacement, Shear-stress, BCs, laws)</strong> of an 1 sq. meter steel plate fixed at bottom under 4 Newton uniform vertical load. Reduce reliance on dense FEM labels and deliver <strong>fast, physics-consistent</strong> field predictions for design sweeps. ensorFlow PINN with <strong>Navier–Cauchy + Hooke</strong> residuals; Latin-hypercube sampling of collocation (1k inside, 50 each boundary) points; Dirichlet/Neumann BCs; <strong>27-config</strong> hyperparameter sweep with validation tracking. est topology <strong>6×15</strong>, dropout 0.3 (Glorot) reached <strong>val loss 2.22</strong>, producing smooth, physically coherent fields and a clear path to add <strong>R²</strong> vs FEM ground truth.</p>
 
-<p><a class="btn" href="https://github.com/submerged-in-matrix/materials-ml-projects-/tree/main/Projects/P_3_PINN_Linear_Elasticity" target="_blank" rel="noopener">GitHub</a></p>
+<p><a class="btn" href="https://github.com/submerged-in-matrix/PINN_2D_Elasticity" target="_blank" rel="noopener">GitHub</a></p>
 
 <div class="gallery equal">
   <figure class="figure tilt">
