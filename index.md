@@ -16,10 +16,11 @@ title: About
 <div class="card impact">
 <h3>Themes</h3>
 <ul>
-  <li><strong>Melting-point prediction:</strong> 2-level custom-stacking (RF/XGB/LGBM/MLP) achieved <strong>R² ≈ 0.83</strong> on ~3.041k records.</li>
-  <li><strong>Oxidation-state assignment:</strong> soft-voting ensemble on ~7k OQMD samples reached <strong>R² ≈ 0.91</strong> (proxy metric), delivering <strong>competitive quality on ~15× less data</strong> than typical literature sets.</li>
-  <li><strong>Semantic band-gap knowledge graph:</strong> RDF/SPARQL schema parsed (primary task)/queried (secondary task) via a local LLM (llama3.2:3b) for explainable lookups.</li>
-  <li><strong>Developed a proof-of-concept materials database app</strong> with auto ETL and Fly.io deploy, enabling end-to-end tracking from raw data to model results.</li>
+  <li><strong> Source Nonlinearity of implantable Electromagnetic sensors:</strong>Sensor-Coil sytem + MATLAB + Audio Interface -based excitation/acquisition pipeline with SINDy-discovered Duffing dynamics (interpretable signal + derivatives) validated via energy, stiffness, and damping analyses; ANN models (LSTM/MLP) used for comparative prediction <strong>R² ≈ 0.99 (SINDy)</strong> on acquired signals.</li>
+  <li><strong>Oxidation-state assignment (Reproduction & Extension):</strong> A soft-voting tree-based ensemble (GB, ET, RF, LGBM) with hybrid hyperparameter tuning on ~7k OQMD samples, reached <strong>R² ≈ 0.91</strong> (proxy metric), delivering <strong>competitive quality on ~15× less data</strong> than typical literature sets.</li>
+  <li><strong>Melting-point prediction (Reproduction & Extension):</strong> A 2-level ensemble with decorrelated-custom-stacked (RF/LGBM/MLP) base learners and meta learner (GB) on ~3.041k record, achieved <strong>R² ≈ 0.83</strong> s.</li>
+  <li><strong>High-throughput semantic Knowledge-Graph (Bandgaps of Semiconductors):</strong> RDF/SPARQL schema parsed (primary task)/queried (secondary task) via a local LLM (llama3.2:3b) for explainable lookups.</li>
+  <li><strong>High-throughput-style materials database app</strong> Flask/Jinja + SQLite/Drive backend with ETL pipelines and admin CRUD, enabling FAIR-aligned documentation (raw → features (own projects) → results) with provenance tracking and secure file delivery.</li>
 </ul>
 </div>
 
