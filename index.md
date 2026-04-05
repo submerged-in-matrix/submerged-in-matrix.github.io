@@ -89,11 +89,10 @@ title: About
 <div class="card focus lean-right">
 <h3>Focus areas</h3>
 <ul class="focus-list">
-  <li>Materials-Informatics)</li>
+  <li>Materials-Informatics</li>
   <li>High-Throughput Materials Development workflows</li>
   <li>Smart / Functional Materials</li>
   <li>Heat/Corrosion-resistant, high-strength, high entropy alloy systems</li>
-  <li>FEM for design &amp; validation</li>
 </ul>
 </div>
 
