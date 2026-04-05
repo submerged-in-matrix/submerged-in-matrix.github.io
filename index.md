@@ -38,16 +38,6 @@ title: About
 </div>
 </div>
 
-<div class="tool-group">
-<div class="group-title">Programming &amp; Data-analysis</div>
-<div class="chiplist">
-<span class="chip">Python (preferred)</span><span class="chip">MATLAB</span>
-<span class="chip">SQL</span><span class="chip alt">HTML</span>
-<span class="chip alt">API-Integration</span><span class="chip alt">Bash</span><span class="chip alt">MS Excel</span>
-<span class="chip alt">OriginPro</span>
-</div>
-</div>
-
 <div class="tool-group char">
 <div class="group-title">Characterization &amp; testing</div>
 <div class="chiplist">
@@ -63,6 +53,16 @@ title: About
 <span class="chip">Ensembles</span><span class="chip">PINN</span><span class="chip alt">DNNs|GNNs</span>
 <span class="chip">Time‑series analysis</span><span class="chip alt">AutoML</span>
 <span class="chip">Active Learning</span><span class="chip alt">Tensorflow</span>
+</div>
+</div>
+
+<div class="tool-group">
+<div class="group-title">Programming &amp; Data-analysis</div>
+<div class="chiplist">
+<span class="chip">Python (preferred)</span><span class="chip">MATLAB</span>
+<span class="chip">SQL</span><span class="chip alt">HTML</span>
+<span class="chip alt">API-Integration</span><span class="chip alt">Bash</span><span class="chip alt">MS Excel</span>
+<span class="chip alt">OriginPro</span>
 </div>
 </div>
 
