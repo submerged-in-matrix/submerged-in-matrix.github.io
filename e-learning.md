@@ -55,7 +55,6 @@ title: E-Learning
   </ul>
 </div>
 
-</div>
 
 
 
