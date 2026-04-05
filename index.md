@@ -30,53 +30,53 @@ title: About
 <div class="toolbox-grid">
 
 <div class="tool-group">
-<div class="group-title">Programming &amp; Data</div>
-<div class="chiplist">
-<span class="chip">Python</span><span class="chip">MATLAB</span>
-<span class="chip">SQL</span><span class="chip alt">HTML</span>
-<span class="chip alt">CSS</span><span class="chip alt">RegEx</span>
-<span class="chip alt">C++</span><span class="chip alt">Fortran</span>
-</div>
-</div>
-
-<div class="tool-group">
-<div class="group-title">AI / ML</div>
-<div class="chiplist">
-<span class="chip">Ensembles</span><span class="chip">PINN</span>
-<span class="chip">SINDy</span><span class="chip alt">AutoML</span><span class="chip alt">DNNs|GNNs</span>
-<span class="chip">SHAP</span><span class="chip alt">Generative AI</span>
-<span class="chip">RDF/SPARQL</span><span class="chip">Active Learning</span>
-</div>
-</div>
-
-<div class="tool-group">
-<div class="group-title">Materials Informatics</div>
+<div class="group-title">Materials Informatics &amp; Data Infrastructure</div>
 <div class="chiplist">
 <span class="chip">Matminer</span><span class="chip">Pymatgen</span>
-<span class="chip alt">RDKit</span><span class="chip">OQMD</span>
-<span class="chip">Materials Project</span><span class="chip alt">Semantic Web</span><span class="chip alt">SchNet</span>
+<span class="chip alt">RDKit</span><span class="chip">SHAP</span><span class="chip">SHAP</span><span class="chip">PCA</span>
+<span class="chip">Materials Databases</span><span class="chip alt">Semantic Web (RDF; SPARQL)</span>
 </div>
 </div>
 
 <div class="tool-group">
-<div class="group-title">Simulation &amp; FEM</div>
+<div class="group-title">Programming &amp; Data-analysis</div>
 <div class="chiplist">
-<span class="chip">COMSOL</span><span class="chip">Abaqus</span><span class="chip">ASE</span>
-<span class="chip alt">SimScale</span><span class="chip">LAMMPS</span><span class="chip">OVITO</span>
+<span class="chip">Python (preferred)</span><span class="chip">MATLAB</span>
+<span class="chip">SQL</span><span class="chip alt">HTML</span>
+<span class="chip alt">API-Integration</span><span class="chip alt">Bash</span><span class="chip alt">MS Excel</span>
+<span class="chip alt">OriginPro</span>
 </div>
 </div>
 
 <div class="tool-group char">
-<div class="group-title">Characterization</div>
+<div class="group-title">Characterization &amp; testing</div>
 <div class="chiplist">
 <span class="chip">AFM</span><span class="chip">TEM</span>
-<span class="chip">SEM</span><span class="chip">XRD</span>
+<span class="chip">SEM</span><span class="chip">XRD</span><span class="chip alt">Universal Testing Machine</span>
 <span class="chip alt">VSM</span><span class="chip alt">DSC/TGA</span>
 </div>
 </div>
 
 <div class="tool-group">
-<div class="group-title">Web &amp; Databases</div>
+<div class="group-title">Machine Learning</div>
+<div class="chiplist">
+<span class="chip">Ensembles</span><span class="chip">PINN</span>
+<span class="chip">Time‑series analysis</span><span class="chip alt">AutoML</span><span class="chip alt">DNNs|GNNs</span>
+<span class="chip alt">Tensorflow</span>
+<span class="chip">Active Learning</span>
+</div>
+</div>
+
+<div class="tool-group">
+<div class="group-title">Simulation &amp; Physics-based Modeling</div>
+<div class="chiplist">
+<span class="chip">COMSOL</span><span class="chip">LAMMPS</span><span class="chip">Quantum ESPRESSO (DFT)</span><span class="chip">Abaqus</span>
+<span class="chip alt">SimScale</span>
+</div>
+</div>
+
+<div class="tool-group">
+<div class="group-title">High Throughput Databases Management</div>
 <div class="chiplist">
 <span class="chip">Flask</span><span class="chip">Jinja</span>
 <span class="chip">Docker</span><span class="chip">SQLite</span>
@@ -89,10 +89,10 @@ title: About
 <div class="card focus lean-right">
 <h3>Focus areas</h3>
 <ul class="focus-list">
+  <li>Materials-Informatics)</li>
   <li>High-Throughput Materials Development workflows</li>
   <li>Smart / Functional Materials</li>
-  <li>Heat/Corrosion-resistant high-strength alloy systems</li>
-  <li>AI in Materials Science (interpretable models &amp; GenAI)</li>
+  <li>Heat/Corrosion-resistant, high-strength, high entropy alloy systems</li>
   <li>FEM for design &amp; validation</li>
 </ul>
 </div>
