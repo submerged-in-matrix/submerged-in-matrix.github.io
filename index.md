@@ -33,7 +33,7 @@ title: About
 <div class="group-title">Materials Informatics &amp; Data Infrastructure</div>
 <div class="chiplist">
 <span class="chip">Matminer</span><span class="chip">Pymatgen</span>
-<span class="chip alt">RDKit</span><span class="chip">SHAP</span><span class="chip">SHAP</span><span class="chip">PCA</span>
+<span class="chip alt">RDKit</span><span class="chip">SHAP</span><span class="chip">PCA</span>
 <span class="chip">Materials Databases</span><span class="chip alt">Semantic Web (RDF; SPARQL)</span>
 </div>
 </div>
@@ -60,17 +60,16 @@ title: About
 <div class="tool-group">
 <div class="group-title">Machine Learning</div>
 <div class="chiplist">
-<span class="chip">Ensembles</span><span class="chip">PINN</span>
-<span class="chip">Time‑series analysis</span><span class="chip alt">AutoML</span><span class="chip alt">DNNs|GNNs</span>
-<span class="chip alt">Tensorflow</span>
-<span class="chip">Active Learning</span>
+<span class="chip">Ensembles</span><span class="chip">PINN</span><span class="chip alt">DNNs|GNNs</span>
+<span class="chip">Time‑series analysis</span><span class="chip alt">AutoML</span>
+<span class="chip">Active Learning</span><span class="chip alt">Tensorflow</span>
 </div>
 </div>
 
 <div class="tool-group">
 <div class="group-title">Simulation &amp; Physics-based Modeling</div>
 <div class="chiplist">
-<span class="chip">COMSOL</span><span class="chip">LAMMPS</span><span class="chip">Quantum ESPRESSO (DFT)</span><span class="chip">Abaqus</span>
+<span class="chip">COMSOL</span><span class="chip">LAMMPS</span><span class="chip">Abaqus</span><span class="chip">Quantum ESPRESSO (DFT)</span>
 <span class="chip alt">SimScale</span>
 </div>
 </div>
