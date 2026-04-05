@@ -11,7 +11,7 @@ title: E-Learning
   <h3>Introduction to High-Throughput Materials Development · Georgia Tech · Nov 2024 · completed</h3>
   <ul>
     <li><span class="label">Takeaway:</span> HT library design, high-throughput characterization & property screening; PSP linkages and MGI-style workflows.</li>
-    <li><span class="label">Applied in:</span> Feature planning + workflow design across projects (see <a href="/projects">Projects</a>).</li>
+    <li><span class="label">Applied in:</span> Designed a materials knowledge graph and structured database linking raw data → features → results, and implemented structure–composition–property pipelines for high-throughput-style data organization and analysis  (see <a href="/projects">Projects</a>).</li>
   </ul>
 </div>
 
