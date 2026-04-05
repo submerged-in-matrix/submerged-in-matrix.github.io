@@ -1,1 +1,1 @@
-A selected presentation of my works in the direction of AI and Materials Science.
+A selected presentation of my works at the intersection of AI and Materials Science.
