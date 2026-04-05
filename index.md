@@ -6,7 +6,7 @@ title: About
 
 <h1 class="name-3d">Md. Saidul Islam</h1> 
 
-<p class="lead">M.Sc in Materials Science & Engineering (CAU, Kiel), focusing on <strong>data-driven methodologies & materials analytics</strong>. Able to build or reproduce (from existing research) ML pipelines, FEM models, and research apps that move from notebooks to usable tools. Proven &amp; recognized <strong>Rapid familiarization skill</strong> to a new topic, enabling effective cross-disciplinary collaboration and innovation. Here, I demonstrate some of my works at the interface of materials science and AI.</p>
+<p class="lead">M.Sc in Materials Science & Engineering (CAU, Kiel), focusing on <strong>data-driven methodologies & materials analytics</strong>. Able to build (or extend published research on) ML pipelines, FEM models, and research apps that could move from notebooks to usable tools. Proven &amp; recognized <strong>Rapid familiarization skill</strong> to a new topic, enabling effective cross-disciplinary collaboration and innovation. Here, I demonstrate some of my works at the interface of materials science and AI.</p>
 
 <div class="section">
 <h2>Selected Works</h2>
