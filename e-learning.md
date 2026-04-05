@@ -35,7 +35,7 @@ title: E-Learning
     <h3>Machine Learning Specialization · DeepLearning.AI/Stanford · April 2023 · completed</h3>
     <ul>
       <li><span class="label">Takeaway:</span> Supervised ML, trees/ensembles, unsupervised & recommenders, plus ML best practices.</li>
-      <li><span class="label">Applied in:</span> Modeling nonlinearity in Electromagnetic Sensors, building various targeted machine learning pipelines to predict different materials property (see <a href="/projects">Projects</a>).</li>
+      <li><span class="label">Applied in:</span> Modeling nonlinearity in Electromagnetic Sensors, building various targeted machine learning pipelines to predict different materials properties (see <a href="/projects">Projects</a>).</li>
     </ul>
   </div>
 
@@ -43,7 +43,7 @@ title: E-Learning
     <h3>Generative AI for Data Scientists Specialization · IBM · Dec 2024 · completed</h3>
     <ul>
       <li><span class="label">Takeaway:</span> Prompt engineering and hands-on GenAI for data augmentation, feature ideas, and model refinement.</li>
-      <li><span class="label">Applied in:</span> Semantic band-gap knowledge graph & LLM-assisted retrieval (see <a href="/projects">Projects</a>).</li>
+      <li><span class="label">Applied in:</span> Semantic band-gap knowledge graph & LLM-assisted retrieval, Daily productivity boost (see <a href="/projects">Projects</a>).</li>
     </ul>
   </div>
 
