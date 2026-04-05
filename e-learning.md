@@ -27,7 +27,7 @@ title: E-Learning
   <h3>Materials Data Sciences & Informatics · Georgia Tech · Sep 2024 · completed</h3>
   <ul>
     <li><span class="label">Takeaway:</span> Materials informatics, 2-point statistics & PCA for structure, homogenization, and cyberinfrastructure for data integration.</li>
-    <li><span class="label">Applied in:</span> Feature engineering & explanations for formation-energy / melting-point models (see <a href="/projects">Projects</a>).</li>
+    <li><span class="label">Applied in:</span>Informed project selection and to build proficiency in end-to-end ML workflows—spanning PCA-driven structure/feature representation (e.g, SHAP) and feature engineering for modeling multiple target properties (e.g., formation energy, melting point, band gap (see <a href="/projects">Projects</a>).</li>
   </ul>
 </div>
 
@@ -43,7 +43,7 @@ title: E-Learning
   <h3>Machine Learning Specialization · DeepLearning.AI/Stanford · April 2023 · completed</h3>
   <ul>
     <li><span class="label">Takeaway:</span> Supervised ML, trees/ensembles, unsupervised & recommenders, plus ML best practices.</li>
-    <li><span class="label">Applied in:</span> Stacking for melting-point prediction and ensemble voting for oxidation-state assignment.</li>
+    <li><span class="label">Applied in:</span> Modeling nonlinearity in Electromagnetic Sensors, building various targeted machine learning pipelines to predict different materials property. (see <a href="/projects">Projects</a>)</li>
   </ul>
 </div>
 
