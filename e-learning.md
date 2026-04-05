@@ -4,7 +4,7 @@ title: E-Learning
 ---
 # E-Learning
 
-<p class="muted">Certificates (complete list, along with the mentioned ones here) live in <a href="/documents">Documents</a>. Below are the skills & guidance I actively use.</p>  
+<p class="muted">Certificates (complete list, along with the mentioned ones here) live in <a href="/documents">Documents</a>. Below are the skills & motivations I am actively using.</p>  
 
 <div class="card el-box">
   <div class="card">
