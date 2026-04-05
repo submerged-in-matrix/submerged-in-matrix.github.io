@@ -35,7 +35,7 @@ title: E-Learning
     <h3>Machine Learning Specialization · DeepLearning.AI/Stanford · April 2023 · completed</h3>
     <ul>
       <li><span class="label">Takeaway:</span> Supervised ML, trees/ensembles, unsupervised & recommenders, plus ML best practices.</li>
-      <li><span class="label">Applied in:</span> Modeling nonlinearity in Electromagnetic Sensors, building various targeted machine learning pipelines to predict different materials properties (see <a href="/projects">Projects</a>).</li>
+      <li><span class="label">Applied in:</span> Modeling nonlinearity in Electromagnetic Sensors, building various targeted machine learning pipelines to predict different materials properties (see <a href="/projects">Projects</a>, <a href="/masters thesis">Masters Thesis</a>).</li>
     </ul>
   </div>
 
