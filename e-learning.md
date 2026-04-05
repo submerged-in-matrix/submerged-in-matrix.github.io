@@ -8,14 +8,6 @@ title: E-Learning
 
 <div class="card el-box">
 <div class="card">
-  <h3>Nanomaterials & Nanosensors Specialization · Technion · Dec 2025 · completed</h3>
-  <ul>
-    <li><span class="label">Takeaway:</span> Latest developments in Nanosensors and nanotecnology.</li>
-    <li><span class="label">Focus:</span> Characterization, Fabrication, Application and Further research direction to improve nano - 1D, 2D, or 3D sensors.</li>
-  </ul>
-</div>
-
-<div class="card">
   <h3>Introduction to High-Throughput Materials Development · Georgia Tech · Nov 2024 · completed</h3>
   <ul>
     <li><span class="label">Takeaway:</span> HT library design, high-throughput characterization & property screening; PSP linkages and MGI-style workflows.</li>
@@ -52,6 +44,14 @@ title: E-Learning
   <ul>
     <li><span class="label">Takeaway:</span> Prompt engineering and hands-on GenAI for data augmentation, feature ideas, and model refinement.</li>
     <li><span class="label">Applied in:</span> Semantic band-gap knowledge graph & LLM-assisted retrieval (see <a href="/projects">Projects</a>).</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>Nanomaterials & Nanosensors Specialization · Technion · Dec 2025 · completed</h3>
+  <ul>
+    <li><span class="label">Takeaway:</span> Latest developments in Nanosensors and nanotecnology.</li>
+    <li><span class="label">Focus:</span> Characterization, Fabrication, Application and Further research direction to improve nano - 1D, 2D, or 3D sensors.</li>
   </ul>
 </div>
 
