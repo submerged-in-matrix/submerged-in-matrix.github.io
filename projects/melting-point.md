@@ -20,7 +20,7 @@ permalink: /projects/mp-ensemble/
 <p>Predict melting points of organic compounds with a <strong>two-level stacking ensemble</strong> (RF/XGB/LGBM/MLP).Reproduced and <strong>extended</strong> a published approach (<a href="https://link.springer.com/article/10.1134/S1995080223010341" target="_blank" rel="noopener">DOI</a>) to validate best practices on a different materials system. Parsed a ~3.041k dataset (Citrination); featurized <strong>SMILES</strong> with RDKit + custom bond-count features; Shap-guided model/feature, ensemble optimization; Custom-stacked tuned Ensemble. <strong>R² ≈ 0.83</strong>; custom stacking order improved baseline by ~<strong>4%</strong> out-of-sample.</p>
 
 
-<p><a class="btn" href="https://github.com/submerged-in-matrix/MeltingPoints_Inorganics" target="_blank" rel="noopener">GitHub</a></p>
+<p><a class="btn" href="https://github.com/submerged-in-matrix/MP_organics" target="_blank" rel="noopener">GitHub</a></p>
 
 <div class="gallery equal">
   <figure class="figure tilt">
