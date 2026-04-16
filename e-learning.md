@@ -27,7 +27,7 @@ title: E-Learning
     <h3>Density Functional Theory · École Polytechnique · Oct 2025 · completed</h3>
     <ul>
       <li><span class="label">Takeaway:</span> Foundation (mathematical and historical) of DFT, XC approximation strategies, quality and accuracy of different approximations, Practical tips & Tricks in DFT studies.</li>
-      <li><span class="label">Applied in:</span> Executing end-to-end DFT workflows in Quantum ESPRESSO and critically interpreting approximations used in DFT databases (e.g., OQMD), see <a href="https://github.com/submerged-in-matrix/graphene-strain-qe-dft" target="_blank">git</a>.</li>
+      <li><span class="label">Applied in:</span> Executing end-to-end DFT workflows in Quantum ESPRESSO. see <a href="https://github.com/submerged-in-matrix/graphene-strain-qe-dft" target="_blank">git</a>.</li>
     </ul>
   </div>
 
