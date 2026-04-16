@@ -39,15 +39,7 @@ title: E-Learning
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Generative AI for Data Scientists Specialization · IBM · Dec 2024 · completed</h3>
-    <ul>
-      <li><span class="label">Takeaway:</span> Prompt engineering and hands-on GenAI for data augmentation, feature ideas, and model refinement.</li>
-      <li><span class="label">Applied in:</span> Semantic band-gap knowledge graph & LLM-assisted retrieval, Daily productivity boost (see <a href="/projects">Projects</a>).</li>
-    </ul>
-  </div>
-
-  <div class="card">
+<div class="card">
     <h3>Nanomaterials & Nanosensors Specialization · Technion · Dec 2025 · completed</h3>
     <ul>
       <li><span class="label">Takeaway:</span> Latest developments in nanosensors and nanotechnology.</li>
@@ -56,6 +48,11 @@ title: E-Learning
   </div>
 </div>
 
-
-
+  <div class="card">
+    <h3>Generative AI for Data Scientists Specialization · IBM · Dec 2024 · completed</h3>
+    <ul>
+      <li><span class="label">Takeaway:</span> Prompt engineering and hands-on GenAI for data augmentation, feature ideas, and model refinement.</li>
+      <li><span class="label">Applied in:</span> Semantic band-gap knowledge graph & LLM-assisted retrieval (see <a href="/projects">Projects</a>), Daily productivity boost.</li>
+    </ul>
+  </div>
 
