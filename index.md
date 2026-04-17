@@ -6,7 +6,7 @@ title: About
 
 <h1 class="name-3d">Md. Saidul Islam</h1> 
 
-<p class="lead">M.Sc. Materials Science (CAU Kiel) | Data-driven materials modeling | ML interatomic potentials & DFT-integrated simulation pipelines</p>
+<p class="lead">M.Sc. Materials Science (CAU Kiel) | ML & atomistic simulation | Building DFT-informed interatomic potential pipelines for scalable materials modeling</p>
 
 <div class="section">
 <h2>Selected Works</h2>
