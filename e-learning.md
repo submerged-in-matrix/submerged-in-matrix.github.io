@@ -2,7 +2,7 @@
 layout: default
 title: E-Learning
 ---
-# E-Learning
+# Certifications
 
 <p class="muted">Certificates (complete list, along with the mentioned ones here) live in <a href="/documents">Documents</a>. Below are the skills & motivations I am actively using.</p>  
 
