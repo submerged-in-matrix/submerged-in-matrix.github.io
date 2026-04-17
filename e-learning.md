@@ -52,7 +52,7 @@ title: E-Learning
     <h3>Generative AI for Data Scientists Specialization · IBM · Dec 2024 · completed</h3>
     <ul>
       <li><span class="label">Takeaway:</span> Prompt engineering and hands-on GenAI for data augmentation, feature ideas, and model refinement.</li>
-      <li><span class="label">Applied in:</span> Semantic band-gap knowledge graph & LLM-assisted retrieval (see <a href="/projects">Projects</a>), Daily productivity boost.</li>
+      <li><span class="label">Applied in:</span> Building a neuro-symbolic pipeline for bandgaps in Semiconductor using local Ollama client (see <a href="/projects">Projects</a>), efficient prompting.</li>
     </ul>
   </div>
 
