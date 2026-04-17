@@ -4,7 +4,7 @@ title: E-Learning
 ---
 # Certifications
 
-<p class="muted">Certificates (complete list, along with the mentioned ones here) live in <a href="/documents">Documents</a>. Below are the skills & motivations I am actively using.</p>  
+<p class="muted">Continuous upskilling (Complete list: See <a href="/documents">Documents</a>) towards data-driven materials research. Below are the skills & motivations I am actively using.</p>  
 
 <div class="card el-box">
   <div class="card">
