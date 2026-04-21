@@ -4,24 +4,36 @@ title: About
 ---
 <img src="/assets/img/copy.png" alt="Md. Saidul Islam" class="profile" />
 
-<h1 class="name-3d">Md. Saidul Islam</h1> 
+<h1 class="name-3d">Md. Saidul Islam</h1>
 
-<p class="lead">M.Sc. Materials Science (CAU Kiel) | ML & atomistic simulation | Building DFT-informed interatomic potential pipelines for scalable materials modeling</p>
+<p class="lead">Data-driven materials analytics — bridging atomistic simulation, ML, and data infrastructure to accelerate materials and process development.</p>
 
 <div class="section">
-<h2>Selected Works</h2>
+<h2>About</h2>
 
 <div class="about-grid">
 
 <div class="card impact">
-<h3>Themes</h3>
-<ul>
-  <li><strong> Source Nonlinearity of implantable Electromagnetic sensors:</strong>Sensor-Coil sytem + MATLAB + Audio Interface -based excitation/acquisition pipeline with SINDy-discovered Duffing dynamics (interpretable signal + derivatives) validated via energy, stiffness, and damping analyses; ANN models (LSTM/MLP) used for comparative prediction <strong>R² ≈ 0.99 (SINDy)</strong> on acquired signals.</li>
-  <li><strong>Oxidation-state assignment (Reproduction & Extension):</strong> A soft-voting tree-based ensemble (GB, ET, RF, LGBM) with hybrid hyperparameter tuning on ~7k OQMD samples, reached <strong>R² ≈ 0.91</strong> (proxy metric), delivering <strong>competitive quality on ~15× less data</strong> than typical literature sets.</li>
-  <li><strong>Melting-point prediction (Reproduction & Extension):</strong> A 2-level ensemble with decorrelated-custom-stacked (RF/LGBM/MLP) base learners and meta learner (GB) on ~3.041k record, achieved <strong>R² ≈ 0.83</strong> s.</li>
-  <li><strong>High-throughput semantic Knowledge-Graph (Bandgaps of Semiconductors):</strong> RDF/SPARQL schema parsed (primary task)/queried (secondary task) via a local LLM (llama3.2:3b) for explainable lookups.</li>
-  <li><strong>High-throughput-style materials database app</strong> Flask/Jinja + SQLite/Drive backend with ETL pipelines and admin CRUD, enabling FAIR-aligned documentation (raw → features (own projects) → results) with provenance tracking and secure file delivery.</li>
-</ul>
+  <p>
+    I am a materials scientist (M.Sc., CAU Kiel) working at the intersection of
+    physics-based simulation and machine learning. My master's thesis built an
+    interpretable ML stack — SINDy-discovered governing equations with an ANN residual —
+    to model nonlinear dynamics in implantable magnetoelectric sensors, grounding my
+    approach in physical consistency from the start.
+  </p>
+  <p>
+    From there I moved into materials informatics: ensemble models for property prediction,
+    a PINN for elasticity field inference, and a semantic knowledge graph with LLM-assisted
+    querying — each project chosen to close a specific gap between raw materials data and
+    actionable insight.
+  </p>
+  <p>
+    The current focus is atomistic simulation as a data source: parametric MD studies of
+    silicon nanowire mechanics (LAMMPS) and first-principles DFT characterization of
+    strain-driven electronic transitions in graphene (Quantum ESPRESSO), feeding toward
+    ML interatomic potential development. The longer arc is a tight DFT → MD → ML pipeline
+    for scalable, physics-informed materials modeling.
+  </p>
 </div>
 
 <div class="card toolbox lean-left">
@@ -39,7 +51,7 @@ title: About
 </div>
 
 <div class="tool-group char">
-<div class="group-title">Characterization &amp; testing</div>
+<div class="group-title">Characterization &amp; Testing</div>
 <div class="chiplist">
 <span class="chip">AFM</span><span class="chip">TEM</span>
 <span class="chip">SEM</span><span class="chip">XRD</span><span class="chip alt">Universal Testing Machine</span>
@@ -50,18 +62,18 @@ title: About
 <div class="tool-group">
 <div class="group-title">Machine Learning</div>
 <div class="chiplist">
-<span class="chip">Ensembles</span><span class="chip">PINN</span><span class="chip alt">DNNs|GNNs</span>
-<span class="chip">Time‑series analysis</span><span class="chip alt">AutoML</span>
-<span class="chip">Active Learning</span><span class="chip alt">Tensorflow</span>
+<span class="chip">Ensembles</span><span class="chip">PINN</span><span class="chip alt">DNNs | GNNs</span>
+<span class="chip">Time-series analysis</span><span class="chip alt">AutoML</span>
+<span class="chip">Active Learning</span><span class="chip alt">TensorFlow</span>
 </div>
 </div>
 
 <div class="tool-group">
-<div class="group-title">Programming &amp; Data-analysis</div>
+<div class="group-title">Programming &amp; Data Analysis</div>
 <div class="chiplist">
 <span class="chip">Python (preferred)</span><span class="chip">MATLAB</span>
 <span class="chip">SQL</span><span class="chip alt">HTML</span>
-<span class="chip alt">API-Integration</span><span class="chip alt">Bash</span><span class="chip alt">MS Excel</span>
+<span class="chip alt">API Integration</span><span class="chip alt">Bash</span><span class="chip alt">MS Excel</span>
 <span class="chip alt">OriginPro</span>
 </div>
 </div>
@@ -69,33 +81,32 @@ title: About
 <div class="tool-group">
 <div class="group-title">Simulation &amp; Physics-based Modeling</div>
 <div class="chiplist">
-<span class="chip">COMSOL</span><span class="chip">LAMMPS</span><span class="chip">Abaqus</span><span class="chip">Quantum ESPRESSO (DFT)</span>
+<span class="chip">LAMMPS</span><span class="chip">Quantum ESPRESSO (DFT)</span>
+<span class="chip">COMSOL</span><span class="chip">Abaqus</span>
 <span class="chip alt">SimScale</span>
 </div>
 </div>
 
 <div class="tool-group">
-<div class="group-title">High Throughput Databases Management</div>
+<div class="group-title">Data Infrastructure</div>
 <div class="chiplist">
 <span class="chip">Flask</span><span class="chip">Jinja</span>
 <span class="chip">Docker</span><span class="chip">SQLite</span>
 </div>
 </div>
 
-</div> <!-- /.toolbox-grid -->
-</div> <!-- /.card.toolbox -->
+</div><!-- /.toolbox-grid -->
+</div><!-- /.card.toolbox -->
 
 <div class="card focus lean-right">
-<h3>Focus areas</h3>
+<h3>Focus Areas</h3>
 <ul class="focus-list">
-  <li>Materials-Informatics</li>
-  <li>High-Throughput Materials Development workflows</li>
-  <li>Smart / Functional Materials</li>
-  <li>Heat/Corrosion-resistant, high-strength, high entropy alloy systems</li>
+  <li>Data-driven materials analytics</li>
+  <li>Atomistic simulation — MD &amp; DFT</li>
+  <li>High-throughput materials development workflows</li>
+  <li>Smart &amp; functional materials</li>
 </ul>
 </div>
 
-</div> <!-- /.about-grid -->
-</div> <!-- /.section -->
-
-
+</div><!-- /.about-grid -->
+</div><!-- /.section -->
