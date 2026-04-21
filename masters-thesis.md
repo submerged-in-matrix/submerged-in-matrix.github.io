@@ -18,7 +18,7 @@ title: Masters Thesis
 </div>
 
 
-<p> Designed the excitation & acquisition pipeline (MATLAB + audio interface) **and** built an ML stack (SINDy + small ANN residual) to learn nonlinear EM-sensor dynamics. Prototype toward an implantable magnetoelectric sensor; set excitation frequency and boundary conditions to respect brain-field constraints and safety. Discovered governing equations with SINDy; ANN residual captured leftover nonlinearity. Validated via energy consistency, stiffness (oscillator-type), and damping (phase portraits); interpretable model predicts the signal **and its derivatives**</p>
+<p> Designed the excitation and acquisition pipeline (MATLAB + audio interface) for a prototype implantable magnetoelectric sensor, setting excitation frequency and boundary conditions to respect brain-field safety constraints. Applied SINDy to discover the governing equations directly from acquired signals — recovering Duffing-type dynamics with R² ≈ 0.99, yielding a model that predicts both the signal and its derivatives. ANN models (LSTM, MLP) were built in parallel as accuracy benchmarks; SINDy matched or exceeded them while remaining fully interpretable. Validated via energy consistency, stiffness (force-deflection), and damping (phase portrait) analyses.</p>
 
 <p>
   <!-- Add your repo when ready -->
