@@ -10,5 +10,5 @@ permalink: /documents
 <div class="doc-grid">
   <a class="btn" href="{{ '/assets/documents/Telc-Zertifikat.jpg' | relative_url }}" target="_blank" rel="noopener">TELC Deutsch B2 — Certificate</a>
   <!-- <a class="btn" href="{{ '/assets/documents/credentials.pdf' | relative_url }}" target="_blank" rel="noopener">Academic + Professional Experience</a> -->
-  <a class="btn" href="{{ '/assets/documents/certificates.pdf' | relative_url }}" target="_blank" rel="noopener">E-Learning (Coursera)</a>
+  <a class="btn" href="{{ '/assets/documents/certificates.pdf' | relative_url }}" target="_blank" rel="noopener">Certificates</a>
 </div>
