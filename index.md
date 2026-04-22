@@ -24,14 +24,14 @@ title: About
   </p>
   <p>
     From there I moved into materials informatics: ensemble models for property
-    prediction, a PINN for elasticity field inference, and a semantic knowledge
-    graph with LLM-assisted querying — each project targeting a specific gap
+    prediction, a PINN for elasticity field inference, and a semantic (RDF + SPARQL) knowledge
+    graph with LLM-assisted batch/single-parsing with provenance from different sources (web, pdf, natural language) & querying — each project targeting a specific gap
     between raw materials data and actionable insight.
   </p>
   <p>
     The current focus is atomistic simulation as a first-principles data source:
-    parametric MD of silicon nanowire mechanics (LAMMPS) and DFT characterization
-    of strain-driven electronic transitions in graphene (Quantum ESPRESSO),
+    parametric multivariable MD study of silicon nanowire's mechanical response (LAMMPS) and First-Principle DFT study 
+    of strain-driven electronic transitions (the strain dependendent Dirac Cone) in graphene (Quantum ESPRESSO),
     feeding toward ML interatomic potential development. The longer arc is a
     DFT → MD → ML pipeline for scalable, physics-informed materials modeling.
   </p>
