@@ -54,7 +54,7 @@ title: About
 <div class="group-title">Materials Informatics</div>
 <div class="chiplist">
 <span class="chip">Matminer</span><span class="chip">Pymatgen</span>
-<span class="chip alt">RDKit</span><span class="chip">SHAP</span><span class="chip">PCA</span>
+<span class="chip alt">RDKit</span><span class="chip">PCA</span>
 <span class="chip">Materials Databases</span><span class="chip alt">Semantic Web (RDF; SPARQL)</span>
 </div>
 </div>
@@ -64,7 +64,7 @@ title: About
 <div class="chiplist">
 <span class="chip">Ensembles</span><span class="chip">PINN</span><span class="chip alt">DNNs</span>
 <span class="chip">Time-series analysis</span><span class="chip alt">AutoML</span>
-<span class="chip alt">TensorFlow</span>
+<span class="chip">SHAP</span><span class="chip alt">TensorFlow</span>
 </div>
 </div>
 
