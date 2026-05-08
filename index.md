@@ -62,9 +62,9 @@ title: About
 <div class="tool-group">
 <div class="group-title">Machine Learning &amp; AI</div>
 <div class="chiplist">
-<span class="chip">Ensembles</span><span class="chip">PINN</span><span class="chip alt">DNNs</span>
+<span class="chip">Ensembles</span><span class="chip">PINN</span><span class="chip alt">DNNs | GNNs</span><span class="chip alt">Active learning</span>
 <span class="chip">Time-series analysis</span><span class="chip alt">AutoML</span>
-<span class="chip">SHAP</span><span class="chip alt">TensorFlow</span>
+<span class="chip">SHAP</span><span class="chip alt">PyTorch</span><span class="chip alt">TensorFlow</span>
 </div>
 </div>
 
