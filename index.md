@@ -103,10 +103,12 @@ title: About
 <div class="card focus lean-right">
 <h3>Focus Areas</h3>
 <ul class="focus-list">
-  <li>ML interatomic potential</li>
+  <li>Machine Learning for Molecules</li>
   <li>Atomistic simulation — MD &amp; DFT</li>
   <li>High-throughput materials development workflows</li>
+  <li>ML interatomic potential</li>
   <li>Smart &amp; functional materials</li>
+  <li>High-entropy Alloys &amp; High-strength & Corrosion resistant alloys</li>
 </ul>
 </div>
 
