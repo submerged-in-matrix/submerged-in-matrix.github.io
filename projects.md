@@ -12,6 +12,15 @@ title: Selected Projects
 <div class="proj-grid">
 
   <div class="proj-card compact">
+    <h3><a class="proj-link" href="{{ '/projects/fe-cr-nanoindentation/' | relative_url }}">Fe–Cr Elastic Constants — DFT → ML → FEM</a></h3>
+    <p>Strain–stress DFT across 17 Fe-Cr compositions, GP/MLP surrogate training, and CalculiX axisymmetric nanoindentation. K-saturation failure mode caught and corrected; Eᵣ tracks Hill VRH within ±12%.</p>
+    <p class="chips">
+      <span class="badge">Quantum ESPRESSO</span><span class="badge alt">GP + MLP</span>
+      <span class="badge alt">CalculiX CCX</span><span class="badge alt">Eᵣ: 197→274 GPa</span>
+    </p>
+  </div>
+  
+  <div class="proj-card compact">
     <h3><a class="proj-link" href="{{ '/projects/silicon-mechanical-response/' | relative_url }}">Si Nanowire Mechanical Response — Parametric MD</a></h3>
     <p>Uniaxial tensile deformation of [001] Si nanowires across 16 (diameter × strain-rate) combinations using the Tersoff potential. Surface-to-volume ratio, not strain rate, controls stiffness.</p>
     <p class="chips">
