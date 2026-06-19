@@ -4,19 +4,19 @@ title: Selected Projects
 ---
 
 # Selected Projects
-<p class="muted">Seven projects across atomistic simulation, ML for materials, and data infrastructure — click a title for What · Why · How · Results. GitHub links in each card.</p>
+<p class="muted">Some of my recent works. GitHub links in each card.</p>
 
 <!-- ── SECTION 1 ─────────────────────────────────────────── -->
 <h2 class="proj-section-header">Atomistic Simulation</h2>
 
 <div class="proj-grid">
 
-  <div class="proj-card compact">
+<div class="proj-card compact">
     <h3><a class="proj-link" href="{{ '/projects/fe-cr-nanoindentation/' | relative_url }}">Fe–Cr Elastic Constants — DFT → ML → FEM</a></h3>
-    <p>Strain–stress DFT across 17 Fe-Cr compositions, GP/MLP surrogate training, and CalculiX axisymmetric nanoindentation. K-saturation failure mode caught and corrected; Eᵣ tracks Hill VRH within ±12%.</p>
+    <p>C11 rises 43% from pure Fe to pure Cr (312→448 GPa by DFT) but dips anomalously at 3–5% Cr — a non-monotone softening captured by the MLP surrogate (R²=0.91, MAE=18.6 GPa on C11) and propagated into CalculiX nanoindentation. A K-saturation failure silently flattened Eᵣ at ~40 GPa across all compositions until penalty stiffness was tied to C11 per material; corrected Eᵣ tracks Hill VRH within ±12%.</p>
     <p class="chips">
-      <span class="badge">Quantum ESPRESSO</span><span class="badge alt">GP + MLP</span>
-      <span class="badge alt">CalculiX CCX</span><span class="badge alt">Eᵣ: 197→274 GPa</span>
+      <span class="badge">QE · CCX · ParaView</span><span class="badge alt">MLP R²=0.91</span>
+      <span class="badge alt">C11: 312→448 GPa</span><span class="badge alt">Eᵣ: 197→274 GPa</span>
     </p>
   </div>
   
