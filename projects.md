@@ -7,7 +7,7 @@ title: Selected Projects
 <p class="muted">Some of my recent works. GitHub links in each card.</p>
 
 <!-- ── SECTION 1 ─────────────────────────────────────────── -->
-<h2 class="proj-section-header">Atomistic Simulation</h2>
+<h2 class="proj-section-header">First/Principle Studies</h2>
 
 <div class="proj-grid">
 
