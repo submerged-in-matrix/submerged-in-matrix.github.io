@@ -7,7 +7,7 @@ permalink: /projects/fe-cr-nanoindentation/
 # Elastic Constants of Fe–Cr Alloys — DFT → ML → FEM
 
 <div class="media hero" data-alt="Nanoindentation von Mises stress field at peak load — Fe16Cr0 three-panel composite">
-  <img src="/assets/img/projects/fe-cr-nanoindentation/fe16cr00_Mises_peak.png"
+  <img src="/assets/img/projects/Fe_Cr_Nind/fe16cr00_Mises_peak.png"
        alt="Three-panel von Mises stress composite for Fe16Cr0 at peak indentation load: overview, near-field contact patch, and close-up contact zone">
 </div>
 <div class="hero-note">Von Mises stress at peak load (h = 0.404 µm) — Fe16Cr0 reference case. Three-panel composite: overview ∣ near-field (full contact patch, a = 1.128 µm) ∣ close-up (sub-contact detail). Colorbar capped at 20,000 MPa (~1.9× mean contact pressure) to suppress penalty contact edge singularities and reveal the physical stress bulb.</div>
@@ -54,7 +54,7 @@ permalink: /projects/fe-cr-nanoindentation/
     <a href="#fecr-fig1">
       <div class="frame">
         <img class="pixel-safe"
-             src="/assets/img/projects/fe-cr-nanoindentation/pipeline_schematic.svg"
+             src="/assets/img/projects/Fe_Cr_Nind/pipeline_schematic.svg"
              alt="Pipeline schematic: Stage 1 DFT → Stage 2 ML → Stage 3 FEM, each with a post-processing step below">
       </div>
     </a>
@@ -66,7 +66,7 @@ permalink: /projects/fe-cr-nanoindentation/
     <a href="#fecr-fig2">
       <div class="frame">
         <img class="pixel-safe"
-             src="/assets/img/projects/fe-cr-nanoindentation/fecr_Er_K_dependency.png"
+             src="/assets/img/projects/Fe_Cr_Nind/fecr_Er_K_dependency.png"
              alt="Er vs Cr% plot showing K-saturated v16 flat at ~40 GPa versus validated v19 tracking Hill VRH within ±12%">
       </div>
     </a>
@@ -80,24 +80,24 @@ permalink: /projects/fe-cr-nanoindentation/
   <table>
     <tr>
       <td style="text-align:center">
-        <img src="/assets/img/projects/fe-cr-nanoindentation/fe16cr00_Mises.gif"
+        <img src="/assets/img/projects/Fe_Cr_Nind/fe16cr00_Mises.gif"
              alt="Fe16Cr0 von Mises stress animation — full load-unload cycle">
         <div class="hero-note">Fe16Cr0 — 0% Cr &nbsp;·&nbsp; <em>E</em>ᵣ = 196.9 GPa (−12.4% vs VRH)</div>
       </td>
       <td style="text-align:center">
-        <img src="/assets/img/projects/fe-cr-nanoindentation/fe08cr08_Mises.gif"
+        <img src="/assets/img/projects/Fe_Cr_Nind/fe08cr08_Mises.gif"
              alt="Fe8Cr8 von Mises stress animation — full load-unload cycle">
         <div class="hero-note">Fe8Cr8 — 50% Cr &nbsp;·&nbsp; <em>E</em>ᵣ = 220.5 GPa (−1.1% vs VRH)</div>
       </td>
     </tr>
     <tr>
       <td style="text-align:center">
-        <img src="/assets/img/projects/fe-cr-nanoindentation/fe04cr12_Mises.gif"
+        <img src="/assets/img/projects/Fe_Cr_Nind/fe04cr12_Mises.gif"
              alt="Fe4Cr12 von Mises stress animation — full load-unload cycle">
         <div class="hero-note">Fe4Cr12 — 75% Cr &nbsp;·&nbsp; <em>E</em>ᵣ = 247.7 GPa (−3.7% vs VRH)</div>
       </td>
       <td style="text-align:center">
-        <img src="/assets/img/projects/fe-cr-nanoindentation/fe00cr16_Mises.gif"
+        <img src="/assets/img/projects/Fe_Cr_Nind/fe00cr16_Mises.gif"
              alt="Fe0Cr16 von Mises stress animation — full load-unload cycle">
         <div class="hero-note">Fe0Cr16 — 100% Cr &nbsp;·&nbsp; <em>E</em>ᵣ = 274.0 GPa (+6.8% vs VRH) ⚠️ AFM</div>
       </td>
