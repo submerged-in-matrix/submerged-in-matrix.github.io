@@ -54,7 +54,7 @@ permalink: /projects/fe-cr-nanoindentation/
     <a href="#fecr-fig1">
       <div class="frame">
         <img class="pixel-safe"
-             src="/assets/img/projects/Fe_Cr_Nind/pipeline_schematic.svg"
+             src="/assets/img/projects/Fe_Cr_Nind/dft_ml_fem_pipeline.svg"
              alt="Pipeline schematic: Stage 1 DFT → Stage 2 ML → Stage 3 FEM, each with a post-processing step below">
       </div>
     </a>
