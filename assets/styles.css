@@ -515,3 +515,8 @@ code, pre{ background:#0b1220; border:1px solid rgba(148,163,184,.25); border-ra
 .proj-section-header:first-of-type {
   margin-top: 1.4rem;
 }
+
+.figure figcaption {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
