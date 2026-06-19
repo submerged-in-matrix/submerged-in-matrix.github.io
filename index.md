@@ -37,8 +37,8 @@ title: About
 <div class="tool-group">
 <div class="group-title">Atomistic &amp; Continuum Simulation</div>
 <div class="chiplist">
-<span class="chip">LAMMPS</span><span class="chip">Quantum ESPRESSO (DFT)</span>
-<span class="chip">COMSOL</span><span class="chip">Ovito</span>
+<span class="chip">LAMMPS</span><span class="chip">Calculix</span><span class="chip">Quantum ESPRESSO (DFT)</span>
+<span class="chip">COMSOL</span><span class="chip">Ovito</span><span class="chip">ParaView</span>
 </div>
 </div>
 
