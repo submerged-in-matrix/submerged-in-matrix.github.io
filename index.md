@@ -18,10 +18,10 @@ title: About
     I am a materials scientist (M.Sc., CAU Kiel) working at the intersection of materials science and AI — building pipelines where first-principles physics and data-driven models reinforce each other at every scale.
   </p>
   <p>
-    Starting from interpretable modelling: SINDy recovered governing equations from magnetoelectric sensor signals (R² ≈ 0.99), outperforming ANN benchmarks without sacrificing physical meaning. That principle — models that explain, not just predict — runs            through the work that followed: ensemble regressors, a PINN for elasticity field inference, and a semantic knowledge graph (RDF + SPARQL + LLM) that ingests materials data from heterogeneous sources with full provenance.
+    Starting from interpretable modelling: SINDy recovered governing equations from magnetoelectric sensor signals (R² ≈ 0.99), outperforming ANN benchmarks without sacrificing physical meaning. That principle — models that explain, not just predict — runs            through the work that followed: ensemble regressors, a PINN for elasticity field inference, and a semantic knowledge graph (RDF + SPARQL + LLM) that ingests materials data from heterogeneous sources with full provenance. The data management system was then further explored via making a structural database with auto-ETL + Flask UI tracking  mapping datasets → features → results (with FAIR-aligned provenance and secure file delivery.) of my works . 
   </p>
   <p>
-    The simulation side added two first-principles studies — Si nanowire mechanics across 16 MD configurations (LAMMPS) and strain-driven Dirac cone transitions in graphene across 11 strain levels (Quantum ESPRESSO) — before converging in a DFT → ML → FEM pipeline for Fe-Cr alloys: GP and MLP surrogates trained on 17-composition elastic-constant data (C11 R²=0.91) drove CalculiX nanoindentation simulations that recovered Eᵣ within ±12% of the Hill VRH reference.
+    The first-principles studies — Si nanowire mechanics across 16 MD configurations (LAMMPS) and strain-driven Dirac cone transitions in graphene across 11 strain levels (Quantum ESPRESSO) — before converging in a DFT → ML → FEM pipeline for Fe-Cr alloys: GP and MLP surrogates trained on 17-composition elastic-constant data (C11 R²=0.91) drove CalculiX nanoindentation simulations that recovered Eᵣ within ±12% of the Hill VRH reference.
   </p>
   
   <p>
