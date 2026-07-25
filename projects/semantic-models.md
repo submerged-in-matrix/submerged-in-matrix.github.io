@@ -5,17 +5,17 @@ permalink: /projects/semantic-models/
 ---
 # Semantic Band-Gap (LLM + KG)
 
-<div class="media hero" data-alt="NL→KG with normalization; metada for provenance.">
+<div class="media hero" data-alt="NL query to the Knowledge graph">
   <img src="/assets/img/projects/bandgap-kg/hero.png"
-       alt="NL→KG with normalization; metada for provenance.">
+       alt="NL query to the Knowledge graph">
 </div>
 
-<div class="hero-note">NL→KG with normalization; metada for provenance.</div>
+<div class="hero-note">NL query to the Knowledge graph.</div>
 
 <div class="metrics">
   <span class="metric">RDF/SPARQL</span>
   <span class="metric alt">LLM-assisted retrieval/query</span>
-  <span class="metric good">llama3.2:3b local</span>
+  <span class="metric good">fine-tined llama3.2:3b local for query and for parsing</span>
 </div>
 
 <p> Fine-tuned two LoRA adapters on Llama 3.2 (3B) for a neuro-symbolic
