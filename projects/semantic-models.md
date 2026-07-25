@@ -18,7 +18,20 @@ permalink: /projects/semantic-models/
   <span class="metric good">llama3.2:3b local</span>
 </div>
 
-<p> Built a <strong>semantic knowledge graph (KG)</strong> for custom-featurized semiconductor band-gap data using RDF triples. Enable <strong>structured, explainable retrieval</strong> and easy integration of heterogeneous materials datasets. Designed an RDF schema (materials, composition, structure-features, measurements); ingested sources, provenence metadata to RDF; used <strong>a light-weight local Ollama</strong> model to translate natural language: into executable <strong>SPARQL</strong> queries (secondary purpose) or into deduped + sanitized ingestible triples to the KG , supporting url, pdf, raw/fabricated texts [<strong>PRIMARY TASK</strong> ]. A <strong>queryable single source of truth</strong> that improves accessibility, automation, and reproducibility for band-gap analysis.</p>
+<p> Fine-tuned two LoRA adapters on Llama 3.2 (3B) for a neuro-symbolic
+knowledge graph pipeline over semiconductor band-gap data (~150k materials,
+~999k RDF triples, sourced from Materials Project, featurized via matminer).
+One adapter generates SPARQL from natural-language questions (eval loss
+0.0004, 13/13 held-out queries parse-valid); the other extracts deduplicated
+triples from unstructured text and URLs (eval loss 0.0002, 21/21 valid JSON,
+11/11 rejection cases correct). A deterministic sanitizer sits between the
+LLM and the graph — validates, repairs, and enforces schema constraints on
+every generated query, turning understood model failure modes into corrected
+output. RDF schema covers composition, crystal system, centrosymmetricity,
+band gap, and provenance. The graph serves as a single provenance-tracked
+source for band-gap screening, replacing manual cross-referencing of
+disconnected CSV, API, and literature sources. Query interface served as
+an API with interactive docs, available on request via email.</p>
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/Semantic_models_for-MSE" target="_blank" rel="noopener">GitHub</a></p>
 
