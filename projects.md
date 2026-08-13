@@ -45,6 +45,15 @@ title: Selected Projects
 
 <div class="proj-grid">
 
+ <div class="proj-card compact">
+    <h3><a class="proj-link" href="{{ '/projects/ema-gnn-structural/' | relative_url }}">EMA-GNN — Structural GNN for Crystal Stability</a></h3>
+    <p>Structural GNN for direct crystal stability prediction, live on the Matbench Discovery leaderboard — 3rd by F1, 1st by MAE among IS2E direct-prediction models.</p>
+    <p class="chips">
+      <span class="badge">PyTorch Geometric</span><span class="badge alt">Matbench Discovery</span>
+      <span class="badge alt">F1 0.566 · MAE 0.084 eV/atom</span><span class="badge alt">3rd/6 IS2E · 1st MAE</span>
+    </p>
+  </div>
+
   <div class="proj-card compact">
     <h3><a class="proj-link" href="{{ '/projects/pinn-elasticity/' | relative_url }}">2D Linear Elasticity via PINN</a></h3>
     <p>Physics-informed NN for fast, physics-consistent field predictions.</p>
