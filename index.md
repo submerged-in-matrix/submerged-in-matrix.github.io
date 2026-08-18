@@ -14,20 +14,17 @@ title: About
 <div class="about-grid">
 
 <div class="card impact">
-  <p>
-    I am a materials scientist (M.Sc., CAU Kiel) working at the intersection of materials science and AI — building pipelines where first-principles physics and data-driven models reinforce each other at every scale.
+ <p>
+    Materials scientist (M.Sc., CAU Kiel) fusing first-principles physics with data-driven models across scales.
   </p>
   <p>
-    Starting from interpretable modelling: SINDy recovered governing equations from magnetoelectric sensor signals (R² ≈ 0.99), outperforming ANN benchmarks without sacrificing physical meaning. That principle — models that explain, not just predict — runs            through the work that followed: ensemble regressors, a PINN for elasticity field inference, and a semantic knowledge graph (RDF + SPARQL + LLM) that ingests materials data from heterogeneous sources with full provenance. The data management system was then further explored via making a structural database with auto-ETL + Flask UI tracking  mapping datasets → features → results (with FAIR-aligned provenance and secure file delivery.) of my works . 
+    Currently: a GNoME-inspired structural GNN, live on the <a href="https://matbench-discovery.materialsproject.org/models/ema-gnn" target="_blank" rel="noopener">Matbench Discovery leaderboard</a> — 3rd by F1, 1st by MAE among direct-prediction models, independently verified and merged. Extending it into an interatomic potential next: an active-learning loop (GNN-ensemble filtering, Quantum ESPRESSO verification) is underway toward a DFT → MLIP → MD pipeline at ab initio accuracy.
   </p>
   <p>
-    The first-principles studies — Found surface to volume ratio governs stiffness in 1D Si nanowire mechanics rather than strain rate by studying 16 MD configurations (LAMMPS) of various strain rates and surface to volume ratios. The robustness (found upto ~ 10%) of strain-driven Dirac cone transitions in graphene across 11 strain levels (Quantum ESPRESSO) via DFT calculation. 
-After exploring all the buildings blocks of Materials informatics, I then built a DFT → ML → FEM pipeline for Fe-Cr alloys: GP and MLP surrogates trained on 17-composition elastic-constant data (C11 R²=0.91) drove CalculiX nanoindentation simulations that recovered Eᵣ within ±12% of the Hill VRH reference. 
-    For detail implementations and to see other projects >>> <p><a class="btn" href="https://github.com/submerged-in-matrix" target="_blank" rel="noopener">GitHub</a></p> 
+    Throughout: models that explain, not just predict. SINDy recovered governing equations from sensor signals (R² ≈ 0.99, ANN-level accuracy, full interpretability); a neuro-symbolic pipeline pairs a LoRA-fine-tuned Llama 3.2 with an RDF knowledge graph over FastAPI; a DFT → ML → FEM pipeline predicted Fe–Cr nanoindentation within ±12% of theory; parametric MD and DFT studies mapped stiffness and band-gap behavior in Si nanowires and strained graphene.
   </p>
-  
   <p>
-    Current work targets MLIP: a GNN on Materials Project formation-energy data is at 24.3 meV/atom, with an active learning loop underway — the next step toward a DFT → MLIP → MD pipeline at quantum-mechanical accuracy.
+    More on <a class="btn" href="https://github.com/submerged-in-matrix" target="_blank" rel="noopener">GitHub</a>.
   </p>
 </div>
 
@@ -57,7 +54,7 @@ After exploring all the buildings blocks of Materials informatics, I then built 
 <div class="group-title">Machine Learning &amp; AI</div>
 <div class="chiplist">
 <span class="chip">Ensembles</span><span class="chip">PINN</span><span class="chip alt">DNNs | GNNs</span><span class="chip alt">Active learning</span>
-<span class="chip">Time-series analysis</span><span class="chip alt">AutoML</span>
+<span class="chip">Time-series analysis</span><span class="chip alt">MLIP</span>
 <span class="chip">SHAP</span><span class="chip alt">PyTorch</span><span class="chip alt">TensorFlow</span>
 </div>
 </div>
