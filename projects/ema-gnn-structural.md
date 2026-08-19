@@ -31,22 +31,6 @@ permalink: /projects/ema-gnn-structural/
   correlation (R² 0.387 → 0.499) while leaving classification performance flat, isolating the gap to 
   a training-data domain mismatch rather than a modeling shortfall.
 </p>
-<p>
-  Three scoring bugs surfaced en route to the submitted result, each changing the measured
-  number with zero change to the model: a naive stability threshold conflating exothermicity
-  with hull stability (F1 ≈0.34, void once corrected to ≈0.56), mean-instead-of-min test-time
-  augmentation against methods specifying minimum, and mean-instead-of-median ensemble
-  aggregation — median chosen because one out-of-distribution model can poison a mean but not a
-  median. The remaining accuracy ceiling was traced to three causes: a systematic bias from
-  training on relaxed structures and evaluating on unrelaxed ones, a subset of false positives
-  that are confidently wrong rather than marginally wrong, and false-positive rate rising with
-  chemical complexity — 24% at 2 elements, 5% at 5+, consistent with thinner Materials Project
-  2018 coverage of higher-order compositions. Pre-relaxing WBM inputs with a pretrained
-  interatomic potential (MACE-MP-0, CHGNet) isolated the first cause: MAE improved substantially
-  (0.084 → 0.079) while F1 stayed flat, confirming the domain gap limits energy accuracy without
-  being the binding constraint on stability classification — a retraining problem, not a
-  preprocessing one.
-</p>
 
 <p><a class="btn" href="https://github.com/submerged-in-matrix/gnome-repro-structural" target="_blank" rel="noopener">GitHub</a></p>
 
