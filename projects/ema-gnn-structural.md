@@ -10,7 +10,7 @@ permalink: /projects/ema-gnn-structural/
   <img src="/assets/img/projects/ema-gnn/hero.png"
        alt="Bar chart comparing F1, MAE and R2 for six IS2E direct-prediction models on Matbench Discovery, with EMA-GNN highlighted">
 </div>
-<div class="hero-note">F1 and MAE across the six IS2E direct-prediction models on the Matbench Discovery leaderboard. EMA-GNN ranks 3rd by F1 (0.566, within 0.003 of the top two) and 1st by MAE (0.084 eV/atom) and R² (0.387) in this cohort.</div>
+<div class="hero-note">F1 and MAE across the six IS2E direct-prediction models on the Matbench Discovery leaderboard. EMA-GNN ranks 3rd by F1 (0.566, within 0.003 of the top two) and 1st by MAE (0.084 eV/atom) in this cohort.</div>
 
 <div class="metrics">
   <span class="metric">Matbench Discovery — live leaderboard</span>
@@ -19,19 +19,17 @@ permalink: /projects/ema-gnn-structural/
 </div>
 
 <p>
-  A message-passing GNN that predicts crystal formation energy per atom directly from an
-  unrelaxed input structure, no relaxation step at inference — reimplementing the structural
-  GNN from Merchant et al., <em>"Scaling deep learning for materials discovery"</em>
-  (Nature 624, 2023, the GNoME paper) at reduced scale. Submitted to the
-  <a href="https://matbench-discovery.materialsproject.org/models/ema-gnn" target="_blank" rel="noopener">Matbench Discovery leaderboard</a>
+  Built a <a href="https://www.nature.com/articles/s41586-023-06735-9" target="_blank" rel="noopener">GNoME</a>-inspired structural GNN — independent hyperparameter search (converging to the 
+  paper's own configuration) plus an EMA-weighted ensemble — and submitted it to the 
+  community-maintained <a href="https://matbench-discovery.materialsproject.org/models/ema-gnn" target="_blank" rel="noopener">Matbench Discovery leaderboard</a>
   via <a href="https://github.com/janosh/matbench-discovery/pull/387" target="_blank" rel="noopener">PR #387</a>
-  (merged 2026-08-12): F1 0.566, MAE 0.084 eV/atom on the 256,963-structure WBM test set. Among
-  the six leaderboard models that share this exact task — <code>IS2E</code>, energy from an
-  unrelaxed structure, no relaxation — EMA-GNN ranks 3rd by F1 (within 0.003 of the top two) and
-  1st by MAE and R². The published architecture was the starting point, not an assumption: an
-  independent hyperparameter search over width, depth, activation and learning rate, run on a
-  held-out stratified subset with WBM withheld throughout, converged to the same configuration
-  the paper reports, despite training on a different, reduced-scale dataset.
+  (merged 2026-08-12), where it currently ranks 1st by MAE (0.084 eV/atom) and 3rd by F1 (0.566) 
+  among the six models sharing the same unrelaxed-structure prediction task, on the 256,963-structure 
+  WBM test set; along the way, corrected three scoring bugs that were silently distorting the metrics, 
+  and diagnosed the model's remaining error ceiling using a pretrained interatomic potential (MACE-MP-0) 
+  to pre-relax test inputs — which improved both energy accuracy (MAE 0.084 → 0.079 eV/atom) and 
+  correlation (R² 0.387 → 0.499) while leaving classification performance flat, isolating the gap to 
+  a training-data domain mismatch rather than a modeling shortfall.
 </p>
 <p>
   Three scoring bugs surfaced en route to the submitted result, each changing the measured
