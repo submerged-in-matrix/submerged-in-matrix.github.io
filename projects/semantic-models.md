@@ -13,27 +13,36 @@ permalink: /projects/semantic-models/
 <div class="hero-note">NL query to the Knowledge graph.</div>
 
 <div class="metrics">
-  <span class="metric">RDF/SPARQL</span>
-  <span class="metric alt">LLM-assisted retrieval/query</span>
-  <span class="metric good">fine-tined llama3.2:3b local for query and for parsing</span>
+  <span class="metric">RDF / SPARQL · 1.36M triples</span>
+  <span class="metric alt">NL→SPARQL via fine-tuned Llama 3.2 3B</span>
+  <span class="metric good">150,987 materials · symmetry-aware screening</span>
 </div>
 
-<p> Fine-tuned two LoRA adapters on Llama 3.2 (3B) for a neuro-symbolic
-knowledge graph pipeline over semiconductor band-gap data (~150k materials,
-~999k RDF triples, sourced from Materials Project, featurized via matminer).
-One adapter generates SPARQL from natural-language questions (eval loss
-0.0004, 13/13 held-out queries parse-valid); the other extracts deduplicated
-triples from unstructured text and URLs (eval loss 0.0002, 21/21 valid JSON,
-11/11 rejection cases correct). A deterministic sanitizer sits between the
-LLM and the graph — validates, repairs, and enforces schema constraints on
-every generated query, turning understood model failure modes into corrected
-output. RDF schema covers composition, crystal system, centrosymmetricity,
-band gap, and provenance. The graph serves as a single provenance-tracked
-source for band-gap screening, replacing manual cross-referencing of
-disconnected CSV, API, and literature sources. Query interface served as
-an API with interactive docs, available on request via email.</p>
+<p>A neuro-symbolic pipeline for symmetry-aware materials screening.
+Multi-constraint questions in materials science are rarely blocked by a
+single missing number — they are blocked by constraints living in
+different formats. Finding a candidate for ultraviolet frequency
+doubling, for instance, requires a non-centrosymmetric crystal (even-order
+nonlinear response vanishes identically under inversion symmetry — a
+selection rule, not a tendency) <em>and</em> a wide band gap. Symmetry
+comes from the crystal structure, the gap from an electronic-structure
+calculation, composition from a formula string. Here that is one
+question: <em>"non-centrosymmetric materials with band gap above
+2.5 eV"</em> returns 9,429 candidates from 150,987, provenance attached.
+Two LoRA adapters fine-tuned on Llama 3.2 (3B) drive it — one generating
+SPARQL from natural language, one extracting deduplicated triples from
+unstructured text. A deterministic sanitizer sits between model and
+graph, repairing and schema-enforcing every generated query, turning
+understood failure modes into corrected output. The RDF schema covers
+composition, crystal system, centrosymmetry, band gap, and provenance
+across 1.36M triples. Node identity is the Materials Project
+<code>material_id</code>, not chemical formula: one composition
+crystallises into structurally distinct phases, and 91.6% of multi-entry
+compositions were confirmed to hold genuinely different structures via
+<code>pymatgen</code> StructureMatcher.</p>
 
-<p><a class="btn" href="https://github.com/submerged-in-matrix/Semantic_models_for-MSE" target="_blank" rel="noopener">GitHub</a></p>
+<p><a class="btn" href="https://huggingface.co/spaces/brainteaser/semantic-bg-query-semiconductor" target="_blank" rel="noopener">Live Demo</a>
+<a class="btn" href="https://github.com/submerged-in-matrix/KG_BG_Semiconductors" target="_blank" rel="noopener">GitHub</a></p>
 
 <div class="gallery equal">
   <figure class="figure tilt">
