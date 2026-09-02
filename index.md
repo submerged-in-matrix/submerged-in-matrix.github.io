@@ -21,7 +21,7 @@ title: About
     Currently: a GNoME-inspired structural GNN, live on the <a href="https://matbench-discovery.materialsproject.org/models/ema-gnn" target="_blank" rel="noopener">Matbench Discovery leaderboard</a> — 3rd by F1, 1st by MAE among direct-prediction models, independently verified and merged. Extending it into an interatomic potential next: an active-learning loop (GNN-ensemble filtering, Quantum ESPRESSO verification) is underway toward a DFT → MLIP → MD pipeline at ab initio accuracy.
   </p>
   <p>
-    Throughout: models that explain, not just predict. SINDy recovered governing equations from sensor signals (R² ≈ 0.99, ANN-level accuracy, full interpretability); a neuro-symbolic pipeline pairs a LoRA-fine-tuned Llama 3.2 with an RDF knowledge graph over FastAPI; a DFT → ML → FEM pipeline predicted Fe–Cr nanoindentation within ±12% of theory; parametric MD and DFT studies mapped stiffness and band-gap behavior in Si nanowires and strained graphene.
+    Throughout: models that explain, not just predict. SINDy recovered governing equations from sensor signals (R² ≈ 0.99, ANN-level accuracy, full interpretability); the public query interface of a neuro-symbolic pipeline, pairing a LoRA-fine-tuned Llama 3.2 with an RDF knowledge graph, deployed on Hugging Face allowing candidate semiconductor screening for functional (e.g., ferroelectric) applications, a DFT → ML → FEM pipeline predicted Fe–Cr nanoindentation within ±12% of theory; parametric MD and DFT studies mapped stiffness and band-gap behavior in Si nanowires and strained graphene.
   </p>
   <p>
     More on <a class="btn" href="https://github.com/submerged-in-matrix" target="_blank" rel="noopener">GitHub</a>.
